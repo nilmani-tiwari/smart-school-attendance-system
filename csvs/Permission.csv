@@ -1,0 +1,145 @@
+group,user,id,name,content_type,codename
+NA,NA,1,Can add log entry,admin | log entry,add_logentry
+NA,NA,2,Can change log entry,admin | log entry,change_logentry
+NA,NA,3,Can delete log entry,admin | log entry,delete_logentry
+NA,NA,4,Can view log entry,admin | log entry,view_logentry
+NA,NA,9,Can add group,auth | group,add_group
+NA,NA,10,Can change group,auth | group,change_group
+NA,NA,11,Can delete group,auth | group,delete_group
+NA,NA,12,Can view group,auth | group,view_group
+NA,NA,5,Can add permission,auth | permission,add_permission
+NA,NA,6,Can change permission,auth | permission,change_permission
+NA,NA,7,Can delete permission,auth | permission,delete_permission
+NA,NA,8,Can view permission,auth | permission,view_permission
+NA,NA,13,Can add user,auth | user,add_user
+NA,NA,14,Can change user,auth | user,change_user
+NA,NA,15,Can delete user,auth | user,delete_user
+NA,NA,16,Can view user,auth | user,view_user
+NA,NA,17,Can add content type,contenttypes | content type,add_contenttype
+NA,NA,18,Can change content type,contenttypes | content type,change_contenttype
+NA,NA,19,Can delete content type,contenttypes | content type,delete_contenttype
+NA,NA,20,Can view content type,contenttypes | content type,view_contenttype
+NA,NA,25,Can add attendance,school | attendance,add_attendance
+NA,NA,26,Can change attendance,school | attendance,change_attendance
+NA,NA,27,Can delete attendance,school | attendance,delete_attendance
+NA,NA,28,Can view attendance,school | attendance,view_attendance
+NA,NA,29,Can add attendance_api,school | attendance_api,add_attendance_api
+NA,NA,30,Can change attendance_api,school | attendance_api,change_attendance_api
+NA,NA,31,Can delete attendance_api,school | attendance_api,delete_attendance_api
+NA,NA,32,Can view attendance_api,school | attendance_api,view_attendance_api
+NA,NA,113,Can add bike_user,school | bike_user,add_bike_user
+NA,NA,114,Can change bike_user,school | bike_user,change_bike_user
+NA,NA,115,Can delete bike_user,school | bike_user,delete_bike_user
+NA,NA,116,Can view bike_user,school | bike_user,view_bike_user
+NA,NA,129,Can add bike_user_details,school | bike_user_details,add_bike_user_details
+NA,NA,130,Can change bike_user_details,school | bike_user_details,change_bike_user_details
+NA,NA,131,Can delete bike_user_details,school | bike_user_details,delete_bike_user_details
+NA,NA,132,Can view bike_user_details,school | bike_user_details,view_bike_user_details
+NA,NA,105,Can add bikeapi,school | bikeapi,add_bikeapi
+NA,NA,106,Can change bikeapi,school | bikeapi,change_bikeapi
+NA,NA,107,Can delete bikeapi,school | bikeapi,delete_bikeapi
+NA,NA,108,Can view bikeapi,school | bikeapi,view_bikeapi
+NA,NA,141,Can add busapi,school | busapi,add_busapi
+NA,NA,142,Can change busapi,school | busapi,change_busapi
+NA,NA,143,Can delete busapi,school | busapi,delete_busapi
+NA,NA,144,Can view busapi,school | busapi,view_busapi
+NA,NA,137,Can add busmap,school | busmap,add_busmap
+NA,NA,138,Can change busmap,school | busmap,change_busmap
+NA,NA,139,Can delete busmap,school | busmap,delete_busmap
+NA,NA,140,Can view busmap,school | busmap,view_busmap
+NA,NA,33,Can add class master,school | class master,add_classmaster
+NA,NA,34,Can change class master,school | class master,change_classmaster
+NA,NA,35,Can delete class master,school | class master,delete_classmaster
+NA,NA,36,Can view class master,school | class master,view_classmaster
+NA,NA,37,Can add division master,school | division master,add_divisionmaster
+NA,NA,38,Can change division master,school | division master,change_divisionmaster
+NA,NA,39,Can delete division master,school | division master,delete_divisionmaster
+NA,NA,40,Can view division master,school | division master,view_divisionmaster
+NA,NA,101,Can add gpsrestapi,school | gpsrestapi,add_gpsrestapi
+NA,NA,102,Can change gpsrestapi,school | gpsrestapi,change_gpsrestapi
+NA,NA,103,Can delete gpsrestapi,school | gpsrestapi,delete_gpsrestapi
+NA,NA,104,Can view gpsrestapi,school | gpsrestapi,view_gpsrestapi
+NA,NA,41,Can add medium master,school | medium master,add_mediummaster
+NA,NA,42,Can change medium master,school | medium master,change_mediummaster
+NA,NA,43,Can delete medium master,school | medium master,delete_mediummaster
+NA,NA,44,Can view medium master,school | medium master,view_mediummaster
+NA,NA,89,Can add message_pack,school | message_pack,add_message_pack
+NA,NA,90,Can change message_pack,school | message_pack,change_message_pack
+NA,NA,91,Can delete message_pack,school | message_pack,delete_message_pack
+NA,NA,92,Can view message_pack,school | message_pack,view_message_pack
+NA,NA,69,Can add notice,school | notice_board_school,add_notice
+NA,NA,65,Can add notice_board,school | notice_board_school,add_notice_board
+NA,NA,73,Can add notice_board_school,school | notice_board_school,add_notice_board_school
+NA,NA,70,Can change notice,school | notice_board_school,change_notice
+NA,NA,66,Can change notice_board,school | notice_board_school,change_notice_board
+NA,NA,74,Can change notice_board_school,school | notice_board_school,change_notice_board_school
+NA,NA,71,Can delete notice,school | notice_board_school,delete_notice
+NA,NA,67,Can delete notice_board,school | notice_board_school,delete_notice_board
+NA,NA,75,Can delete notice_board_school,school | notice_board_school,delete_notice_board_school
+NA,NA,72,Can view notice,school | notice_board_school,view_notice
+NA,NA,68,Can view notice_board,school | notice_board_school,view_notice_board
+NA,NA,76,Can view notice_board_school,school | notice_board_school,view_notice_board_school
+NA,NA,45,Can add owner master,school | owner master,add_ownermaster
+NA,NA,46,Can change owner master,school | owner master,change_ownermaster
+NA,NA,47,Can delete owner master,school | owner master,delete_ownermaster
+NA,NA,48,Can view owner master,school | owner master,view_ownermaster
+NA,NA,49,Can add parents master,school | parents master,add_parentsmaster
+NA,NA,50,Can change parents master,school | parents master,change_parentsmaster
+NA,NA,51,Can delete parents master,school | parents master,delete_parentsmaster
+NA,NA,52,Can view parents master,school | parents master,view_parentsmaster
+NA,NA,133,Can add posts,school | posts,add_posts
+NA,NA,134,Can change posts,school | posts,change_posts
+NA,NA,135,Can delete posts,school | posts,delete_posts
+NA,NA,136,Can view posts,school | posts,view_posts
+NA,NA,109,Can add pumpapi,school | pumpapi,add_pumpapi
+NA,NA,110,Can change pumpapi,school | pumpapi,change_pumpapi
+NA,NA,111,Can delete pumpapi,school | pumpapi,delete_pumpapi
+NA,NA,112,Can view pumpapi,school | pumpapi,view_pumpapi
+NA,NA,93,Can add quary_form,school | quary_form,add_quary_form
+NA,NA,94,Can change quary_form,school | quary_form,change_quary_form
+NA,NA,95,Can delete quary_form,school | quary_form,delete_quary_form
+NA,NA,96,Can view quary_form,school | quary_form,view_quary_form
+NA,NA,85,Can add school_holiday,school | school_holiday,add_school_holiday
+NA,NA,86,Can change school_holiday,school | school_holiday,change_school_holiday
+NA,NA,87,Can delete school_holiday,school | school_holiday,delete_school_holiday
+NA,NA,88,Can view school_holiday,school | school_holiday,view_school_holiday
+NA,NA,81,Can add school_library,school | school_library,add_school_library
+NA,NA,82,Can change school_library,school | school_library,change_school_library
+NA,NA,83,Can delete school_library,school | school_library,delete_school_library
+NA,NA,84,Can view school_library,school | school_library,view_school_library
+NA,NA,117,Can add school_machine_api,school | school_machine_api,add_school_machine_api
+NA,NA,118,Can change school_machine_api,school | school_machine_api,change_school_machine_api
+NA,NA,119,Can delete school_machine_api,school | school_machine_api,delete_school_machine_api
+NA,NA,120,Can view school_machine_api,school | school_machine_api,view_school_machine_api
+NA,NA,121,Can add school_machine_details,school | school_machine_details,add_school_machine_details
+NA,NA,122,Can change school_machine_details,school | school_machine_details,change_school_machine_details
+NA,NA,123,Can delete school_machine_details,school | school_machine_details,delete_school_machine_details
+NA,NA,124,Can view school_machine_details,school | school_machine_details,view_school_machine_details
+NA,NA,125,Can add school_machine_update,school | school_machine_update,add_school_machine_update
+NA,NA,126,Can change school_machine_update,school | school_machine_update,change_school_machine_update
+NA,NA,127,Can delete school_machine_update,school | school_machine_update,delete_school_machine_update
+NA,NA,128,Can view school_machine_update,school | school_machine_update,view_school_machine_update
+NA,NA,77,Can add school_ transport,school | school_ transport,add_school_transport
+NA,NA,78,Can change school_ transport,school | school_ transport,change_school_transport
+NA,NA,79,Can delete school_ transport,school | school_ transport,delete_school_transport
+NA,NA,80,Can view school_ transport,school | school_ transport,view_school_transport
+NA,NA,53,Can add school master,school | school master,add_schoolmaster
+NA,NA,54,Can change school master,school | school master,change_schoolmaster
+NA,NA,55,Can delete school master,school | school master,delete_schoolmaster
+NA,NA,56,Can view school master,school | school master,view_schoolmaster
+NA,NA,57,Can add staff master,school | staff master,add_staffmaster
+NA,NA,58,Can change staff master,school | staff master,change_staffmaster
+NA,NA,59,Can delete staff master,school | staff master,delete_staffmaster
+NA,NA,60,Can view staff master,school | staff master,view_staffmaster
+NA,NA,61,Can add student master,school | student master,add_studentmaster
+NA,NA,62,Can change student master,school | student master,change_studentmaster
+NA,NA,63,Can delete student master,school | student master,delete_studentmaster
+NA,NA,64,Can view student master,school | student master,view_studentmaster
+NA,NA,97,Can add user_command,school | user_command,add_user_command
+NA,NA,98,Can change user_command,school | user_command,change_user_command
+NA,NA,99,Can delete user_command,school | user_command,delete_user_command
+NA,NA,100,Can view user_command,school | user_command,view_user_command
+NA,NA,21,Can add session,sessions | session,add_session
+NA,NA,22,Can change session,sessions | session,change_session
+NA,NA,23,Can delete session,sessions | session,delete_session
+NA,NA,24,Can view session,sessions | session,view_session

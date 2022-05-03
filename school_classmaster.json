@@ -1,0 +1,1528 @@
+[
+    {
+        "class_name": "5",
+        "created_on": "2020-08-22 13:16:43.074699",
+        "medium_name": "English",
+        "school_code": "demo1",
+        "standard_id": 1
+    },
+    {
+        "class_name": "6",
+        "created_on": "2020-08-22 13:17:06.894030",
+        "medium_name": "English",
+        "school_code": "demo1",
+        "standard_id": 2
+    },
+    {
+        "class_name": "7",
+        "created_on": "2020-08-22 13:17:28.218028",
+        "medium_name": "English",
+        "school_code": "demo1",
+        "standard_id": 3
+    },
+    {
+        "class_name": "8",
+        "created_on": "2020-08-22 13:18:02.702820",
+        "medium_name": "English",
+        "school_code": "demo1",
+        "standard_id": 4
+    },
+    {
+        "class_name": "9",
+        "created_on": "2020-08-22 13:18:55.261023",
+        "medium_name": "English",
+        "school_code": "demo1",
+        "standard_id": 5
+    },
+    {
+        "class_name": "10",
+        "created_on": "2020-08-22 13:19:35.352087",
+        "medium_name": "English",
+        "school_code": "demo1",
+        "standard_id": 6
+    },
+    {
+        "class_name": "11",
+        "created_on": "2020-08-22 13:19:59.303889",
+        "medium_name": "English",
+        "school_code": "demo1",
+        "standard_id": 7
+    },
+    {
+        "class_name": "12",
+        "created_on": "2020-08-22 13:20:35.380652",
+        "medium_name": "English",
+        "school_code": "demo1",
+        "standard_id": 8
+    },
+    {
+        "class_name": "1",
+        "created_on": "2020-08-26 14:51:26.510989",
+        "medium_name": "Hindi",
+        "school_code": "demo1",
+        "standard_id": 12
+    },
+    {
+        "class_name": "",
+        "created_on": "2020-08-31 23:09:02.969277",
+        "medium_name": "English",
+        "school_code": "demo1",
+        "standard_id": 15
+    },
+    {
+        "class_name": "8",
+        "created_on": "2020-09-19 01:46:50.350888",
+        "medium_name": "Hindi",
+        "school_code": "demo1",
+        "standard_id": 19
+    },
+    {
+        "class_name": "Nursery",
+        "created_on": "2020-10-05 11:28:34.005424",
+        "medium_name": "English",
+        "school_code": "st001",
+        "standard_id": 20
+    },
+    {
+        "class_name": "L.K.G",
+        "created_on": "2020-10-05 11:28:57.268014",
+        "medium_name": "English",
+        "school_code": "st001",
+        "standard_id": 21
+    },
+    {
+        "class_name": "U.K.G",
+        "created_on": "2020-10-05 11:29:19.230222",
+        "medium_name": "English",
+        "school_code": "st001",
+        "standard_id": 22
+    },
+    {
+        "class_name": "1",
+        "created_on": "2020-10-05 11:29:30.016823",
+        "medium_name": "English",
+        "school_code": "st001",
+        "standard_id": 23
+    },
+    {
+        "class_name": "2",
+        "created_on": "2020-10-05 11:29:56.429982",
+        "medium_name": "English",
+        "school_code": "st001",
+        "standard_id": 24
+    },
+    {
+        "class_name": "L.K.G",
+        "created_on": "2020-11-22 10:29:45.265753",
+        "medium_name": "Hindi",
+        "school_code": "10150605203",
+        "standard_id": 25
+    },
+    {
+        "class_name": "Nursery",
+        "created_on": "2021-02-01 09:47:24.460494",
+        "medium_name": "Hindi",
+        "school_code": "s003",
+        "standard_id": 26
+    },
+    {
+        "class_name": "Nursery",
+        "created_on": "2021-02-01 09:47:35.101669",
+        "medium_name": "English",
+        "school_code": "s003",
+        "standard_id": 27
+    },
+    {
+        "class_name": "L.K.G",
+        "created_on": "2021-02-01 09:47:46.449158",
+        "medium_name": "English",
+        "school_code": "s003",
+        "standard_id": 28
+    },
+    {
+        "class_name": "U.K.G",
+        "created_on": "2021-02-01 09:48:17.446645",
+        "medium_name": "English",
+        "school_code": "s003",
+        "standard_id": 29
+    },
+    {
+        "class_name": "1",
+        "created_on": "2021-02-01 09:48:50.267695",
+        "medium_name": "English",
+        "school_code": "s003",
+        "standard_id": 30
+    },
+    {
+        "class_name": "2",
+        "created_on": "2021-02-01 09:49:03.146663",
+        "medium_name": "English",
+        "school_code": "s003",
+        "standard_id": 31
+    },
+    {
+        "class_name": "3",
+        "created_on": "2021-02-01 09:49:16.786101",
+        "medium_name": "English",
+        "school_code": "s003",
+        "standard_id": 32
+    },
+    {
+        "class_name": "4",
+        "created_on": "2021-02-01 09:49:28.174983",
+        "medium_name": "English",
+        "school_code": "s003",
+        "standard_id": 33
+    },
+    {
+        "class_name": "5",
+        "created_on": "2021-02-01 09:49:40.610471",
+        "medium_name": "English",
+        "school_code": "s003",
+        "standard_id": 34
+    },
+    {
+        "class_name": "6",
+        "created_on": "2021-02-01 09:49:54.834812",
+        "medium_name": "English",
+        "school_code": "s003",
+        "standard_id": 35
+    },
+    {
+        "class_name": "7",
+        "created_on": "2021-02-01 09:50:07.301729",
+        "medium_name": "English",
+        "school_code": "s003",
+        "standard_id": 36
+    },
+    {
+        "class_name": "8",
+        "created_on": "2021-02-01 09:50:24.138260",
+        "medium_name": "English",
+        "school_code": "s003",
+        "standard_id": 37
+    },
+    {
+        "class_name": "9",
+        "created_on": "2021-02-01 09:50:39.057088",
+        "medium_name": "English",
+        "school_code": "s003",
+        "standard_id": 38
+    },
+    {
+        "class_name": "10",
+        "created_on": "2021-02-01 09:50:49.853852",
+        "medium_name": "English",
+        "school_code": "s003",
+        "standard_id": 39
+    },
+    {
+        "class_name": "L.K.G",
+        "created_on": "2021-02-01 09:51:09.715145",
+        "medium_name": "Hindi",
+        "school_code": "s003",
+        "standard_id": 40
+    },
+    {
+        "class_name": "U.K.G",
+        "created_on": "2021-02-01 09:51:20.664946",
+        "medium_name": "Hindi",
+        "school_code": "s003",
+        "standard_id": 41
+    },
+    {
+        "class_name": "1",
+        "created_on": "2021-02-01 09:51:31.359910",
+        "medium_name": "Hindi",
+        "school_code": "s003",
+        "standard_id": 42
+    },
+    {
+        "class_name": "2",
+        "created_on": "2021-02-01 09:51:42.519918",
+        "medium_name": "Hindi",
+        "school_code": "s003",
+        "standard_id": 43
+    },
+    {
+        "class_name": "3",
+        "created_on": "2021-02-01 09:51:54.175450",
+        "medium_name": "Hindi",
+        "school_code": "s003",
+        "standard_id": 44
+    },
+    {
+        "class_name": "4",
+        "created_on": "2021-02-01 09:52:04.859825",
+        "medium_name": "Hindi",
+        "school_code": "s003",
+        "standard_id": 45
+    },
+    {
+        "class_name": "5",
+        "created_on": "2021-02-01 09:52:17.021777",
+        "medium_name": "Hindi",
+        "school_code": "s003",
+        "standard_id": 46
+    },
+    {
+        "class_name": "L.K.G",
+        "created_on": "2021-02-09 08:51:28.889180",
+        "medium_name": "English",
+        "school_code": "demo1",
+        "standard_id": 47
+    },
+    {
+        "class_name": "Nursery",
+        "created_on": "2021-02-09 10:25:50.162114",
+        "medium_name": "English",
+        "school_code": "s004",
+        "standard_id": 48
+    },
+    {
+        "class_name": "L.K.G",
+        "created_on": "2021-02-09 10:26:05.730569",
+        "medium_name": "English",
+        "school_code": "s004",
+        "standard_id": 49
+    },
+    {
+        "class_name": "Nursery",
+        "created_on": "2021-02-09 10:26:17.642311",
+        "medium_name": "Hindi",
+        "school_code": "s004",
+        "standard_id": 50
+    },
+    {
+        "class_name": "U.K.G",
+        "created_on": "2021-02-09 10:26:40.965427",
+        "medium_name": "English",
+        "school_code": "s004",
+        "standard_id": 51
+    },
+    {
+        "class_name": "1",
+        "created_on": "2021-02-09 10:26:52.178041",
+        "medium_name": "English",
+        "school_code": "s004",
+        "standard_id": 52
+    },
+    {
+        "class_name": "2",
+        "created_on": "2021-02-09 10:27:09.025619",
+        "medium_name": "English",
+        "school_code": "s004",
+        "standard_id": 53
+    },
+    {
+        "class_name": "3",
+        "created_on": "2021-02-09 10:27:53.688402",
+        "medium_name": "English",
+        "school_code": "s004",
+        "standard_id": 54
+    },
+    {
+        "class_name": "4",
+        "created_on": "2021-02-09 15:17:35.742018",
+        "medium_name": "English",
+        "school_code": "s004",
+        "standard_id": 55
+    },
+    {
+        "class_name": "5",
+        "created_on": "2021-02-09 15:18:05.495836",
+        "medium_name": "English",
+        "school_code": "s004",
+        "standard_id": 56
+    },
+    {
+        "class_name": "6",
+        "created_on": "2021-02-09 15:19:41.980745",
+        "medium_name": "English",
+        "school_code": "s004",
+        "standard_id": 57
+    },
+    {
+        "class_name": "L.K.G",
+        "created_on": "2021-02-10 05:14:07.476958",
+        "medium_name": "English",
+        "school_code": "soo5",
+        "standard_id": 59
+    },
+    {
+        "class_name": "10",
+        "created_on": "2021-02-10 06:14:48.539004",
+        "medium_name": "English",
+        "school_code": "s006",
+        "standard_id": 60
+    },
+    {
+        "class_name": "1",
+        "created_on": "2021-02-10 07:15:43.536220",
+        "medium_name": "English",
+        "school_code": "s007",
+        "standard_id": 61
+    },
+    {
+        "class_name": "Nursery",
+        "created_on": "2021-02-10 07:30:02.802745",
+        "medium_name": "English",
+        "school_code": "s007",
+        "standard_id": 62
+    },
+    {
+        "class_name": "Nursery",
+        "created_on": "2021-02-11 05:02:36.720506",
+        "medium_name": "Hindi",
+        "school_code": "m001",
+        "standard_id": 63
+    },
+    {
+        "class_name": "10",
+        "created_on": "2021-02-11 05:05:00.640376",
+        "medium_name": "English",
+        "school_code": "m001",
+        "standard_id": 64
+    },
+    {
+        "class_name": "Nursery",
+        "created_on": "2021-02-11 12:01:28.269112",
+        "medium_name": "English",
+        "school_code": "n001",
+        "standard_id": 65
+    },
+    {
+        "class_name": "L.K.G",
+        "created_on": "2021-02-11 12:01:54.151245",
+        "medium_name": "English",
+        "school_code": "n001",
+        "standard_id": 66
+    },
+    {
+        "class_name": "U.K.G",
+        "created_on": "2021-02-11 12:02:12.185808",
+        "medium_name": "English",
+        "school_code": "n001",
+        "standard_id": 67
+    },
+    {
+        "class_name": "1",
+        "created_on": "2021-02-11 12:02:30.937796",
+        "medium_name": "English",
+        "school_code": "n001",
+        "standard_id": 68
+    },
+    {
+        "class_name": "2",
+        "created_on": "2021-02-11 12:02:54.236942",
+        "medium_name": "English",
+        "school_code": "n001",
+        "standard_id": 69
+    },
+    {
+        "class_name": "3",
+        "created_on": "2021-02-11 12:03:19.758837",
+        "medium_name": "English",
+        "school_code": "n001",
+        "standard_id": 70
+    },
+    {
+        "class_name": "4",
+        "created_on": "2021-02-11 12:04:04.351605",
+        "medium_name": "English",
+        "school_code": "n001",
+        "standard_id": 71
+    },
+    {
+        "class_name": "5",
+        "created_on": "2021-02-11 12:04:34.457942",
+        "medium_name": "English",
+        "school_code": "n001",
+        "standard_id": 72
+    },
+    {
+        "class_name": "6",
+        "created_on": "2021-02-11 12:05:16.007538",
+        "medium_name": "English",
+        "school_code": "n001",
+        "standard_id": 73
+    },
+    {
+        "class_name": "7",
+        "created_on": "2021-02-11 12:05:39.236639",
+        "medium_name": "English",
+        "school_code": "n001",
+        "standard_id": 74
+    },
+    {
+        "class_name": "8",
+        "created_on": "2021-02-11 12:06:07.376971",
+        "medium_name": "English",
+        "school_code": "n001",
+        "standard_id": 75
+    },
+    {
+        "class_name": "8",
+        "created_on": "2021-02-11 15:09:08.008749",
+        "medium_name": "Hindi",
+        "school_code": "st001",
+        "standard_id": 76
+    },
+    {
+        "class_name": "8",
+        "created_on": "2021-02-11 15:09:33.704673",
+        "medium_name": "English",
+        "school_code": "st001",
+        "standard_id": 77
+    },
+    {
+        "class_name": "Nursery",
+        "created_on": "2021-02-19 07:44:45.686104",
+        "medium_name": "English",
+        "school_code": "S009",
+        "standard_id": 78
+    },
+    {
+        "class_name": "L.K.G",
+        "created_on": "2021-02-19 07:44:58.935455",
+        "medium_name": "English",
+        "school_code": "S009",
+        "standard_id": 79
+    },
+    {
+        "class_name": "U.K.G",
+        "created_on": "2021-02-19 07:45:10.963003",
+        "medium_name": "English",
+        "school_code": "S009",
+        "standard_id": 80
+    },
+    {
+        "class_name": "1",
+        "created_on": "2021-02-19 07:45:35.128081",
+        "medium_name": "English",
+        "school_code": "S009",
+        "standard_id": 81
+    },
+    {
+        "class_name": "2",
+        "created_on": "2021-02-19 07:45:58.988571",
+        "medium_name": "English",
+        "school_code": "S009",
+        "standard_id": 82
+    },
+    {
+        "class_name": "3",
+        "created_on": "2021-02-19 07:46:31.454233",
+        "medium_name": "English",
+        "school_code": "S009",
+        "standard_id": 83
+    },
+    {
+        "class_name": "4",
+        "created_on": "2021-02-19 07:47:04.324304",
+        "medium_name": "English",
+        "school_code": "S009",
+        "standard_id": 84
+    },
+    {
+        "class_name": "5",
+        "created_on": "2021-02-19 07:47:41.855843",
+        "medium_name": "English",
+        "school_code": "S009",
+        "standard_id": 85
+    },
+    {
+        "class_name": "5",
+        "created_on": "2021-02-19 07:47:55.824629",
+        "medium_name": "Hindi",
+        "school_code": "S009",
+        "standard_id": 86
+    },
+    {
+        "class_name": "6",
+        "created_on": "2021-02-19 07:48:10.448668",
+        "medium_name": "English",
+        "school_code": "S009",
+        "standard_id": 87
+    },
+    {
+        "class_name": "7",
+        "created_on": "2021-02-19 07:48:37.144140",
+        "medium_name": "English",
+        "school_code": "S009",
+        "standard_id": 88
+    },
+    {
+        "class_name": "8",
+        "created_on": "2021-02-19 07:48:58.844074",
+        "medium_name": "English",
+        "school_code": "S009",
+        "standard_id": 89
+    },
+    {
+        "class_name": "9",
+        "created_on": "2021-02-19 07:49:12.659097",
+        "medium_name": "English",
+        "school_code": "S009",
+        "standard_id": 90
+    },
+    {
+        "class_name": "10",
+        "created_on": "2021-02-19 07:49:26.553163",
+        "medium_name": "English",
+        "school_code": "S009",
+        "standard_id": 91
+    },
+    {
+        "class_name": "1",
+        "created_on": "2021-02-20 07:03:15.501486",
+        "medium_name": "English",
+        "school_code": "m001",
+        "standard_id": 92
+    },
+    {
+        "class_name": "2",
+        "created_on": "2021-02-20 07:03:29.364958",
+        "medium_name": "English",
+        "school_code": "m001",
+        "standard_id": 93
+    },
+    {
+        "class_name": "3",
+        "created_on": "2021-02-20 07:03:41.913119",
+        "medium_name": "English",
+        "school_code": "m001",
+        "standard_id": 94
+    },
+    {
+        "class_name": "4",
+        "created_on": "2021-02-20 07:03:57.330174",
+        "medium_name": "English",
+        "school_code": "m001",
+        "standard_id": 95
+    },
+    {
+        "class_name": "5",
+        "created_on": "2021-02-20 07:04:08.577091",
+        "medium_name": "English",
+        "school_code": "m001",
+        "standard_id": 96
+    },
+    {
+        "class_name": "6",
+        "created_on": "2021-02-20 07:04:23.602477",
+        "medium_name": "English",
+        "school_code": "m001",
+        "standard_id": 97
+    },
+    {
+        "class_name": "7",
+        "created_on": "2021-02-20 07:04:37.001971",
+        "medium_name": "English",
+        "school_code": "m001",
+        "standard_id": 98
+    },
+    {
+        "class_name": "9",
+        "created_on": "2021-02-20 07:04:56.561373",
+        "medium_name": "English",
+        "school_code": "m001",
+        "standard_id": 99
+    },
+    {
+        "class_name": "Nursery",
+        "created_on": "2021-02-24 08:34:39.723592",
+        "medium_name": "English",
+        "school_code": "S004",
+        "standard_id": 100
+    },
+    {
+        "class_name": "L.K.G",
+        "created_on": "2021-02-24 08:34:59.101322",
+        "medium_name": "English",
+        "school_code": "S004",
+        "standard_id": 101
+    },
+    {
+        "class_name": "U.K.G",
+        "created_on": "2021-02-24 08:35:16.679514",
+        "medium_name": "English",
+        "school_code": "S004",
+        "standard_id": 102
+    },
+    {
+        "class_name": "1",
+        "created_on": "2021-02-24 08:35:48.249810",
+        "medium_name": "English",
+        "school_code": "S004",
+        "standard_id": 103
+    },
+    {
+        "class_name": "2",
+        "created_on": "2021-02-24 08:36:01.824462",
+        "medium_name": "English",
+        "school_code": "S004",
+        "standard_id": 104
+    },
+    {
+        "class_name": "3",
+        "created_on": "2021-02-24 08:36:31.623423",
+        "medium_name": "English",
+        "school_code": "S004",
+        "standard_id": 105
+    },
+    {
+        "class_name": "4",
+        "created_on": "2021-02-24 08:36:48.044298",
+        "medium_name": "English",
+        "school_code": "S004",
+        "standard_id": 106
+    },
+    {
+        "class_name": "5",
+        "created_on": "2021-02-24 08:37:04.183703",
+        "medium_name": "English",
+        "school_code": "S004",
+        "standard_id": 107
+    },
+    {
+        "class_name": "6",
+        "created_on": "2021-02-26 07:10:12.260099",
+        "medium_name": "English",
+        "school_code": "S004",
+        "standard_id": 108
+    },
+    {
+        "class_name": "7",
+        "created_on": "2021-02-26 08:24:45.462110",
+        "medium_name": "English",
+        "school_code": "S004",
+        "standard_id": 109
+    },
+    {
+        "class_name": "8",
+        "created_on": "2021-02-26 08:24:58.821757",
+        "medium_name": "English",
+        "school_code": "S004",
+        "standard_id": 110
+    },
+    {
+        "class_name": "9",
+        "created_on": "2021-02-26 08:25:53.266795",
+        "medium_name": "English",
+        "school_code": "S004",
+        "standard_id": 111
+    },
+    {
+        "class_name": "Nursery",
+        "created_on": "2021-02-26 12:30:52.201368",
+        "medium_name": "English",
+        "school_code": "c001",
+        "standard_id": 112
+    },
+    {
+        "class_name": "1",
+        "created_on": "2021-03-05 04:51:44.306211",
+        "medium_name": "English",
+        "school_code": "sbsy25",
+        "standard_id": 113
+    },
+    {
+        "class_name": "2",
+        "created_on": "2021-03-05 04:51:44.368717",
+        "medium_name": "English",
+        "school_code": "sbsy25",
+        "standard_id": 114
+    },
+    {
+        "class_name": "3",
+        "created_on": "2021-03-05 04:51:44.431620",
+        "medium_name": "English",
+        "school_code": "sbsy25",
+        "standard_id": 115
+    },
+    {
+        "class_name": "4",
+        "created_on": "2021-03-05 04:51:44.493638",
+        "medium_name": "English",
+        "school_code": "sbsy25",
+        "standard_id": 116
+    },
+    {
+        "class_name": "5",
+        "created_on": "2021-03-05 04:51:44.556645",
+        "medium_name": "English",
+        "school_code": "sbsy25",
+        "standard_id": 117
+    },
+    {
+        "class_name": "6",
+        "created_on": "2021-03-05 04:51:44.618622",
+        "medium_name": "English",
+        "school_code": "sbsy25",
+        "standard_id": 118
+    },
+    {
+        "class_name": "7",
+        "created_on": "2021-03-05 04:51:44.681646",
+        "medium_name": "English",
+        "school_code": "sbsy25",
+        "standard_id": 119
+    },
+    {
+        "class_name": "8",
+        "created_on": "2021-03-05 04:51:44.743652",
+        "medium_name": "English",
+        "school_code": "sbsy25",
+        "standard_id": 120
+    },
+    {
+        "class_name": "1",
+        "created_on": "2021-03-05 04:51:44.837692",
+        "medium_name": "Hindi",
+        "school_code": "sbsy25",
+        "standard_id": 121
+    },
+    {
+        "class_name": "2",
+        "created_on": "2021-03-05 04:51:44.899732",
+        "medium_name": "Hindi",
+        "school_code": "sbsy25",
+        "standard_id": 122
+    },
+    {
+        "class_name": "3",
+        "created_on": "2021-03-05 04:51:44.963693",
+        "medium_name": "Hindi",
+        "school_code": "sbsy25",
+        "standard_id": 123
+    },
+    {
+        "class_name": "4",
+        "created_on": "2021-03-05 04:51:45.025688",
+        "medium_name": "Hindi",
+        "school_code": "sbsy25",
+        "standard_id": 124
+    },
+    {
+        "class_name": "5",
+        "created_on": "2021-03-05 04:51:45.088663",
+        "medium_name": "Hindi",
+        "school_code": "sbsy25",
+        "standard_id": 125
+    },
+    {
+        "class_name": "6",
+        "created_on": "2021-03-05 04:51:45.149680",
+        "medium_name": "Hindi",
+        "school_code": "sbsy25",
+        "standard_id": 126
+    },
+    {
+        "class_name": "7",
+        "created_on": "2021-03-05 04:51:45.212615",
+        "medium_name": "Hindi",
+        "school_code": "sbsy25",
+        "standard_id": 127
+    },
+    {
+        "class_name": "8",
+        "created_on": "2021-03-05 04:51:45.274672",
+        "medium_name": "Hindi",
+        "school_code": "sbsy25",
+        "standard_id": 128
+    },
+    {
+        "class_name": "1",
+        "created_on": "2021-03-06 07:42:55.509097",
+        "medium_name": "Hindi",
+        "school_code": "sbsy26",
+        "standard_id": 129
+    },
+    {
+        "class_name": "2",
+        "created_on": "2021-03-06 07:42:55.571561",
+        "medium_name": "Hindi",
+        "school_code": "sbsy26",
+        "standard_id": 130
+    },
+    {
+        "class_name": "3",
+        "created_on": "2021-03-06 07:42:55.634509",
+        "medium_name": "Hindi",
+        "school_code": "sbsy26",
+        "standard_id": 131
+    },
+    {
+        "class_name": "4",
+        "created_on": "2021-03-06 07:42:55.696546",
+        "medium_name": "Hindi",
+        "school_code": "sbsy26",
+        "standard_id": 132
+    },
+    {
+        "class_name": "5",
+        "created_on": "2021-03-06 07:42:55.758626",
+        "medium_name": "Hindi",
+        "school_code": "sbsy26",
+        "standard_id": 133
+    },
+    {
+        "class_name": "6",
+        "created_on": "2021-03-06 07:42:55.821567",
+        "medium_name": "Hindi",
+        "school_code": "sbsy26",
+        "standard_id": 134
+    },
+    {
+        "class_name": "7",
+        "created_on": "2021-03-06 07:42:55.883532",
+        "medium_name": "Hindi",
+        "school_code": "sbsy26",
+        "standard_id": 135
+    },
+    {
+        "class_name": "8",
+        "created_on": "2021-03-06 07:42:55.946600",
+        "medium_name": "Hindi",
+        "school_code": "sbsy26",
+        "standard_id": 136
+    },
+    {
+        "class_name": "1",
+        "created_on": "2021-03-08 13:46:23.270683",
+        "medium_name": "English",
+        "school_code": "sbsy27",
+        "standard_id": 137
+    },
+    {
+        "class_name": "2",
+        "created_on": "2021-03-08 13:46:23.334170",
+        "medium_name": "English",
+        "school_code": "sbsy27",
+        "standard_id": 138
+    },
+    {
+        "class_name": "3",
+        "created_on": "2021-03-08 13:46:23.395156",
+        "medium_name": "English",
+        "school_code": "sbsy27",
+        "standard_id": 139
+    },
+    {
+        "class_name": "4",
+        "created_on": "2021-03-08 13:46:23.458160",
+        "medium_name": "English",
+        "school_code": "sbsy27",
+        "standard_id": 140
+    },
+    {
+        "class_name": "5",
+        "created_on": "2021-03-08 13:46:23.520187",
+        "medium_name": "English",
+        "school_code": "sbsy27",
+        "standard_id": 141
+    },
+    {
+        "class_name": "6",
+        "created_on": "2021-03-08 13:46:23.583170",
+        "medium_name": "English",
+        "school_code": "sbsy27",
+        "standard_id": 142
+    },
+    {
+        "class_name": "7",
+        "created_on": "2021-03-08 13:46:23.653183",
+        "medium_name": "English",
+        "school_code": "sbsy27",
+        "standard_id": 143
+    },
+    {
+        "class_name": "8",
+        "created_on": "2021-03-08 13:46:23.716221",
+        "medium_name": "English",
+        "school_code": "sbsy27",
+        "standard_id": 144
+    },
+    {
+        "class_name": "1",
+        "created_on": "2021-03-08 13:46:23.809161",
+        "medium_name": "Hindi",
+        "school_code": "sbsy27",
+        "standard_id": 145
+    },
+    {
+        "class_name": "2",
+        "created_on": "2021-03-08 13:46:23.873195",
+        "medium_name": "Hindi",
+        "school_code": "sbsy27",
+        "standard_id": 146
+    },
+    {
+        "class_name": "3",
+        "created_on": "2021-03-08 13:46:23.935150",
+        "medium_name": "Hindi",
+        "school_code": "sbsy27",
+        "standard_id": 147
+    },
+    {
+        "class_name": "4",
+        "created_on": "2021-03-08 13:46:23.998223",
+        "medium_name": "Hindi",
+        "school_code": "sbsy27",
+        "standard_id": 148
+    },
+    {
+        "class_name": "5",
+        "created_on": "2021-03-08 13:46:24.060137",
+        "medium_name": "Hindi",
+        "school_code": "sbsy27",
+        "standard_id": 149
+    },
+    {
+        "class_name": "6",
+        "created_on": "2021-03-08 13:46:24.122164",
+        "medium_name": "Hindi",
+        "school_code": "sbsy27",
+        "standard_id": 150
+    },
+    {
+        "class_name": "7",
+        "created_on": "2021-03-08 13:46:24.184170",
+        "medium_name": "Hindi",
+        "school_code": "sbsy27",
+        "standard_id": 151
+    },
+    {
+        "class_name": "8",
+        "created_on": "2021-03-08 13:46:24.247196",
+        "medium_name": "Hindi",
+        "school_code": "sbsy27",
+        "standard_id": 152
+    },
+    {
+        "class_name": "1",
+        "created_on": "2021-03-10 06:18:16.907733",
+        "medium_name": "English",
+        "school_code": "sbsy28",
+        "standard_id": 153
+    },
+    {
+        "class_name": "2",
+        "created_on": "2021-03-10 06:18:16.914945",
+        "medium_name": "English",
+        "school_code": "sbsy28",
+        "standard_id": 154
+    },
+    {
+        "class_name": "3",
+        "created_on": "2021-03-10 06:18:16.921193",
+        "medium_name": "English",
+        "school_code": "sbsy28",
+        "standard_id": 155
+    },
+    {
+        "class_name": "4",
+        "created_on": "2021-03-10 06:18:16.927371",
+        "medium_name": "English",
+        "school_code": "sbsy28",
+        "standard_id": 156
+    },
+    {
+        "class_name": "5",
+        "created_on": "2021-03-10 06:18:16.933581",
+        "medium_name": "English",
+        "school_code": "sbsy28",
+        "standard_id": 157
+    },
+    {
+        "class_name": "6",
+        "created_on": "2021-03-10 06:18:16.939795",
+        "medium_name": "English",
+        "school_code": "sbsy28",
+        "standard_id": 158
+    },
+    {
+        "class_name": "7",
+        "created_on": "2021-03-10 06:18:16.946136",
+        "medium_name": "English",
+        "school_code": "sbsy28",
+        "standard_id": 159
+    },
+    {
+        "class_name": "8",
+        "created_on": "2021-03-10 06:18:16.952300",
+        "medium_name": "English",
+        "school_code": "sbsy28",
+        "standard_id": 160
+    },
+    {
+        "class_name": "1",
+        "created_on": "2021-03-12 07:01:27.653143",
+        "medium_name": "English",
+        "school_code": "sbsy29",
+        "standard_id": 161
+    },
+    {
+        "class_name": "2",
+        "created_on": "2021-03-12 07:01:27.658760",
+        "medium_name": "English",
+        "school_code": "sbsy29",
+        "standard_id": 162
+    },
+    {
+        "class_name": "3",
+        "created_on": "2021-03-12 07:01:27.663393",
+        "medium_name": "English",
+        "school_code": "sbsy29",
+        "standard_id": 163
+    },
+    {
+        "class_name": "4",
+        "created_on": "2021-03-12 07:01:27.667978",
+        "medium_name": "English",
+        "school_code": "sbsy29",
+        "standard_id": 164
+    },
+    {
+        "class_name": "5",
+        "created_on": "2021-03-12 07:01:27.672544",
+        "medium_name": "English",
+        "school_code": "sbsy29",
+        "standard_id": 165
+    },
+    {
+        "class_name": "6",
+        "created_on": "2021-03-12 07:01:27.677119",
+        "medium_name": "English",
+        "school_code": "sbsy29",
+        "standard_id": 166
+    },
+    {
+        "class_name": "7",
+        "created_on": "2021-03-12 07:01:27.681693",
+        "medium_name": "English",
+        "school_code": "sbsy29",
+        "standard_id": 167
+    },
+    {
+        "class_name": "8",
+        "created_on": "2021-03-12 07:01:27.686278",
+        "medium_name": "English",
+        "school_code": "sbsy29",
+        "standard_id": 168
+    },
+    {
+        "class_name": "1",
+        "created_on": "2021-03-12 11:11:14.780537",
+        "medium_name": "English",
+        "school_code": "sbsy31",
+        "standard_id": 169
+    },
+    {
+        "class_name": "2",
+        "created_on": "2021-03-12 11:11:14.841958",
+        "medium_name": "English",
+        "school_code": "sbsy31",
+        "standard_id": 170
+    },
+    {
+        "class_name": "3",
+        "created_on": "2021-03-12 11:11:14.905012",
+        "medium_name": "English",
+        "school_code": "sbsy31",
+        "standard_id": 171
+    },
+    {
+        "class_name": "4",
+        "created_on": "2021-03-12 11:11:14.966976",
+        "medium_name": "English",
+        "school_code": "sbsy31",
+        "standard_id": 172
+    },
+    {
+        "class_name": "5",
+        "created_on": "2021-03-12 11:11:15.030083",
+        "medium_name": "English",
+        "school_code": "sbsy31",
+        "standard_id": 173
+    },
+    {
+        "class_name": "6",
+        "created_on": "2021-03-12 11:11:15.095962",
+        "medium_name": "English",
+        "school_code": "sbsy31",
+        "standard_id": 174
+    },
+    {
+        "class_name": "7",
+        "created_on": "2021-03-12 11:11:15.157958",
+        "medium_name": "English",
+        "school_code": "sbsy31",
+        "standard_id": 175
+    },
+    {
+        "class_name": "8",
+        "created_on": "2021-03-12 11:11:15.220960",
+        "medium_name": "English",
+        "school_code": "sbsy31",
+        "standard_id": 176
+    },
+    {
+        "class_name": "1",
+        "created_on": "2021-03-13 05:33:22.178313",
+        "medium_name": "English",
+        "school_code": "sbsy32",
+        "standard_id": 177
+    },
+    {
+        "class_name": "2",
+        "created_on": "2021-03-13 05:33:22.238766",
+        "medium_name": "English",
+        "school_code": "sbsy32",
+        "standard_id": 178
+    },
+    {
+        "class_name": "3",
+        "created_on": "2021-03-13 05:33:22.301718",
+        "medium_name": "English",
+        "school_code": "sbsy32",
+        "standard_id": 179
+    },
+    {
+        "class_name": "4",
+        "created_on": "2021-03-13 05:33:22.363832",
+        "medium_name": "English",
+        "school_code": "sbsy32",
+        "standard_id": 180
+    },
+    {
+        "class_name": "5",
+        "created_on": "2021-03-13 05:33:22.427862",
+        "medium_name": "English",
+        "school_code": "sbsy32",
+        "standard_id": 181
+    },
+    {
+        "class_name": "6",
+        "created_on": "2021-03-13 05:33:22.488714",
+        "medium_name": "English",
+        "school_code": "sbsy32",
+        "standard_id": 182
+    },
+    {
+        "class_name": "7",
+        "created_on": "2021-03-13 05:33:22.551760",
+        "medium_name": "English",
+        "school_code": "sbsy32",
+        "standard_id": 183
+    },
+    {
+        "class_name": "8",
+        "created_on": "2021-03-13 05:33:22.614088",
+        "medium_name": "English",
+        "school_code": "sbsy32",
+        "standard_id": 184
+    },
+    {
+        "class_name": "1",
+        "created_on": "2021-03-13 06:54:31.601330",
+        "medium_name": "English",
+        "school_code": "sbsy33",
+        "standard_id": 185
+    },
+    {
+        "class_name": "2",
+        "created_on": "2021-03-13 06:54:31.663755",
+        "medium_name": "English",
+        "school_code": "sbsy33",
+        "standard_id": 186
+    },
+    {
+        "class_name": "3",
+        "created_on": "2021-03-13 06:54:31.725926",
+        "medium_name": "English",
+        "school_code": "sbsy33",
+        "standard_id": 187
+    },
+    {
+        "class_name": "4",
+        "created_on": "2021-03-13 06:54:31.788738",
+        "medium_name": "English",
+        "school_code": "sbsy33",
+        "standard_id": 188
+    },
+    {
+        "class_name": "5",
+        "created_on": "2021-03-13 06:54:31.850763",
+        "medium_name": "English",
+        "school_code": "sbsy33",
+        "standard_id": 189
+    },
+    {
+        "class_name": "6",
+        "created_on": "2021-03-13 06:54:31.913745",
+        "medium_name": "English",
+        "school_code": "sbsy33",
+        "standard_id": 190
+    },
+    {
+        "class_name": "7",
+        "created_on": "2021-03-13 06:54:31.975807",
+        "medium_name": "English",
+        "school_code": "sbsy33",
+        "standard_id": 191
+    },
+    {
+        "class_name": "8",
+        "created_on": "2021-03-13 06:54:32.038840",
+        "medium_name": "English",
+        "school_code": "sbsy33",
+        "standard_id": 192
+    },
+    {
+        "class_name": "1",
+        "created_on": "2021-03-15 02:07:53.329757",
+        "medium_name": "English",
+        "school_code": "sbsy34",
+        "standard_id": 193
+    },
+    {
+        "class_name": "2",
+        "created_on": "2021-03-15 02:07:53.392151",
+        "medium_name": "English",
+        "school_code": "sbsy34",
+        "standard_id": 194
+    },
+    {
+        "class_name": "3",
+        "created_on": "2021-03-15 02:07:53.454130",
+        "medium_name": "English",
+        "school_code": "sbsy34",
+        "standard_id": 195
+    },
+    {
+        "class_name": "4",
+        "created_on": "2021-03-15 02:07:53.517144",
+        "medium_name": "English",
+        "school_code": "sbsy34",
+        "standard_id": 196
+    },
+    {
+        "class_name": "5",
+        "created_on": "2021-03-15 02:07:53.579169",
+        "medium_name": "English",
+        "school_code": "sbsy34",
+        "standard_id": 197
+    },
+    {
+        "class_name": "6",
+        "created_on": "2021-03-15 02:07:53.642164",
+        "medium_name": "English",
+        "school_code": "sbsy34",
+        "standard_id": 198
+    },
+    {
+        "class_name": "7",
+        "created_on": "2021-03-15 02:07:53.704517",
+        "medium_name": "English",
+        "school_code": "sbsy34",
+        "standard_id": 199
+    },
+    {
+        "class_name": "8",
+        "created_on": "2021-03-15 02:07:53.767109",
+        "medium_name": "English",
+        "school_code": "sbsy34",
+        "standard_id": 200
+    },
+    {
+        "class_name": "Nursery",
+        "created_on": "2021-03-15 06:04:58.024569",
+        "medium_name": "English",
+        "school_code": "sbsy33",
+        "standard_id": 201
+    },
+    {
+        "class_name": "1",
+        "created_on": "2021-03-17 04:55:54.710236",
+        "medium_name": "English",
+        "school_code": "sbsy35",
+        "standard_id": 202
+    },
+    {
+        "class_name": "2",
+        "created_on": "2021-03-17 04:55:54.771653",
+        "medium_name": "English",
+        "school_code": "sbsy35",
+        "standard_id": 203
+    },
+    {
+        "class_name": "3",
+        "created_on": "2021-03-17 04:55:54.834647",
+        "medium_name": "English",
+        "school_code": "sbsy35",
+        "standard_id": 204
+    },
+    {
+        "class_name": "4",
+        "created_on": "2021-03-17 04:55:54.896661",
+        "medium_name": "English",
+        "school_code": "sbsy35",
+        "standard_id": 205
+    },
+    {
+        "class_name": "5",
+        "created_on": "2021-03-17 04:55:54.959739",
+        "medium_name": "English",
+        "school_code": "sbsy35",
+        "standard_id": 206
+    },
+    {
+        "class_name": "6",
+        "created_on": "2021-03-17 04:55:55.021671",
+        "medium_name": "English",
+        "school_code": "sbsy35",
+        "standard_id": 207
+    },
+    {
+        "class_name": "7",
+        "created_on": "2021-03-17 04:55:55.084774",
+        "medium_name": "English",
+        "school_code": "sbsy35",
+        "standard_id": 208
+    },
+    {
+        "class_name": "8",
+        "created_on": "2021-03-17 04:55:55.146633",
+        "medium_name": "English",
+        "school_code": "sbsy35",
+        "standard_id": 209
+    },
+    {
+        "class_name": "1",
+        "created_on": "2021-03-17 04:55:55.240622",
+        "medium_name": "Hindi",
+        "school_code": "sbsy35",
+        "standard_id": 210
+    },
+    {
+        "class_name": "2",
+        "created_on": "2021-03-17 04:55:55.302619",
+        "medium_name": "Hindi",
+        "school_code": "sbsy35",
+        "standard_id": 211
+    },
+    {
+        "class_name": "3",
+        "created_on": "2021-03-17 04:55:55.365602",
+        "medium_name": "Hindi",
+        "school_code": "sbsy35",
+        "standard_id": 212
+    },
+    {
+        "class_name": "4",
+        "created_on": "2021-03-17 04:55:55.427621",
+        "medium_name": "Hindi",
+        "school_code": "sbsy35",
+        "standard_id": 213
+    },
+    {
+        "class_name": "5",
+        "created_on": "2021-03-17 04:55:55.490690",
+        "medium_name": "Hindi",
+        "school_code": "sbsy35",
+        "standard_id": 214
+    },
+    {
+        "class_name": "6",
+        "created_on": "2021-03-17 04:55:55.553699",
+        "medium_name": "Hindi",
+        "school_code": "sbsy35",
+        "standard_id": 215
+    },
+    {
+        "class_name": "7",
+        "created_on": "2021-03-17 04:55:55.615684",
+        "medium_name": "Hindi",
+        "school_code": "sbsy35",
+        "standard_id": 216
+    },
+    {
+        "class_name": "8",
+        "created_on": "2021-03-17 04:55:55.677798",
+        "medium_name": "Hindi",
+        "school_code": "sbsy35",
+        "standard_id": 217
+    },
+    {
+        "class_name": "1",
+        "created_on": "2021-03-17 06:28:59.960129",
+        "medium_name": "English",
+        "school_code": "sbsy36",
+        "standard_id": 218
+    },
+    {
+        "class_name": "2",
+        "created_on": "2021-03-17 06:29:00.023600",
+        "medium_name": "English",
+        "school_code": "sbsy36",
+        "standard_id": 219
+    },
+    {
+        "class_name": "3",
+        "created_on": "2021-03-17 06:29:00.096621",
+        "medium_name": "English",
+        "school_code": "sbsy36",
+        "standard_id": 220
+    },
+    {
+        "class_name": "4",
+        "created_on": "2021-03-17 06:29:00.159602",
+        "medium_name": "English",
+        "school_code": "sbsy36",
+        "standard_id": 221
+    },
+    {
+        "class_name": "5",
+        "created_on": "2021-03-17 06:29:00.221588",
+        "medium_name": "English",
+        "school_code": "sbsy36",
+        "standard_id": 222
+    },
+    {
+        "class_name": "6",
+        "created_on": "2021-03-17 06:29:00.284581",
+        "medium_name": "English",
+        "school_code": "sbsy36",
+        "standard_id": 223
+    },
+    {
+        "class_name": "7",
+        "created_on": "2021-03-17 06:29:00.346549",
+        "medium_name": "English",
+        "school_code": "sbsy36",
+        "standard_id": 224
+    },
+    {
+        "class_name": "8",
+        "created_on": "2021-03-17 06:29:00.409582",
+        "medium_name": "English",
+        "school_code": "sbsy36",
+        "standard_id": 225
+    },
+    {
+        "class_name": "L.K.G",
+        "created_on": "2021-03-19 07:38:01.837497",
+        "medium_name": "English",
+        "school_code": "sbsy33",
+        "standard_id": 226
+    },
+    {
+        "class_name": "U.K.G",
+        "created_on": "2021-03-19 07:38:17.288287",
+        "medium_name": "English",
+        "school_code": "sbsy33",
+        "standard_id": 227
+    }
+]

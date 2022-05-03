@@ -1,0 +1,151 @@
+<!doctype html>
+{% load static %}
+<html class="no-js" lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>SBSY | Login</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="{% static 'SchoolDesign/img/favicon.png' %}">
+    <!-- Normalize CSS -->
+<!--    <link rel="stylesheet" href="css/normalize.css">-->
+     <link rel="stylesheet" href="{% static 'SchoolDesign/css/normalize.css' %}">
+    <!-- Main CSS -->
+<!--    <link rel="stylesheet" href="css/main.css">-->
+        <link rel="stylesheet" href="{% static 'SchoolDesign/css/main.css' %}">
+    <!-- Bootstrap CSS -->
+<!--    <link rel="stylesheet" href="css/bootstrap.min.css">-->
+
+    <link rel="stylesheet" href="{% static 'SchoolDesign/css/bootstrap.min.css' %}">
+    <!-- Fontawesome CSS -->
+<!--    <link rel="stylesheet" href="css/all.min.css">-->
+      <link rel="stylesheet" href="{% static 'SchoolDesign/css/all.min.css' %}">
+    <!-- Flaticon CSS -->
+<!--    <link rel="stylesheet" href="fonts/flaticon.css">-->
+      <link rel="stylesheet" href="{% static 'SchoolDesign/fonts/flaticon.css' %}">
+    <!-- Animate CSS -->
+<!--    <link rel="stylesheet" href="css/animate.min.css">-->
+      <link rel="stylesheet" href="{% static 'SchoolDesign/css/animate.min.css' %}">
+    <!-- Custom CSS -->
+<!--    <link rel="stylesheet" href="style.css">-->
+      <link rel="stylesheet" href="{% static 'SchoolDesign/style.css' %}">
+    <!-- Modernize js -->
+    <script src="{% static 'SchoolDesign/js/modernizr-3.6.0.min.js' %}"></script>
+</head>
+
+<body>
+    <!-- Preloader Start Here -->
+    <div id="preloader"></div>
+
+
+    <!-- Preloader End Here -->
+    <!-- Login Page Start Here -->
+    <div class="login-page-wrap">
+        <div class="login-page-content">
+            <div class="login-box">
+                <div class="item-logo">
+                    <img src="{% static 'SchoolDesign/img/logo11.jpg' %}" alt="logo">
+                </div>
+                 <style>.info{
+                    list-style:None;
+                    background-color:#FF0000;
+                    color:white;
+                    box-shadow: 12px 12px 12px #e61c66;
+                    text-align: center;}
+                    </style>
+
+                {% if messages %}
+                <ul class="messages">
+                    {% for message in messages %}
+
+
+                    <li {% if message.tags %} class="{{message.tags}}"  {% endif %}>{{message}}</li>
+                    {% endfor %}
+
+
+                </ul>
+
+                {% endif %}
+
+
+                 <style>.blinking{
+    animation:blinkingText 1.2s infinite;
+}
+@keyframes blinkingText{
+    0%{     color: #FF0000;    }
+    49%{    color: #FF0000; }
+    60%{    color: transparent; }
+    99%{    color:transparent;  }
+    100%{   color: #FF0000;    }
+}
+</style>
+                <form action="" class="login-form" method="POST">
+                    		{% csrf_token %}
+                    <div class="form-group">
+                        <label>Username</label>
+                        <input type="text" placeholder="Enter usrename" class="form-control" name="username">
+                        <i class="far fa-envelope"></i>
+                    </div>
+                    <div class="form-group">
+                        <label>Password</label>
+                        <input type="password" placeholder="Enter password" class="form-control" name="password">
+                        <i class="fas fa-lock"></i>
+                    </div>
+                    <div class="form-group d-flex align-items-center justify-content-between">
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" id="remember-me">
+                            <label for="remember-me" class="form-check-label">Remember Me</label>
+                        </div>
+                        <a href="/add_school" class="forgot-btn">Forgot password</a>
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" class="login-btn">Login</button>
+                    </div>
+                </form>
+
+            </div>
+            <div class="sign-up"> Register new school <a href="/add_school" class="blinking">click here!</a></div>
+
+            
+            <div class="sign-up"> For more details <a href="/homepage" class="blinking">click here!</a></div>
+            
+            
+            <div class="sign-up">  Call Support  <a href="tel:9729888990" class="blinking">9729888990</a></div>
+           <!--<div></div> <a href="tel:9729888990">Click Here To Call Support 9060555656</a></div>-->
+
+
+        </div>
+    </div>
+
+    <!-- Login Page End Here -->
+    <!-- jquery-->
+<!--    <script src="js/jquery-3.3.1.min.js"></script>-->
+        <script src="{% static 'SchoolDesign/js/jquery-3.3.1.min.js' %}"></script>
+
+    <!-- Plugins js -->
+<!--    <script src="js/plugins.js"></script>-->
+        <script src="{% static 'SchoolDesign/js/plugins.js' %}"></script>
+
+    <!-- Popper js -->
+<!--    <script src="js/popper.min.js"></script>-->
+        <script src="{% static 'SchoolDesign/js/popper.min.js' %}"></script>
+
+    <!-- Bootstrap js -->
+<!--    <script src="js/bootstrap.min.js"></script>-->
+        <script src="{% static 'SchoolDesign/js/bootstrap.min.js' %}"></script>
+
+    <!-- Scroll Up Js -->
+<!--    <script src="js/jquery.scrollUp.min.js"></script>-->
+        <script src="{% static 'SchoolDesign/js/jquery.scrollUp.min.js' %}"></script>
+
+    <!-- Custom Js -->
+<!--    <script src="js/main.js"></script>-->
+    <script src="{% static 'SchoolDesign/js/main.js' %}"></script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+{%load static%}
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Attendance Portal</title>
+
+    {% csrf_token %}
+
+
+
+    <link rel="shortcut icon" href="{% static 'images/favicon2.ico' %}" />
+    <link rel="stylesheet" href="{% static 'Admin_files/764.css' %}">
+    <link rel="stylesheet" href="{% static 'Admin_files/bootstrap.css' %}">
+     <link rel="stylesheet" href="{% static 'Admin_files/font-awesome.css' %}">
+     <link rel="stylesheet" href="{% static 'Admin_files/main.css' %}">
+     <link rel="stylesheet" href="{% static 'Admin_files/chosen.css' %}">
+     <link rel="stylesheet" href="{% static 'Admin_files/Alert.css' %}">
+     <link rel="stylesheet" href="{% static 'Admin_files/calendar.css' %}">
+
+
+    <script type="text/javascript" src="{% static 'Admin_files/jquery-1.js' %}"></script>
+    <script type="text/javascript" src="{% static 'Admin_files/jquery-ui.js' %}"></script>
+    <script type="text/javascript" src="{% static 'Admin_files/jquery_002.js' %}"></script>
+    <script type="text/javascript" src="{% static 'Admin_files/jquery.js' %}"></script>
+    <script type="text/javascript" src="{% static 'Admin_files/jquery_003.js' %}"></script>
+    <script type="text/javascript" src="{% static 'Admin_files/main.js' %}"></script>
+    <script type="text/javascript" src="{% static 'Admin_files/chosen.js' %}"></script>
+    <script type="text/javascript" src="{% static 'Admin_files/Alert.js' %}"></script>
+    <script type="text/javascript" src="{% static 'Admin_files/Utility.js' %}"></script>
+       <script type="text/javascript" src="{% static 'Admin_files/calendar.js' %}"></script>
+       <script type="text/javascript" src="{% static 'Admin_files/calendar-en.js' %}"></script>
+       <script type="text/javascript" src="{% static 'Admin_files/calendar-setup.js' %}"></script>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+</head>
+<body>
+    {% csrf_token %}
+
+<script>
+$(document).ready(function(){
+    $("#admindiv").click(function () {
+        $(".adminpopout").slideToggle("2000");
+    });
+    $(".toggleMenu").on('click', function (e) {
+        $('.sidenav').animate({ width: 'toggle' });
+    });
+});
+
+function createPDF() {
+        var sTable = document.getElementById('myid').innerHTML;
+
+        var style = "<style>";
+        style = style + "table {width: 100%;font: 17px Calibri;}";
+        style = style + "table, th, td {border: solid 1px #DDD; border-collapse: collapse;";
+        style = style + "padding: 2px 3px;text-align: center;}";
+        style = style + "</style>";
+
+        // CREATE A WINDOW OBJECT.
+        var win = window.open('', '', 'height=700,width=700');
+
+        win.document.write('<html><head>');
+        win.document.write('<title>Profile</title>');   // <title> FOR PDF HEADER.
+        win.document.write(style);          // ADD STYLE INSIDE THE HEAD TAG.
+        win.document.write('</head>');
+        win.document.write('<body>');
+        win.document.write(sTable);         // THE TABLE CONTENTS INSIDE THE BODY TAG.
+        win.document.write('</body></html>');
+
+        win.document.close(); 	// CLOSE THE CURRENT WINDOW.
+
+        win.print();    // PRINT THE CONTENTS.
+    }
+</script>
+
+<style>
+
+</style>
+<div id="header">
+  <span class="brand_name">
+      <img class="toggleMenu" src="/Content/images/list-icon.png" />  Attendance Portal</span>
+    <span class="clsSchool">welcome to {{ request.user.first_name }}</span>
+    <ul class="user_btn">
+        <li class="nav-item">
+            <a class="nav-link" style="font-size: 16px;" >
+                {{request.user.username}}  <i class="fa fa-user-circle-o" id="admindiv"></i>
+            </a>
+        </li>
+    </ul>
+    <button class="navbar-toggler navbar-toggler-right nav_btn_lt" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="adminpopout">
+
+        <div class="padding">
+            <table class="table table-bordernone" border="0">
+                <tbody>
+                    <tr>
+                        <a href="#" >View Profile</a>
+                        <a href="/Misc/ChangePassword" >Change Password</a>
+                        <a href="http://127.0.0.1:8000/logout_view"  return false;">Sign Out</a>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+    </div>
+
+</div>
+
+
+    <div id="wrapper">
+
+<div class="sidenav">
+    <nav class="navbar navbar-expand-lg navbar-dark" id="mainNav">
+        <div id="navbarResponsive">
+            <div id="dvNav" class="collapse navbar-collapse" style="display:block;">
+                <ul class="navbar-nav navbar-sidenav">
+                    <li class="nav-item">
+                        <a class="nav-link activelink" href="http://localhost:8000/owner_login/{{ user.get_username}}">
+                            <i class="fa fa-fw fa-dashboard"></i>
+                            <span class="nav-link-text">Dashboard</span>  {{ user.get_username}}
+                        </a>
+                    </li>
+
+                    <li class="nav-item" title="Users">
+                        <a class="nav-link" href="#">
+                            <i class="fa fa-fw fa-user "></i>
+                            <span class="nav-link-text">Students</span>
+                            <i class="fa fa-fw fa-chevron-down pull-right addon"></i>
+                        </a>
+                        <ul class="sidenav-second-level" style="display:none;">
+                                <li><a href="http://localhost:8000/AddStudent/{{user.get_username}}">Add Student</a><span class="right-arrow"></span></li>
+                            <li><a href="http://localhost:8000/ViewStudent/{{user.get_username}}">View Students</a><span class="right-arrow"></span></li>
+                            <li><a href="http://localhost:8000/student_id_view/{{user.get_username}}">student ID</a><span class="right-arrow"></span></li>
+                        </ul>
+                    </li>
+                        <li class="nav-item" title="Teachers">
+                            <a class="nav-link" href="#">
+                                <i class="fa fa-fw fa-user "></i>
+                                <span class="nav-link-text">Staff Detail</span>
+                                <i class="fa fa-fw fa-chevron-down pull-right addon"></i>
+                            </a>
+                            <ul class="sidenav-second-level" style="display:none;">
+                                <li><a href="http://localhost:8000/AddStaff/{{user.get_username}}">Add Staff</a><span class="right-arrow"></span></li>
+                                <li><a href="http://localhost:8000/Staff/ViewStaff">View Staff</a><span class="right-arrow"></span></li>
+                            </ul>
+                        </li>
+                    <li class="nav-item" title="Attendance">
+                        <a class="nav-link" href="#">
+                            <i class="fa fa-fw fa-user "></i>
+                            <span class="nav-link-text">Attendance</span>
+                            <i class="fa fa-fw fa-chevron-down pull-right addon"></i>
+                        </a>
+                        <ul class="sidenav-second-level" style="display:none;">
+                            <li><a href="http://localhost:8000/a_view/{{user.get_username}}">Students</a><span class="right-arrow"></span></li>
+                            <li><a href="#">Teachers</a><span class="right-arrow"></span></li>
+                        </ul>
+
+                    </li>
+                    <li class="nav-item" title="Settings">
+                        <a class="nav-link" href="#">
+                            <i class="fa fa-fw fa-user "></i>
+                            <span class="nav-link-text">Settings</span>
+
+                        </a>
+                    </li>
+                    <li class="nav-item" title="Other">
+                        <a class="nav-link" href="#">
+                            <i class="fa fa-fw fa-user "></i>
+                            <span class="nav-link-text">Others</span>
+
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</div><!-- End sidenav -->
+<!-- sidenav-toggler -->
+
+<ul class="navbar-nav sidenav-toggler" style="display:none;">
+    <li class="nav-item">
+        <a class="nav-link text-center fa fa-arrow-left" id="sidenavToggler">
+            <i class=""></i>
+        </a>
+    </li>
+</ul>
+
+        <div class="content-wrapper">
+
+
+
+<div class="libDetail"  id="myid">
+
+<form action="" autocomplete="on" class="form-horizontal" id="" method="post">        <div class="libTabContent" style="padding: 15px; padding-top: 25px;">
+            <!-- Tab panes -->
+            <div class="tab-content">
+                <div class="tab-pane active" id="StaffInfo">
+                    <div class="form-group" style="background: #f1efef;
+       display: table;
+    padding: 10px; width:100%;">
+
+
+                        <span>
+                            <label class="control-label" for="txtDatefrom" style="float:left; margin-top:3px;"> Student id:&nbsp;&nbsp;</label>
+                            <input class="input-sm form-control" data-val="true" id="txtSearchText" data-val-required="The student_id field is required." name="student_id" style="width: 100px;float: left;height: 29px;" tabindex="4" title="Search Text" type="text" value="" />
+                        </span>
+
+                     <span style="text-align: right;">
+                         <button type="submit" class="btn btn-primary" id="btnSearchStaff" style="width: 76px; heght: 29px;" >Load Id</button>
+                         <!-- <button type="submit" class="btn btn-default" id="btnClearStaffFilter">Clear</button> -->
+                         <input type="button" value="Export_toPDF" class="btn btn-primary" id="btPrint" onclick="createPDF()" />
+                         <!-- <a href="http://localhost:8000/generate_PDF/1/" > <input type="button" class="btn btn-primary" enable id="btnExportToPDF" value="Export Into PDF" style="line-height: 1.3;margin-top: -4px;" /> </a>  -->
+
+                     </span>
+
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+        <div class="clearfix"></div>
+            <div id="dvViewStaffs" style="padding: 10px;">
+                <div class="recordCount"><b>Total Records:1</b></div>
+
+
+
+
+                    <!--<div class="content-wrapper"  >-->
+                    <!--    {%csrf_token%}-->
+                    <!--    {%if data %}-->
+                    <!--    {% for i in data %}-->
+
+                    <!--    <div class="container">-->
+                    <!--        <ul>-->
+
+                    <!--            <li><div class="card">-->
+                    <!--         <p align: center;><button></button></p>-->
+                    <!--         {% if i.staff_image %}-->
+                    <!--            <img class="aligncenter"   src="/media/{{i.staff_image}}" style="width:50%; height:150px;" alt="centered image">-->
+                    <!--            {% endif %}-->
+
+                    <!--            <span class="tab"></span>Staff Id <span class="tab"></span> &nbsp;: <span class="tab"></span>{{i.staff_user_name}}<br>-->
+
+                    <!--           <p> <span class="tab"></span>Name <span class="tab"></span>&ensp;  :<span class="tab"></span> {{i.staff_First_name}}<br>-->
+                    <!--            <span class="tab"></span>Gender <span class="tab"></span> &nbsp;: <span class="tab"></span>{{i.staff_gender}}<br>-->
+                    <!--            <span class="tab"></span>Dob   <span class="tab"></span> &emsp;  :<span class="tab"></span>{{i.staff_date_of_birth}}<br>-->
+                    <!--            <span class="tab"></span>Mobile no  <span class="tab"></span> &ebsp;: <span class="tab"></span>{{i.staff_mobile}}<br>-->
+
+                    <!--            <span class="tab"></span>Address </span>&nbsp;&nbsp;  &nbsp; &nbsp; &ensp; :<span class="tab"></span> {{i.staff_Address}}<br>-->
+                    <!--            <span class="tab"></span>school code &ensp;: <span class="tab"></span>{{i.staff_school_code}}</p>-->
+                    <!--      <p align: center;><button></button></p>-->
+                    <!--    </div></li>-->
+
+                    <!--        </ul>-->
+                    <!--    </div>-->
+                    <!--    {%endfor%}-->
+                    <!--    {%else%}-->
+                    <!--    <p>student records are not available</p>-->
+                    <!--    {%endif%}-->
+
+  {%csrf_token%}
+  {%if data %}
+  {% for i in data %}
+
+
+ <hr>
+    <p><br></p>
+    <h1><span style="background-color: #00008b;"><span style="text-shadow: 3px 3px 2px rgba(136, 136, 136, 0.8);"><span style="color: rgb(255, 255, 255);">{{request.user.first_name}}</span></span></span></h1>
+    <h4><span style="background-color: #00008b;"><span style="text-shadow: 3px 3px 2px rgba(136, 136, 136, 0.8);"><span style="color: rgb(255, 255, 255);">&nbsp;Village- Ladiaka Palwal Haryana 121105 &nbsp; &nbsp; &nbsp; <br></span></span></span></h4>
+    <p>{% if i.staff_image %}</p>
+    <h3><span style="background-color: #00008b;"><span style="color: rgb(255, 255, 255);">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <img src="/media/{{i.staff_image}}" style="width: 120px; height: 130px;"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <br></span></span></h3>
+    <p>{% endif %}</p>
+    <p>&nbsp; &nbsp; User &nbsp; &nbsp; &nbsp;: &nbsp; &nbsp; {{i.staff_user_name}}</p>
+    <p><span style="color: rgb(40, 50, 78);">&nbsp; &nbsp; Name &nbsp; &nbsp;: &nbsp; &nbsp; {{i.staff_First_name}}</span></p>
+    <p><span style="color: rgb(40, 50, 78);">&nbsp; &nbsp; Email &nbsp; &nbsp;: &nbsp; &nbsp; <a href="mailto:{{i.staff_email}}">{{i.staff_email}}</a></span></p>
+    <p><span style="color: rgb(40, 50, 78);">&nbsp; &nbsp; Cont &nbsp; &nbsp; : &nbsp; &nbsp; {{i.staff_mobile}}</span></p>
+    <p><br></p>
+    <p><span style="background-color: #006400;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</span></p>
+    <hr>
+    <p><br></p>
+    <p><span style="color: rgb(40, 50, 78);"><br></span></p>
+    <p>&nbsp; &nbsp; &nbsp; &nbsp;</p>
+    <p><br></p>
+
+
+
+                        {%endfor%}
+                        {%else%}
+                        <p>student records are not available</p>
+                        {%endif%}
+
+
+
+                            <script type="text/javascript">
+
+        (function($) {
+            $.fn.swhgLoad = function(url, containerId, callback) {
+                url = url + (url.indexOf('?') == -1 ? '?' : '&') + '__swhg=' + new Date().getTime();
+
+                $('<div/>').load(url + ' ' + containerId, function(data, status, xhr) {
+                    $(containerId).replaceWith($(this).html());
+                    if (typeof(callback) === 'function') {
+                        callback.apply(this, arguments);
+                    }
+                });
+                return this;
+            }
+
+            $(function() {
+                $('table[data-swhgajax="true"],span[data-swhgajax="true"]').each(function() {
+                    var self = $(this);
+                    var containerId = '#' + self.data('swhgcontainer');
+                    var callback = getFunction(self.data('swhgcallback'));
+
+                    $(containerId).parent().delegate(containerId + ' a[data-swhglnk="true"]', 'click', function() {
+                        $(containerId).swhgLoad($(this).attr('href'), containerId, callback);
+                        return false;
+                    });
+                })
+            });
+
+            function getFunction(code, argNames) {
+                argNames = argNames || [];
+                var fn = window, parts = (code || "").split(".");
+                while (fn && parts.length) {
+                    fn = fn[parts.shift()];
+                }
+                if (typeof (fn) === "function") {
+                    return fn;
+                }
+                argNames.push(code);
+                return Function.constructor.apply(null, argNames);
+            }
+        })(jQuery);
+        </script>
+
+
+
+
+            </div>
+</form></div>
+
+
+</body>
+</html>
+
+
+
+
+<style>
+    .container {
+        width: 1500px;
+
+    }
+    .container ul {
+        padding: 0; /* remove default padding and all margins! */
+        margin: 0;
+        list-style-type: none; /* remove the • */
+    }
+    .container ul li {
+        width: 300px;
+        height: 420px;
+        background-color: gray;
+        float: left;
+    }
+
+    .card {
+      box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.2);
+      max-width: 280px;
+       max-height: 500px;
+      margin: auto;
+      /* text-align: center; */
+      font-family: arial;
+      text-transform: capitalize;
+       background-color:#437070;
+       color :#00ffff;
+
+    }
+    .lowercase {
+  text-transform: lowercase;
+  }
+    .title {
+      color: grey;
+      font-size: 18px;
+    }
+
+    button {
+      border: none;
+      outline: 0;
+      display: inline-block;
+      padding: 6px;
+      color: white;
+      background-color: #000;
+      text-align: center;
+      cursor: pointer;
+      width: 100%;
+      font-size: 18px;
+    }
+
+    a {
+      text-decoration: none;
+      font-size: 15px;
+      color: black;
+    }
+
+    button:hover, a:hover {
+      opacity: 0.7;
+    }
+
+    .aligncenter {
+    text-align: center;
+    /* height: 200px;
+    width: 160px; */
+    vertical-align: middle;
+    margin: 10px auto 20px;
+}
+
+
+.tab {
+            display: inline-block;
+            margin-left: 40px;
+        }
+    </style>
+
+
+
+
+
+
+<!-- <style>
+    #StaffInfo>div>span
+    {
+        float:left;
+        padding-left:20px;
+        padding-right:20px;
+            width: 225px;
+            height: 38px;
+    }
+     #StaffInfo>div>span>select
+    {
+       width:100px;
+    }
+
+    .card {
+  box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.2);
+  max-width: 290px;
+   max-height: 490px;
+  margin: auto;
+  /* text-align: center; */
+  font-family: arial;
+   background-color:#437070;
+   color :#00ffff;
+   margin-left: 2.5em;
+
+
+}
+.tab {
+            display: inline-block;
+            margin-left: 40px;
+        }
+
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+button {
+      border: none;
+      outline: 0;
+      display: inline-block;
+      padding: 6px;
+      color: white;
+      background-color: #000;
+      /* text-align: center; */
+      cursor: pointer;
+      width: 10%;
+      font-size: 17px;
+    }
+
+
+.aligncenter {
+    text-align: center;
+    /* height: 200px;
+    width: 160px; */
+    vertical-align: middle;
+    margin: 10px auto 20px;
+}
+
+
+a {
+  text-decoration: none;
+  font-size: 14px;
+  color: black;
+}
+
+button:hover, a:hover {
+  opacity: 0.7;
+}
+
+.aligncenter {
+    text-align: center;
+    height: 200px;
+    width: 160px;
+    vertical-align: middle;
+    margin: 10px auto 20px;
+}
+</style> -->
+
+

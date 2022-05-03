@@ -1,0 +1,98 @@
+[
+    {
+        "bus_no": "5",
+        "created_on": "2021-03-18 11:44:03",
+        "date": "19/03/2021",
+        "id": 1,
+        "lat": "28.4955",
+        "log": "77.3055",
+        "machine_no": "5",
+        "rf_id": "AAAAAAAAAAAA",
+        "school_code": "s001",
+        "time": "09:30"
+    },
+    {
+        "bus_no": "5",
+        "created_on": "2021-03-18 11:48:07",
+        "date": "19/03/2021",
+        "id": 2,
+        "lat": "28.395403",
+        "log": "77.315292",
+        "machine_no": "5",
+        "rf_id": "BBBBBBBBBBBB",
+        "school_code": "s001",
+        "time": "10:00"
+    },
+    {
+        "bus_no": "5",
+        "created_on": "2021-03-18 11:50:57",
+        "date": "19/03/2021",
+        "id": 3,
+        "lat": "28.238180",
+        "log": "77.140740",
+        "machine_no": "5",
+        "rf_id": "CCCCCCCCCC",
+        "school_code": "s001",
+        "time": "10:30"
+    },
+    {
+        "bus_no": "5",
+        "created_on": "2021-03-18 11:56:46",
+        "date": "19/03/2021",
+        "id": 4,
+        "lat": "28.148735",
+        "log": "77.332024",
+        "machine_no": "5",
+        "rf_id": "DDDDDDDDDD",
+        "school_code": "s001",
+        "time": "11:00"
+    },
+    {
+        "bus_no": "5",
+        "created_on": "2021-03-18 11:59:22",
+        "date": "19/03/2021",
+        "id": 5,
+        "lat": "27.897551",
+        "log": "77.384117",
+        "machine_no": "5",
+        "rf_id": "EEEEEEEEEEEE",
+        "school_code": "s001",
+        "time": "11:30"
+    },
+    {
+        "bus_no": "5",
+        "created_on": "2021-03-18 12:01:03",
+        "date": "20/03/2021",
+        "id": 6,
+        "lat": "28.495556",
+        "log": "77.305556",
+        "machine_no": "5",
+        "rf_id": "AAAAAAAAAAAA",
+        "school_code": "s001",
+        "time": "09:32"
+    },
+    {
+        "bus_no": "5",
+        "created_on": "2021-03-18 12:04:44",
+        "date": "20/03/2021",
+        "id": 7,
+        "lat": "28.395403",
+        "log": "77.384117",
+        "machine_no": "5",
+        "rf_id": "BBBBBBBBBBBB",
+        "school_code": "s001",
+        "time": "10:04"
+    },
+    {
+        "bus_no": "5",
+        "created_on": "2021-03-20 07:04:55",
+        "date": "20/03/2021",
+        "id": 8,
+        "lat": "28.395403",
+        "log": "77.315292",
+        "machine_no": "5",
+        "rf_id": "CCCCCCCCCC",
+        "school_code": "s001",
+        "time": "11:00"
+    }
+]

@@ -1,0 +1,13 @@
+school_holiday_id,school_code,holiday_name,details,date,created_on
+23,demo1,Navratra,school will be closed for 3 days,2020-09-16,2020-09-16 16:30:31.905888+00:00
+24,demo1,luckdown,crona warious,2020-09-10,2020-09-22 08:17:43.274297+00:00
+25,demo1,luckdown,crona warious,2020-09-28,2020-09-22 08:19:11.989148+00:00
+26,demo1,republic day2,holiday,2020-11-22,2020-11-22 07:37:03.343363+00:00
+27,demo1,off,holiday,2020-11-20,2020-11-22 10:57:51.696654+00:00
+28,demo1,Holidays 222,New holiday,2020-12-08,2020-12-06 08:18:29.285084+00:00
+29,S004,Ravidas jaynti,One day holiday,2021-03-26,2021-02-25 06:37:54.823499+00:00
+30,S004,Ravidas jaynti,One day holiday,2021-03-26,2021-02-25 06:37:56.341047+00:00
+33,demo1,first saturday,holiday test,2021-03-05,2021-03-05 13:15:25.955435+00:00
+34,demo1,shivratri,13,2021-03-07,2021-03-05 17:54:24.400825+00:00
+35,sbsy27,Ramnawmi,Dghhj,2021-03-10,2021-03-09 07:14:53.895999+00:00
+36,sbsy36,MahaShivratri,Mahashivratri,2021-03-11,2021-03-17 07:08:51.477663+00:00

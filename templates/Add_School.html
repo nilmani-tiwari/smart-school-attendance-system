@@ -1,0 +1,763 @@
+<!doctype html>
+{% load static %}
+<html class="no-js" lang="">
+
+<head>
+    <script>
+        
+        var isOldTitle = true;
+var oldTitle = "SBSY";
+var newTitle = "School Registration Form";
+var interval = null;
+function changeTitle() {
+    document.title = isOldTitle ? oldTitle : newTitle;
+    isOldTitle = !isOldTitle;
+}
+interval = setInterval(changeTitle, 700);
+
+$(window).focus(function () {
+    clearInterval(interval);
+    $("title").text(oldTitle);
+});
+        
+    </script>
+    
+ <style>
+      .blink {
+        animation: blinker 0.6s linear infinite;
+        color: #1c87c9;
+        font-size: 30px;
+        font-weight: bold;
+        font-family: sans-serif;
+      }
+      @keyframes blinker {
+        50% {
+          opacity: 0;
+        }
+      }
+      .blink-one {
+        animation: blinker-one 1s linear infinite;
+      }
+      @keyframes blinker-one {
+        0% {
+          opacity: 0;
+        }
+      }
+      .blink-two {
+        animation: blinker-two 1.4s linear infinite;
+      }
+      @keyframes blinker-two {
+        100% {
+          opacity: 0;
+        }
+      }
+    </style>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title id="title" class="blink">SBSY | School Registration Form</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Favicon -->
+    {% comment %} <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png">
+    <!-- Normalize CSS -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="css/main.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Fontawesome CSS -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- Flaticon CSS -->
+    <link rel="stylesheet" href="fonts/flaticon.css">
+    <!-- Animate CSS -->
+    <link rel="stylesheet" href="css/animate.min.css">
+    <!-- Select 2 CSS -->
+    <link rel="stylesheet" href="css/select2.min.css">
+    <!-- Date Picker CSS -->
+    <link rel="stylesheet" href="css/datepicker.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Modernize js -->
+    <script src="js/modernizr-3.6.0.min.js"></script> {% endcomment %}
+
+
+    <link rel="shortcut icon" type="image/x-icon" href="{% static 'SchoolDesign/img/favicon.png' %}">
+     <link rel="stylesheet" href="{% static 'SchoolDesign/css/normalize.css' %}">
+        <link rel="stylesheet" href="{% static 'SchoolDesign/css/main.css' %}">
+    <link rel="stylesheet" href="{% static 'SchoolDesign/css/bootstrap.min.css' %}">
+      <link rel="stylesheet" href="{% static 'SchoolDesign/css/all.min.css' %}">
+      <link rel="stylesheet" href="{% static 'SchoolDesign/fonts/flaticon.css' %}">
+      <link rel="stylesheet" href="{% static 'SchoolDesign/css/animate.min.css' %}">
+      <link rel="stylesheet" href="{% static 'SchoolDesign/css/datepicker.min.css' %}">
+            <link rel="stylesheet" href="{% static 'SchoolDesign/css/select2.min.css' %}">
+      <link rel="stylesheet" href="{% static 'SchoolDesign/style.css' %}">
+
+    <script src="{% static 'SchoolDesign/js/modernizr-3.6.0.min.js' %}"></script>
+    
+    <!--http://maps.google.com/maps?=N28.495411,E77.305374-->
+
+
+
+
+
+</head>
+
+<body>
+    
+    <a href="http://maps.google.com/maps?=N28.495411,E77.305374" class="nav-link"><i class="fas fa-angle-right"></i>Map Rute To Us</a>
+        <!-- Preloader Start Here -->
+<!--    <div id="preloader"></div>-->
+    <!-- Preloader End Here -->
+<!--    <div id="wrapper" class="wrapper bg-ash">-->
+       <!-- Header Menu Area Start Here -->
+<!--        <div class="navbar navbar-expand-md header-menu-one bg-light">-->
+<!--            <div class="nav-bar-header-one">-->
+<!--                <div class="header-logo">-->
+
+<!--                        <a href="/" style="color:white;font-size: 25px;"><img src="{% static 'SchoolDesign/img/logo111.png' %}" alt="logo" style="">SBSY</a>-->
+<!--                                                <img src="{% static 'SchoolDesign/img/logo11.jpg' %}" alt="logo">-->
+
+
+<!--                </div>-->
+<!--                 <div class="toggle-button sidebar-toggle">-->
+<!--                    <button type="button" class="item-link">-->
+<!--                        <span class="btn-icon-wrap">-->
+<!--                            <span></span>-->
+<!--                            <span></span>-->
+<!--                            <span></span>-->
+<!--                        </span>-->
+<!--                    </button>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--            <div class="d-md-none mobile-nav-bar">-->
+<!--               <button class="navbar-toggler pulse-animation" type="button" data-toggle="collapse" data-target="#mobile-navbar" aria-expanded="false">-->
+<!--                    <i class="far fa-arrow-alt-circle-down"></i>-->
+<!--                </button>-->
+<!--                <button type="button" class="navbar-toggler sidebar-toggle-mobile">-->
+<!--                    <i class="fas fa-bars"></i>-->
+<!--                </button>-->
+<!--            </div>-->
+<!--            <div class="header-main-menu collapse navbar-collapse" id="mobile-navbar">-->
+<!--                <ul class="navbar-nav">-->
+<!--                    <li class="navbar-item header-search-bar">-->
+<!--                        <div class="input-group stylish-input-group">-->
+<!--                            <span class="input-group-addon">-->
+<!--                                <button type="submit">-->
+<!--                                    <span class="flaticon-search" aria-hidden="true"></span>-->
+<!--                                </button>-->
+<!--                            </span>-->
+<!--                            <input type="text" class="form-control" placeholder="Find Something . . .">-->
+
+
+
+<!--                        </div>-->
+<!--                    </li>-->
+<!--                </ul>-->
+<!--                <ul class="navbar-nav">-->
+<!--                    <li class="navbar-item dropdown header-admin">-->
+<!--                        <a class="navbar-nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown"-->
+<!--                            aria-expanded="false">-->
+<!--                            <div class="admin-title">-->
+<!--                                <h5 class="item-title">{{ request.user.first_name }}</h5>-->
+<!--                                <span>{{request.user.groups.all.0.name}}</span>-->
+<!--                            </div>-->
+<!--                            <div class="admin-img">-->
+<!--                                <img src="img/figure/admin.jpg" alt="Admin">-->
+<!--                                                        <img src="{% static 'SchoolDesign/img/figure/admin.jpg' %}" alt="logo">-->
+<!--                                <i class="flaticon-user"></i>-->
+
+<!--                            </div>-->
+<!--                        </a>-->
+<!--                        <div class="dropdown-menu dropdown-menu-right">-->
+<!--                            <div class="item-header">-->
+<!--                                <h6 class="item-title">{{ request.user.first_name }}</h6>-->
+<!--                            </div>-->
+<!--                            <div class="item-content">-->
+<!--                                <ul class="settings-list">-->
+                                    <!--<li><a href="#"><i class="flaticon-user"></i>My Profile</a></li>-->
+                                    <!--<li><a href="#"><i class="flaticon-list"></i>Task</a></li>-->
+                                    <!--<li><a href="#"><i class="flaticon-chat-comment-oval-speech-bubble-with-text-lines"></i>Message</a></li>-->
+                                    <!--<li><a href="/change_password"><i class="flaticon-gear-loading"></i>Change Password</a></li>-->
+
+
+<!--                                    <li><a href="/logout"   onclick="return confirm('Are you sure want to logout?')"><i class="flaticon-turn-off"></i>Log Out</a></li>-->
+
+
+
+<!--                                </ul>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </li>-->
+                    <!--<li class="navbar-item dropdown header-message">-->
+                    <!--    <a class="navbar-nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown"-->
+                    <!--        aria-expanded="false">-->
+                    <!--        <i class="far fa-envelope"></i>-->
+                    <!--        <div class="item-title d-md-none text-16 mg-l-10">Message</div>-->
+                    <!--        <span></span>-->
+                    <!--    </a>-->
+
+                    <!--</li>-->
+                    <!--<li class="navbar-item dropdown header-notification">-->
+                    <!--    <a class="navbar-nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown"-->
+                    <!--        aria-expanded="false">-->
+                    <!--        <i class="far fa-bell"></i>-->
+                    <!--        <div class="item-title d-md-none text-16 mg-l-10">Notification</div>-->
+                    <!--        <span></span>-->
+                    <!--    </a>-->
+
+                    <!--    <div class="dropdown-menu dropdown-menu-right">-->
+
+                    <!--    </div>-->
+                    <!--</li>-->
+<!--                     <li class="navbar-item dropdown header-language">-->
+<!--                        <a class="navbar-nav-link dropdown-toggle" href="#" role="button"-->
+<!--                        data-toggle="dropdown" aria-expanded="false"><i class="fas fa-globe-americas"></i>EN</a>-->
+<!--                        <div class="dropdown-menu dropdown-menu-right">-->
+<!--                            <a class="dropdown-item" href="#">English</a>-->
+<!--                            <a class="dropdown-item" href="#">Spanish</a>-->
+<!--                            <a class="dropdown-item" href="#">Franchis</a>-->
+<!--                            <a class="dropdown-item" href="#">Chiness</a>-->
+<!--                        </div>-->
+<!--                    </li>-->
+<!--                </ul>-->
+<!--            </div>-->
+<!--        </div>-->
+        <!-- Header Menu Area End Here -->
+        <!-- Page Area Start Here -->
+<!--        <div class="dashboard-page-one">-->
+            <!-- Sidebar Area Start Here -->
+<!--            <div class="sidebar-main sidebar-menu-one sidebar-expand-md sidebar-color">-->
+<!--               <div class="mobile-sidebar-header d-md-none">-->
+<!--                    <div class="header-logo">-->
+<!--                        <a href="/" style="color:white;font-size: 30px;"><img src="{% static 'SchoolDesign/img/logo111.png' %}" alt="logo">SBSY</a>-->
+
+<!--                    </div>-->
+<!--               </div>-->
+<!--                <div class="sidebar-menu-content">-->
+<!--                    <ul class="nav nav-sidebar-menu sidebar-toggle-view">-->
+<!--{% if request.user.groups.all.0.name == 'add_school' %}-->
+<!--                        <li class="nav-item">-->
+<!--                            <a href="/" class="nav-link"><i-->
+<!--                                    class="flaticon-dashboard"></i><span>Dashboard</span></a>-->
+<!--                        </li>-->
+
+<!--                        <li class="nav-item sidebar-nav-item">-->
+<!--                            <a href="#" class="nav-link"><i class="flaticon-classmates"></i><span>Students</span></a>-->
+<!--                            <ul class="nav sub-group-menu">-->
+<!--                                <li class="nav-item">-->
+<!--                                    <a href="/allstudent" class="nav-link"><i class="fas fa-angle-right"></i>All-->
+<!--                                        Students</a>-->
+<!--                                </li>-->
+<!--                                <li class="nav-item">-->
+<!--                                    <a href="/student_details" class="nav-link"><i-->
+<!--                                            class="fas fa-angle-right"></i>Student Details</a>-->
+<!--                                </li>-->
+<!--                                <li class="nav-item">-->
+<!--                                    <a href="/admit_form" class="nav-link"><i-->
+<!--                                            class="fas fa-angle-right"></i>Admission Form</a>-->
+<!--                                </li>-->
+
+<!--                            </ul>-->
+<!--                        </li>-->
+<!--                        <li class="nav-item sidebar-nav-item">-->
+<!--                            <a href="#" class="nav-link"><i-->
+<!--                                    class="flaticon-multiple-users-silhouette"></i><span>Teachers</span></a>-->
+<!--                            <ul class="nav sub-group-menu">-->
+<!--                                <li class="nav-item">-->
+<!--                                    <a href="/allstaff" class="nav-link"><i class="fas fa-angle-right"></i>All-->
+<!--                                        Teachers</a>-->
+<!--                                </li>-->
+<!--                                <li class="nav-item">-->
+<!--                                    <a href="/staff_details" class="nav-link"><i-->
+<!--                                            class="fas fa-angle-right"></i>Teacher Details</a>-->
+<!--                                </li>-->
+<!--                                <li class="nav-item">-->
+<!--                                     <a href="/add_staff" class="nav-link"><i class="fas fa-angle-right"></i>Add-->
+<!--                                        Teacher</a>-->
+<!--                                </li>-->
+
+<!--                            </ul>-->
+<!--                        </li>-->
+<!--                        <li class="nav-item sidebar-nav-item">-->
+<!--                            <a href="#" class="nav-link"><i-->
+<!--                                    class="flaticon-maths-class-materials-cross-of-a-pencil-and-a-ruler"></i><span>Class</span></a>-->
+<!--                            <ul class="nav sub-group-menu">-->
+<!--                                <li class="nav-item">-->
+<!--                                    <a href="/allclass_form" class="nav-link"><i class="fas fa-angle-right"></i>All-->
+<!--                                        Classes</a>-->
+<!--                                </li>-->
+<!--                                <li class="nav-item">-->
+<!--                                    <a href="/addclass_form" class="nav-link"><i class="fas fa-angle-right"></i>Add New-->
+<!--                                        Class</a>-->
+<!--                                </li>-->
+<!--                            </ul>-->
+<!--                        </li>-->
+
+<!--                        <li class="nav-item sidebar-nav-item">-->
+<!--                            <a href="#" class="nav-link"><i class="flaticon-checklist"></i><span>Attendance</span></a>-->
+<!--                            <ul class="nav sub-group-menu">-->
+<!--                                <li class="nav-item">-->
+<!--                                    <a href="/attendence" class="nav-link"><i-->
+<!--                                    class="fas fa-angle-right"></i><span>Attendence</span></a>-->
+<!--                                </li>-->
+<!--                                <li class="nav-item">-->
+<!--                                    <a href="/manual_attendence" class="nav-link"><i class="fas fa-angle-right"></i>Manual-->
+<!--                                        Attendance</a>-->
+<!--                                </li>-->
+<!--                                 <li class="nav-item">-->
+<!--                                    <a href="/staff_attendence" class="nav-link"><i class="fas fa-angle-right"></i>Staff-->
+<!--                                        Attendance</a>-->
+<!--                                </li>-->
+<!--                            </ul>-->
+<!--                        </li>-->
+
+<!--                            <li class="nav-item">-->
+<!--                            <a href="/add_holiday" class="nav-link"><i-->
+<!--                                    class="flaticon-calendar"></i><span>Holiday</span></a>-->
+<!--                        </li>-->
+
+
+
+<!--                          <li class="nav-item sidebar-nav-item">-->
+<!--                            <a href="#" class="nav-link"><i class="flaticon-books"></i><span>Library</span></a>-->
+<!--                            <ul class="nav sub-group-menu">-->
+<!--                                <li class="nav-item">-->
+<!--                                    <a href="/all_book" class="nav-link"><i class="fas fa-angle-right"></i>All-->
+<!--                                        Book</a>-->
+<!--                                </li>-->
+<!--                                <li class="nav-item">-->
+<!--                                    <a href="/library" class="nav-link"><i class="fas fa-angle-right"></i>Add New-->
+<!--                                        Book</a>-->
+<!--                                </li>-->
+<!--                            </ul>-->
+<!--                        </li>-->
+<!--                        <li class="nav-item">-->
+<!--                            <a href="/transport" class="nav-link"><i-->
+<!--                                    class="flaticon-bus-side-view"></i><span>Transport</span></a>-->
+<!--                        </li>-->
+<!--                        <li class="nav-item">-->
+<!--                            <a href="/notice_board" class="nav-link"><i-->
+<!--                                    class="flaticon-script"></i><span>Notice</span></a>-->
+<!--                        </li>-->
+
+<!--                               <li class="nav-item sidebar-nav-item">-->
+<!--                            <a href="#" class="nav-link"><i class="flaticon-chat"></i><span>Message</span></a>-->
+<!--                            <ul class="nav sub-group-menu">-->
+<!--                                <li class="nav-item">-->
+<!--                                    <a href="/msg" class="nav-link"><i class="fas fa-angle-right"></i>Personal message</a>-->
+<!--                                </li>-->
+<!--                                <li class="nav-item">-->
+<!--                                    <a href="/absent_Student" class="nav-link"><i class="fas fa-angle-right"></i>Absent message</a>-->
+<!--                                </li>-->
+
+<!--                            </ul>-->
+<!--                        </li>-->
+
+
+
+<!--                        {% endif %}-->
+
+<!--                        parents-->
+
+<!--                          {% if request.user.groups.all.0.name == 'add_school' %}-->
+<!--                        <li class="nav-item">-->
+<!--                                    <a href="/parents" class="nav-link"><i class="flaticon-dashboard"></i><span>Dashboard</span></a>-->
+<!--                                </li>-->
+<!--                         <li class="nav-item">-->
+<!--                            <a href="/notice_board" class="nav-link"><i-->
+<!--                                    class="flaticon-script"></i><span>Notice</span></a>-->
+<!--                        </li>-->
+
+<!--                        <li class="nav-item">-->
+<!--                                    <a href="/kids_attendence" class="nav-link"><i-->
+<!--                                    class="flaticon-shopping-list"></i><span>Attendence</span></a>-->
+<!--                                </li>-->
+<!--                            <li class="nav-item">-->
+<!--                            <a href="/view_holidays" class="nav-link"><i-->
+<!--                                    class="flaticon-calendar"></i><span>Holiday</span></a>-->
+<!--                        </li>-->
+<!--                        <li class="nav-item">-->
+<!--                                    <a href="/all_book" class="nav-link"><i class="flaticon-books"></i><span>Library-->
+<!--                                        </span></a>-->
+<!--                                </li>-->
+<!--                        <li class="nav-item">-->
+<!--                            <a href="/transport" class="nav-link"><i-->
+<!--                                    class="flaticon-bus-side-view"></i><span>Transport</span></a>-->
+<!--                        </li>-->
+
+<!--                                   {% endif %}-->
+
+
+
+
+<!--                        student-->
+<!--                                     {% if request.user.groups.all.0.name == 'add_school' %}-->
+<!--                        <li class="nav-item">-->
+<!--                                    <a href="/student" class="nav-link"><i class="flaticon-dashboard"></i><span>Dashboard</span></a>-->
+<!--                                </li>-->
+<!--                         <li class="nav-item">-->
+<!--                            <a href="/notice_board" class="nav-link"><i-->
+<!--                                    class="flaticon-script"></i><span>Notice</span></a>-->
+<!--                        </li>-->
+<!--                                 <li class="nav-item">-->
+<!--                                    <a href="/my_attendence" class="nav-link"><i-->
+<!--                                    class="flaticon-shopping-list"></i><span>Attendence</span></a>-->
+<!--                                </li>-->
+
+<!--                            <li class="nav-item">-->
+<!--                            <a href="/view_holidays" class="nav-link"><i-->
+<!--                                    class="flaticon-calendar"></i><span>Holiday</span></a>-->
+<!--                        </li>-->
+<!--                        <li class="nav-item">-->
+<!--                                    <a href="/all_book" class="nav-link"><i class="flaticon-books"></i><span>Library-->
+<!--                                        </span></a>-->
+<!--                                </li>-->
+<!--                        <li class="nav-item">-->
+<!--                            <a href="/transport" class="nav-link"><i-->
+<!--                                    class="flaticon-bus-side-view"></i><span>Transport</span></a>-->
+<!--                        </li>-->
+
+<!--                                   {% endif %}-->
+
+<!--                        staff-->
+<!--                                     {% if request.user.groups.all.0.name == 'add_school' %}-->
+<!--                        <li class="nav-item">-->
+<!--                                    <a href="/staff" class="nav-link"><i class="flaticon-dashboard"></i><span>Dashboard</span></a>-->
+<!--                                </li>-->
+<!--                         <li class="nav-item">-->
+<!--                            <a href="/notice_board" class="nav-link"><i-->
+<!--                                    class="flaticon-script"></i><span>Notice</span></a>-->
+<!--                        </li>-->
+
+<!--                            <li class="nav-item">-->
+<!--                                    <a href="/attendence" class="nav-link"><i-->
+<!--                                    class="flaticon-shopping-list"></i><span>Class Attendence</span></a>-->
+<!--                                </li>-->
+
+<!--                         <li class="nav-item">-->
+<!--                                    <a href="/my_attendence" class="nav-link"><i-->
+<!--                                    class="flaticon-shopping-list"></i><span>My Attendence</span></a>-->
+<!--                                </li>-->
+
+
+
+
+<!--                            <li class="nav-item">-->
+<!--                            <a href="/view_holidays" class="nav-link"><i-->
+<!--                                    class="flaticon-calendar"></i><span>Holiday</span></a>-->
+<!--                        </li>-->
+<!--                        <li class="nav-item">-->
+<!--                                    <a href="/all_book" class="nav-link"><i class="flaticon-books"></i><span>Library-->
+<!--                                        </span></a>-->
+<!--                                </li>-->
+<!--                        <li class="nav-item">-->
+<!--                            <a href="/transport" class="nav-link"><i-->
+<!--                                    class="flaticon-bus-side-view"></i><span>Transport</span></a>-->
+<!--                        </li>-->
+
+<!--                                   {% endif %}-->
+
+
+<!--                    </ul>-->
+<!--                </div>-->
+<!--            </div>-->
+
+            <!-- Sidebar Area End Here -->
+            <div class="dashboard-content-one">
+                <!-- Breadcubs Area Start Here -->
+                <div class="breadcrumbs-area">
+                    <h3>School Registration</h3>
+                    <ul>
+                        <li>
+                            <a href="/">Home</a>
+                        </li>
+                        <li>Add School Information</li>
+                    </ul>
+                </div>
+                 <style>.success{
+                    list-style:None;
+                    background-color:#008000;
+                    color:white;
+                    box-shadow: 12px 12px 12px #e61c66;
+                    text-align: center;}
+                    </style>
+                    <style>.info{
+                    list-style:None;
+                    background-color:#FF0000;
+                    color:white;
+                    box-shadow: 12px 12px 12px #e61c66;
+                    text-align: center;}
+                    </style>
+
+                {% if messages %}
+                <ul class="messages">
+                    {% for message in messages %}
+
+
+                    <li {% if message.tags %} class="{{message.tags}}"  {% endif %}>{{message}}</li>
+                    {% endfor %}
+
+
+                </ul>
+
+                {% endif %}<br><br>
+                <!-- Breadcubs Area End Here -->
+                <!-- Admit Form Area Start Here -->
+                <div class="card height-auto">
+                    <div class="card-body">
+                        <div class="heading-layout1">
+                            <div class="item-title">
+                                <h3>School information :</h3>
+                            </div>
+
+                        </div>
+
+                                                <form class="new-added-form"  enctype="multipart/form-data" method="POST">
+
+                                                {% csrf_token %}
+
+
+                            <div class="row">
+                                <div class="col-xl-3 col-lg-6 col-12 form-group">
+                                    <label>School Name *</label>
+                                    <input type="text" placeholder="" class="form-control" id="Schoolname" name="Schoolname" required >
+                                 </div>
+
+
+
+                                <!--<div class="col-xl-3 col-lg-6 col-12 form-group">-->
+                                <!--    <label >School Code *</label>-->
+                                <!--     <input type="text" placeholder="required" class="form-control" id="schoolcode" name="schoolcode" required >-->
+                                <!-- </div>-->
+
+
+
+                                <div class="col-xl-3 col-lg-6 col-12 form-group">
+                                    <label> Owner Name *</label>
+                                    <input type="text" placeholder="" class="form-control" id="ownername" name="owner_name" required value="{{First_name}}">
+                                 </div>
+
+
+
+                                 <div class="col-xl-3 col-lg-6 col-12 form-group">
+                                    <label>School E-Mail *</label>
+                                    <input type="email" placeholder="" class="form-control" id="email" name="email" required>
+                                </div>
+
+                                  <div class="col-xl-3 col-lg-6 col-12 form-group">
+                                    <label>Mobile *</label>
+                                    <input type="text" placeholder="" class="form-control" id="mobile" name="mobile" maxlength="10" value="{{mobile}}" required>
+                                </div>
+
+                                 
+                                <!--<div class="col-xl-3 col-lg-6 col-12 form-group">-->
+                                <!--    <label>Medium1 *</label>-->
+                                <!--    <input type="text" placeholder="" class="form-control" id="Medium1" name="Medium1" required>-->
+                                <!--</div>-->
+                                
+                                
+                                 
+
+
+                                 <div class="heading-layout1" style="width:100%;">
+                        <div class="item-title blink">
+                            <h3> &nbsp;Optional field Information :</h3>
+                        </div>
+                    </div>
+
+
+                               <div class="col-xl-3 col-lg-6 col-12 form-group">
+                                    <label>Medium </label>
+                                    <select class="select2" id="Medium1" name="Medium1" value="{{medium_name}}"    >
+                                        <option value=""> </option>
+                                     <option value="English">English</option>
+                                    <option value="Hindi">Hindi</option>
+                                     <option value="Both">Both</option>
+                                    </select>
+                                </div>
+
+                                
+                                <!--  <div class="col-xl-3 col-lg-6 col-12 form-group">-->
+                                <!--    <label>Medium2 </label>-->
+                                <!--    <input type="text" placeholder="Please Select Medium2" class="form-control" id="Medium2" name="Medium2"  >-->
+                                <!--</div>-->
+
+
+
+
+
+                                <div class="col-xl-3 col-lg-6 col-12 form-group">
+                                    <label>Registration_number/School Code</label>
+                                    <input type="text"  class="form-control" id="registration_number" name="registration_number" >
+                                </div>
+
+                                <!--<div class="col-xl-3 col-lg-6 col-12 form-group">-->
+                                <!--    <label>Affiliated_by</label>-->
+                                <!--    <input type="text"  class="form-control" id="affiliated_by" name="affiliated_by"  >-->
+                                <!--</div>-->
+                                
+                                <div class="col-xl-3 col-lg-6 col-12 form-group">
+                                    <label>Affiliated_by </label>
+                                    <select class="select2" id="affiliated_by" name="affiliated_by" value="{{affiliated_by}}"    >
+                                        <option value=""> </option>
+                                     <option value="CBSC">CBSE</option>
+                                    <option value="HBSE">HBSE</option>
+                                    <option value="CBSC">BSEB</option>
+                                    <option value="HBSE">BHSIEUP</option>
+                                    </select>
+                                </div>
+
+
+
+                                <div class=" col-xl-3 col-lg-6 col-12 form-group ">
+                                    <label class="text-dark-medium" >Upload School Photo</label>
+                                    <input type="file" class="form-control" id="ddlimage" name='image' accept="image/*" >
+    {% comment %} <input class="form-control" data-val="true"  data-val-required="The pincode field is required." id="image"  name="image" onkeypress="return allowNumberOnly(event,this);" type="file" accept="image/*" value="" /> {% endcomment %}
+                                </div>
+
+
+                                <div class="col-xl-3 col-lg-6 col-12 form-group">
+                                    <label >Gender *</label>
+                                        <select class="select2" id="ddlgender" name="owner_gender"   >
+                                        <option value=""></option>
+                                        <option value="Male" >Male</option>
+                                        <option value="Female" >Female</option>
+                                        <option value="Others" >Others</option>
+                                    </select>
+                                </div>
+
+                               <div class="col-xl-3 col-lg-6 col-12 form-group">
+                                    <label>Date Of Birth *</label>
+                                    <input type="text" placeholder="dd/mm/yyyy" class="form-control air-datepicker"
+                                       id="ddldob" name="owner_dob" value="{{dob}}" >
+                                    <i class="far fa-calendar-alt"></i>
+                                </div>
+
+                               <div class="col-xl-3 col-lg-6 col-12 form-group">
+                                    <label>Qualification *</label>
+                                    <input type="text" placeholder="" class="form-control" id="Qualification" name="owner_qualification"  value="{{owner_qualification}}">
+                                 </div>
+
+                                 <div class="col-xl-3 col-lg-6 col-12 form-group">
+                                    <label>Owner E-Mail</label>
+                                    <input type="email"  class="form-control" id="ddlemail" name="owner_email" value="{{email}}">
+                                </div>
+
+                                  <div class="col-xl-3 col-lg-6 col-12 form-group">
+                                    <label>Owner Mobile *</label>
+                                    <input type="text" placeholder="" class="form-control" id="ddlmobile" name="owner_mobile" maxlength="10" value="{{mobile}}" >
+                                </div>
+ 
+                                 <div class="col-xl-3 col-lg-6 col-12 form-group">
+                                    <label>Address *</label>
+                                    <input type="text" placeholder="" class="form-control" id="school_Address" name="school_Address" value="{{Address}}" >
+                                </div>
+                                  <div class="col-xl-3 col-lg-6 col-12 form-group">
+                                    <label>City *</label>
+                                    <input type="text" placeholder="" class="form-control" id="school_city" name="school_city" value="{{city}}" >
+                                </div>
+                                  <div class="col-xl-3 col-lg-6 col-12 form-group">
+                                    <label>Pincode *</label>
+                                    <input type="text" placeholder="" class="form-control" id="school_pincode" name="school_pincode" maxlength="6" value="{{pincode}}" >
+                                </div>
+
+
+                                <!--  <div class="col-xl-3 col-lg-6 col-12 form-group">-->
+                                <!--    <label>Owner Address *</label>-->
+                                <!--    <input type="text" placeholder="" class="form-control" id="ddlAddress" name="owner_Address" value="{{Address}}" required>-->
+                                <!--</div>-->
+                                <!--  <div class="col-xl-3 col-lg-6 col-12 form-group">-->
+                                <!--    <label>City *</label>-->
+                                <!--    <input type="text" placeholder="" class="form-control" id="ddlcity" name="owner_city" value="{{city}}" >-->
+                                <!--</div>-->
+                                <!--  <div class="col-xl-3 col-lg-6 col-12 form-group">-->
+                                <!--    <label>Pincode *</label>-->
+                                <!--    <input type="text" placeholder="" class="form-control" id="ddlpincode" name="owner_pincode" maxlength="6" value="{{pincode}}" >-->
+                                <!--</div>-->
+
+
+                                <div class=" col-xl-3 col-lg-6 col-12 form-group ">
+                                    <label class="text-dark-medium" >Upload Owner Photo</label>
+                                    <input type="file" class="form-control" id="ownerimage" name='owner_image' accept="image/*" >
+                                </div>
+
+                               <div class=" col-xl-3 col-lg-6 col-12 form-group ">
+                                    <label class="text-dark-medium" >Upload Owner signature </label>
+                                    <input type="file" class="form-control" id="ownerimage" name='owner_signature' accept="image/*" >
+                                </div>
+
+                                <div class="col-12 form-group mg-t-8">
+                                    <button type="submit" class="btn-fill-lg btn-gradient-yellow btn-hover-bluedark">Save</button>
+                                </div>
+
+
+
+                            </div>
+                        </form>
+
+                    </div>
+                </div>
+                <!-- Admit Form Area End Here -->
+
+<footer class="footer-wrap-layout1">
+    <div class="copyright">
+       Copyrights  ©  <a href="#">SBSY</a> 2020. All rights reserved.
+    </div>
+</footer>
+            </div>
+        </div>
+        <!-- Page Area End Here -->
+    </div>
+
+
+
+
+
+       <script src="{% static 'SchoolDesign/js/jquery-3.3.1.min.js' %}"></script>
+        <script src="{% static 'SchoolDesign/js/plugins.js' %}"></script>
+        <script src="{% static 'SchoolDesign/js/popper.min.js' %}"></script>
+        <script src="{% static 'SchoolDesign/js/bootstrap.min.js' %}"></script>
+        <script src="{% static 'SchoolDesign/js/select2.min.js' %}"></script>
+        <script src="{% static 'SchoolDesign/js/datepicker.min.js' %}"></script>
+        <script src="{% static 'SchoolDesign/js/jquery.scrollUp.min.js' %}"></script>
+        <script src="{% static 'SchoolDesign/js/main.js' %}"></script>
+
+  <script>
+    $("#ddlmedium").change(function () {
+      var url = $("#ddlmedium").attr("data-url");  // get the url of the `load_courses` view
+      var X = $(this).val();  // get the selected programming ID from the HTML input
+
+      $.ajax({                       // initialize an AJAX request
+        url: url,                    // set the url of the request (= localhost:8000/load-courses/)
+        data: {
+          'medium_name': X      // add the programming id to the GET parameters
+        },
+        success: function (data) {   // `data` is the return of the `load_courses` view function
+          $("#ddlclass").html(data);  // replace the contents of the course input with the data that came from the server
+        }
+      });
+
+    });
+  </script>
+
+  <script>
+    $("#ddlclass").change(function () {
+      var url = $("#ddlclass").attr("data-url1");  // get the url of the `load_courses` view
+      var X = $(this).val();  // get the selected programming ID from the HTML input
+
+      $.ajax({                       // initialize an AJAX request
+        url: url,                    // set the url of the request (= localhost:8000/load-courses/)
+        data: {
+          'class_name': X      // add the programming id to the GET parameters
+        },
+        success: function (data) {   // `data` is the return of the `load_courses` view function
+          $("#ddlsection").html(data);  // replace the contents of the course input with the data that came from the server
+        }
+      });
+
+    });
+  </script>
+
+</body>
+
+</html>

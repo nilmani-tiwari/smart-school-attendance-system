@@ -1,0 +1,666 @@
+<!doctype html>
+<html class="no-js" lang="">
+ <meta http-equiv="pragma" content="no-cache" />
+{% load static %}
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>SBSY |  Attendence</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="shortcut icon" type="image/x-icon" href="{% static 'SchoolDesign/img/favicon.png' %}">
+     <link rel="stylesheet" href="{% static 'SchoolDesign/css/normalize.css' %}">
+        <link rel="stylesheet" href="{% static 'SchoolDesign/css/main.css' %}">
+    <link rel="stylesheet" href="{% static 'SchoolDesign/css/bootstrap.min.css' %}">
+      <link rel="stylesheet" href="{% static 'SchoolDesign/css/all.min.css' %}">
+      <link rel="stylesheet" href="{% static 'SchoolDesign/fonts/flaticon.css' %}">
+      <link rel="stylesheet" href="{% static 'SchoolDesign/css/animate.min.css' %}">
+      <link rel="stylesheet" href="{% static 'SchoolDesign/css/select2.min.css' %}">
+      <link rel="stylesheet" href="{% static 'SchoolDesign/style.css' %}">
+
+
+    <script src="{% static 'SchoolDesign/js/modernizr-3.6.0.min.js' %}"></script>
+
+<style>
+.dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #F0E68C;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+</style>
+
+
+
+</head>
+
+<body>
+   <!-- Preloader Start Here -->
+    <div id="preloader"></div>
+    <!-- Preloader End Here -->
+    <div id="wrapper" class="wrapper bg-ash">
+       <!-- Header Menu Area Start Here -->
+        <div class="navbar navbar-expand-md header-menu-one bg-light">
+            <div class="nav-bar-header-one">
+                <div class="header-logo">
+
+                        <a href="/" style="color:white;font-size: 25px;"><img src="{% static 'SchoolDesign/img/logo111.png' %}" alt="logo" style="">SBSY</a>
+<!--                                                <img src="{% static 'SchoolDesign/img/logo11.jpg' %}" alt="logo">-->
+
+
+                </div>
+                 <div class="toggle-button sidebar-toggle">
+                    <button type="button" class="item-link">
+                        <span class="btn-icon-wrap">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </span>
+                    </button>
+                </div>
+            </div>
+            <div class="d-md-none mobile-nav-bar">
+               <button class="navbar-toggler pulse-animation" type="button" data-toggle="collapse" data-target="#mobile-navbar" aria-expanded="false">
+                    <i class="far fa-arrow-alt-circle-down"></i>
+                </button>
+                <button type="button" class="navbar-toggler sidebar-toggle-mobile">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+            <div class="header-main-menu collapse navbar-collapse" id="mobile-navbar">
+                <ul class="navbar-nav">
+                    <li class="navbar-item header-search-bar">
+                        <div class="input-group stylish-input-group">
+                            <span class="input-group-addon">
+                                <button type="submit">
+                                    <span class="flaticon-search" aria-hidden="true"></span>
+                                </button>
+                            </span>
+                            <input type="text" class="form-control" placeholder="Find Something . . .">
+
+
+
+                        </div>
+                    </li>
+                </ul>
+                <ul class="navbar-nav">
+                    <li class="navbar-item dropdown header-admin">
+                        <a class="navbar-nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown"
+                            aria-expanded="false">
+                            <div class="admin-title">
+                                <h5 class="item-title">{{ request.user.first_name }}</h5>
+                                <span>{{request.user.groups.all.0.name}}</span>
+                            </div>
+                            <div class="admin-img">
+<!--                                <img src="img/figure/admin.jpg" alt="Admin">-->
+<!--                                                        <img src="{% static 'SchoolDesign/img/figure/admin.jpg' %}" alt="logo">-->
+                                <i class="flaticon-user"></i>
+
+                            </div>
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-right">
+                            <div class="item-header">
+                                <h6 class="item-title">{{ request.user.first_name }}</h6>
+                            </div>
+                            <div class="item-content">
+                                <ul class="settings-list">
+                                    <li><a href="#"><i class="flaticon-user"></i>My Profile</a></li>
+                                    <li><a href="#"><i class="flaticon-list"></i>Task</a></li>
+                                    <li><a href="#"><i class="flaticon-chat-comment-oval-speech-bubble-with-text-lines"></i>Message</a></li>
+                                    <li><a href="/change_password"><i class="flaticon-gear-loading"></i>Change Password</a></li>
+
+
+                                    <li><a href="/logout"   onclick="return confirm('Are you sure want to logout?')"><i class="flaticon-turn-off"></i>Log Out</a></li>
+
+
+
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="navbar-item dropdown header-message">
+                        <a class="navbar-nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown"
+                            aria-expanded="false">
+                            <i class="far fa-envelope"></i>
+                            <div class="item-title d-md-none text-16 mg-l-10">Message</div>
+                            <span></span>
+                        </a>
+
+                    </li>
+                    <li class="navbar-item dropdown header-notification">
+                        <a class="navbar-nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown"
+                            aria-expanded="false">
+                            <i class="far fa-bell"></i>
+                            <div class="item-title d-md-none text-16 mg-l-10">Notification</div>
+                            <span></span>
+                        </a>
+
+                        <div class="dropdown-menu dropdown-menu-right">
+
+                        </div>
+                    </li>
+                     <li class="navbar-item dropdown header-language">
+                        <a class="navbar-nav-link dropdown-toggle" href="#" role="button"
+                        data-toggle="dropdown" aria-expanded="false"><i class="fas fa-globe-americas"></i>EN</a>
+                        <div class="dropdown-menu dropdown-menu-right">
+                            <a class="dropdown-item" href="#">English</a>
+<!--                            <a class="dropdown-item" href="#">Spanish</a>-->
+<!--                            <a class="dropdown-item" href="#">Franchis</a>-->
+<!--                            <a class="dropdown-item" href="#">Chiness</a>-->
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- Header Menu Area End Here -->
+        <!-- Page Area Start Here -->
+        <div class="dashboard-page-one">
+            <!-- Sidebar Area Start Here -->
+            <div class="sidebar-main sidebar-menu-one sidebar-expand-md sidebar-color">
+               <div class="mobile-sidebar-header d-md-none">
+                    <div class="header-logo">
+                        <a href="/" style="color:white;font-size: 30px;"><img src="{% static 'SchoolDesign/img/logo111.png' %}" alt="logo">SBSY</a>
+
+                    </div>
+               </div>
+                <div class="sidebar-menu-content">
+                    <ul class="nav nav-sidebar-menu sidebar-toggle-view">
+{% if request.user.groups.all.0.name == 'admin' %}
+                        <li class="nav-item">
+                            <a href="/" class="nav-link"><i
+                                    class="flaticon-dashboard"></i><span>Dashboard</span></a>
+                        </li>
+
+                        <li class="nav-item sidebar-nav-item">
+                            <a href="#" class="nav-link"><i class="flaticon-classmates"></i><span>Students</span></a>
+                            <ul class="nav sub-group-menu">
+                                <li class="nav-item">
+                                    <a href="/allstudent" class="nav-link"><i class="fas fa-angle-right"></i>All
+                                        Students</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="/student_details" class="nav-link"><i
+                                            class="fas fa-angle-right"></i>Student Details</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="/admit_form" class="nav-link"><i
+                                            class="fas fa-angle-right"></i>Admission Form</a>
+                                </li>
+
+                            </ul>
+                        </li>
+                        <li class="nav-item sidebar-nav-item">
+                            <a href="#" class="nav-link"><i
+                                    class="flaticon-multiple-users-silhouette"></i><span>Teachers</span></a>
+                            <ul class="nav sub-group-menu">
+                                <li class="nav-item">
+                                    <a href="/allstaff" class="nav-link"><i class="fas fa-angle-right"></i>All
+                                        Teachers</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="/staff_details" class="nav-link"><i
+                                            class="fas fa-angle-right"></i>Teacher Details</a>
+                                </li>
+                                <li class="nav-item">
+                                     <a href="/add_staff" class="nav-link"><i class="fas fa-angle-right"></i>Add
+                                        Teacher</a>
+                                </li>
+
+                            </ul>
+                        </li>
+                        <li class="nav-item sidebar-nav-item">
+                            <a href="#" class="nav-link"><i
+                                    class="flaticon-maths-class-materials-cross-of-a-pencil-and-a-ruler"></i><span>Class</span></a>
+                            <ul class="nav sub-group-menu">
+                                <li class="nav-item">
+                                    <a href="/allclass_form" class="nav-link"><i class="fas fa-angle-right"></i>All
+                                        Classes</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="/addclass_form" class="nav-link"><i class="fas fa-angle-right"></i>Add New
+                                        Class</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item sidebar-nav-item">
+                            <a href="#" class="nav-link"><i class="flaticon-checklist"></i><span>Attendance</span></a>
+                            <ul class="nav sub-group-menu">
+                                <li class="nav-item">
+                                    <a href="/attendence" class="nav-link"><i
+                                    class="fas fa-angle-right"></i><span>Attendence</span></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="/manual_attendence" class="nav-link"><i class="fas fa-angle-right"></i>Manual
+                                        Attendance</a>
+                                </li>
+                                 <li class="nav-item">
+                                    <a href="/staff_attendence" class="nav-link"><i class="fas fa-angle-right"></i>Staff
+                                        Attendance</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                            <li class="nav-item">
+                            <a href="/add_holiday" class="nav-link"><i
+                                    class="flaticon-calendar"></i><span>Holiday</span></a>
+                        </li>
+
+
+
+                          <li class="nav-item sidebar-nav-item">
+                            <a href="#" class="nav-link"><i class="flaticon-books"></i><span>Library</span></a>
+                            <ul class="nav sub-group-menu">
+                                <li class="nav-item">
+                                    <a href="/all_book" class="nav-link"><i class="fas fa-angle-right"></i>All
+                                        Book</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="/library" class="nav-link"><i class="fas fa-angle-right"></i>Add New
+                                        Book</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a href="/transport" class="nav-link"><i
+                                    class="flaticon-bus-side-view"></i><span>Transport</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="/notice_board" class="nav-link"><i
+                                    class="flaticon-script"></i><span>Notice</span></a>
+                        </li>
+
+                               <li class="nav-item sidebar-nav-item">
+                            <a href="#" class="nav-link"><i class="flaticon-chat"></i><span>Message</span></a>
+                            <ul class="nav sub-group-menu">
+                                <li class="nav-item">
+                                    <a href="/msg" class="nav-link"><i class="fas fa-angle-right"></i>Personal message</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="/absent_Student" class="nav-link"><i class="fas fa-angle-right"></i>Absent message</a>
+                                </li>
+
+                            </ul>
+                        </li>
+
+
+
+                        {% endif %}
+
+<!--                        parents-->
+
+                          {% if request.user.groups.all.0.name == 'parents' %}
+                        <li class="nav-item">
+                                    <a href="/parents" class="nav-link"><i class="flaticon-dashboard"></i><span>Dashboard</span></a>
+                                </li>
+                         <li class="nav-item">
+                            <a href="/notice_board" class="nav-link"><i
+                                    class="flaticon-script"></i><span>Notice</span></a>
+                        </li>
+
+                        <li class="nav-item">
+                                    <a href="/kids_attendence" class="nav-link"><i
+                                    class="flaticon-shopping-list"></i><span>Attendence</span></a>
+                                </li>
+                            <li class="nav-item">
+                            <a href="/view_holidays" class="nav-link"><i
+                                    class="flaticon-calendar"></i><span>Holiday</span></a>
+                        </li>
+                        <li class="nav-item">
+                                    <a href="/all_book" class="nav-link"><i class="flaticon-books"></i><span>Library
+                                        </span></a>
+                                </li>
+                        <li class="nav-item">
+                            <a href="/transport" class="nav-link"><i
+                                    class="flaticon-bus-side-view"></i><span>Transport</span></a>
+                        </li>
+
+                                   {% endif %}
+
+
+
+
+<!--                        student-->
+                                     {% if request.user.groups.all.0.name == 'student' %}
+                        <li class="nav-item">
+                                    <a href="/student" class="nav-link"><i class="flaticon-dashboard"></i><span>Dashboard</span></a>
+                                </li>
+                         <li class="nav-item">
+                            <a href="/notice_board" class="nav-link"><i
+                                    class="flaticon-script"></i><span>Notice</span></a>
+                        </li>
+                                 <li class="nav-item">
+                                    <a href="/my_attendence" class="nav-link"><i
+                                    class="flaticon-shopping-list"></i><span>Attendence</span></a>
+                                </li>
+
+                            <li class="nav-item">
+                            <a href="/view_holidays" class="nav-link"><i
+                                    class="flaticon-calendar"></i><span>Holiday</span></a>
+                        </li>
+                        <li class="nav-item">
+                                    <a href="/all_book" class="nav-link"><i class="flaticon-books"></i><span>Library
+                                        </span></a>
+                                </li>
+                        <li class="nav-item">
+                            <a href="/transport" class="nav-link"><i
+                                    class="flaticon-bus-side-view"></i><span>Transport</span></a>
+                        </li>
+
+                                   {% endif %}
+
+<!--                        staff-->
+                                     {% if request.user.groups.all.0.name == 'staff' %}
+                        <li class="nav-item">
+                                    <a href="/staff" class="nav-link"><i class="flaticon-dashboard"></i><span>Dashboard</span></a>
+                                </li>
+                         <li class="nav-item">
+                            <a href="/notice_board" class="nav-link"><i
+                                    class="flaticon-script"></i><span>Notice</span></a>
+                        </li>
+
+                            <li class="nav-item">
+                                    <a href="/attendence" class="nav-link"><i
+                                    class="flaticon-shopping-list"></i><span>Class Attendence</span></a>
+                                </li>
+
+                         <li class="nav-item">
+                                    <a href="/my_attendence" class="nav-link"><i
+                                    class="flaticon-shopping-list"></i><span>My Attendence</span></a>
+                                </li>
+
+
+
+
+                            <li class="nav-item">
+                            <a href="/view_holidays" class="nav-link"><i
+                                    class="flaticon-calendar"></i><span>Holiday</span></a>
+                        </li>
+                        <li class="nav-item">
+                                    <a href="/all_book" class="nav-link"><i class="flaticon-books"></i><span>Library
+                                        </span></a>
+                                </li>
+                        <li class="nav-item">
+                            <a href="/transport" class="nav-link"><i
+                                    class="flaticon-bus-side-view"></i><span>Transport</span></a>
+                        </li>
+
+                                   {% endif %}
+
+
+                    </ul>
+                </div>
+            </div>
+            <!-- Sidebar Area End Here -->
+            <div class="dashboard-content-one">
+                <!-- Breadcubs Area Start Here -->
+                <div class="breadcrumbs-area">
+
+                    <ul>
+                        <li>
+                            <a href="/">Home</a>
+                        </li>
+                        <li>Attendence</li>
+                    </ul>
+                </div>
+                <!-- Breadcubs Area End Here -->
+                <div class="row">
+                    <!-- Student Attendence Search Area Start Here -->
+                    <div class="col-12">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="heading-layout1">
+                                    <div class="item-title">
+                                        <h3>Attendence</h3>
+                                    </div>
+                                   <div class="dropdown">
+                                        <a class="dropdown-toggle" href="#" role="button"
+                                        data-toggle="dropdown" aria-expanded="false">...</a>
+
+                                        <div class="dropdown-menu dropdown-menu-right">
+                                            <a class="dropdown-item" href="#"><i class="fas fa-times text-orange-red"></i>Close</a>
+                                            <a class="dropdown-item" href="#"><i class="fas fa-cogs text-dark-pastel-green"></i>Edit</a>
+                                            <a class="dropdown-item" href="#"><i class="fas fa-redo-alt text-orange-peel"></i>Refresh</a>
+                                        </div>
+                                    </div>
+                                </div>
+<!--                                <form class="new-added-form">-->
+                                    <form class="new-added-form" method="POST">{% csrf_token %}
+                                    <div class="row">
+
+                                        <div class="col-xl-3 col-lg-6 col-12 form-group">
+
+                                            <select class="select2"  name="month">
+                                                <option value="">Select Month</option>
+                                                <option value="01">January</option>
+                                                <option value="02">February</option>
+                                                <option value="03">March</option>
+                                                <option value="04">April</option>
+                                                <option value="05">May</option>
+                                                <option value="06">June</option>
+                                                <option value="07">July</option>
+                                                <option value="08">August</option>
+                                                <option value="09">September</option>
+                                                <option value="10">October</option>
+                                                <option value="11">November</option>
+                                                <option value="12">December</option>
+                                            </select>
+                                        </div>
+
+
+
+                                         <div class="col-xl-3 col-lg-6 col-12 form-group">
+                                            <button type="submit" class="btn-fill-lg btn-gradient-yellow btn-hover-bluedark">Search</button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Student Attendence Search Area End Here -->
+                    <!-- Student Attendence Area Start Here -->
+                    <div class="col-12">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="heading-layout1">
+                                    <div class="item-title">
+
+                                        <h3>Attendence Sheet Of (Medium:{{medium_name}}, Class:{{class_name}} , Section :{{division_name}}), {{month}} {{year}}</h3>
+
+                                    </div>
+                                   <div class="dropdown">
+                                        <a class="dropdown-toggle" href="#" role="button"
+                                        data-toggle="dropdown" aria-expanded="false">...</a>
+
+                                        <div class="dropdown-menu dropdown-menu-right">
+                                            <a class="dropdown-item" href="#"><i class="fas fa-times text-orange-red"></i>Close</a>
+                                            <a class="dropdown-item" href="#"><i class="fas fa-cogs text-dark-pastel-green"></i>Edit</a>
+                                            <a class="dropdown-item" href="#"><i class="fas fa-redo-alt text-orange-peel"></i>Refresh</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="table-responsive">
+                                    <table class="table bs-table table-striped table-bordered text-nowrap">
+
+                                        <thead>
+ <tr>
+                                                <th class="text-left">Students</th>
+                                                <th>1</th>
+                                                <th>2</th>
+                                                <th>3</th>
+                                                <th>4</th>
+                                                <th>5</th>
+                                                <th>6</th>
+                                                <th>7</th>
+                                                <th>8</th>
+                                                <th>9</th>
+                                                <th>10</th>
+                                                <th>11</th>
+                                                <th>12</th>
+                                                <th>13</th>
+                                                <th>14</th>
+                                                <th>15</th>
+                                                <th>16</th>
+                                                <th>17</th>
+                                                <th>18</th>
+                                                <th>19</th>
+                                                <th>20</th>
+                                                <th>21</th>
+                                                <th>22</th>
+                                                <th>23</th>
+                                                <th>24</th>
+                                                <th>25</th>
+                                                <th>26</th>
+                                                <th>27</th>
+                                                <th>28</th>
+                                                <th>29</th>
+                                                <th>30</th>
+                                                <th>31</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+
+                                        {% for i in data %}
+
+
+                                            <tr>
+
+                                                <td class="text-left">{{i.Full_name}}{{i.staff_First_name}}-{{i.staff_Last_name}}</br>IN:-</br>OUT:-</td>
+                                                <td><i class="{{i.1}}" style="color: #FBB917"><p>{{i.1in}}</p><p>{{i.1out}}{{i.1dy}}</p></i></td>
+                                                <td><i class="{{i.2}}" style="color: #FBB917"><p>{{i.2in}}</p><p>{{i.2out}}{{i.2dy}}</p></i></td>
+                                                <td><i class="{{i.3}}" style="color: #FBB917"><p>{{i.3in}}</p><p>{{i.3out}}{{i.3dy}}</p></i></td>
+                                                <td><i class="{{i.4}}" style="color: #FBB917"><p>{{i.4in}}</p><p>{{i.4out}}{{i.4dy}}</p></i></td>
+                                                <td><i class="{{i.5}}" style="color: #FBB917"><p>{{i.5in}}</p><p>{{i.5out}}{{i.5dy}}</p></i></td>
+                                                <td><i class="{{i.6}}" style="color: #FBB917"><p>{{i.6in}}</p><p>{{i.6out}}{{i.6dy}}</p></i></td>
+                                                <td><i class="{{i.7}}" style="color: #FBB917"><p>{{i.7in}}</p><p>{{i.7out}}{{i.7dy}}</p></i></td>
+                                                <td><i class="{{i.8}}" style="color: #FBB917"><p>{{i.8in}}</p><p>{{i.8out}}{{i.8dy}}</p></i></td>
+                                                <td><i class="{{i.9}}" style="color: #FBB917"><p>{{i.9in}}</p><p>{{i.9out}}{{i.9dy}}</p></i></td>
+                                                 <td><i class="{{i.10}}" style="color: #FBB917"><p>{{i.10in}}</p><p>{{i.10out}}{{i.10dy}}</p></i></td>
+                                                <td><i class="{{i.11}}" style="color: #FBB917"><p>{{i.11in}}</p><p>{{i.11out}}{{i.11dy}}</p></i></td>
+                                                <td><i class="{{i.12}}" style="color: #FBB917"><p>{{i.12in}}</p><p>{{i.12out}}{{i.12dy}}</p></i></td>
+                                                <td><i class="{{i.13}}" style="color: #FBB917"><p>{{i.13in}}</p><p>{{i.13out}}{{i.13dy}}</p></i></td>
+                                                <td><i class="{{i.14}}" style="color: #FBB917"><p>{{i.14in}}</p><p>{{i.14out}}{{i.14dy}}</p></i></td>
+                                                <td><i class="{{i.15}}" style="color: #FBB917"><p>{{i.15in}}</p><p>{{i.15out}}{{i.15dy}}</p></i></td>
+                                                <td><i class="{{i.16}}" style="color: #FBB917"><p>{{i.16in}}</p><p>{{i.16out}}{{i.16dy}}</p></i></td>
+                                                <td><i class="{{i.17}}" style="color: #FBB917"><p>{{i.17in}}</p><p>{{i.17out}}{{i.17dy}}</p></i></td>
+                                                 <td><i class="{{i.18}}" style="color: #FBB917"><p>{{i.18in}}</p><p>{{i.18out}}{{i.18dy}}</p></i></td>
+                                                <td><i class="{{i.19}}" style="color: #FBB917"><p>{{i.19in}}</p><p>{{i.19out}}{{i.19dy}}</p></i></td>
+                                                <td><i class="{{i.20}}" style="color: #FBB917"><p>{{i.20in}}</p><p>{{i.20out}}{{i.20dy}}</p></i></td>
+                                                <td><i class="{{i.21}}" style="color: #FBB917"><p>{{i.21in}}</p><p>{{i.21out}}{{i.21dy}}</p></i></td>
+                                                <td><i class="{{i.22}}" style="color: #FBB917"><p>{{i.22in}}</p><p>{{i.22out}}{{i.22dy}}</p></i></td>
+                                                <td><i class="{{i.23}}" style="color: #FBB917"><p>{{i.23in}}</p><p>{{i.23out}}{{i.23dy}}</p></i></td>
+                                                <td><i class="{{i.24}}" style="color: #FBB917"><p>{{i.24in}}</p><p>{{i.24out}}{{i.24dy}}</p></i></td>
+                                                <td><i class="{{i.25}}" style="color: #FBB917"><p>{{i.25in}}</p><p>{{i.25out}}{{i.25dy}}</p></i></td>
+                                                 <td><i class="{{i.26}}" style="color: #FBB917"><p>{{i.26in}}</p><p>{{i.26out}}{{i.26dy}}</p></i></td>
+                                                <td><i class="{{i.27}}" style="color: #FBB917"><p>{{i.27in}}</p><p>{{i.27out}}{{i.27dy}}</p></i></td>
+                                                <td><i class="{{i.28}}" style="color: #FBB917"><p>{{i.28in}}</p><p>{{i.28out}}{{i.28dy}}</p></i></td>
+                                                <td><i class="{{i.29}}" style="color: #FBB917"><p>{{i.29in}}</p><p>{{i.29out}}{{i.29dy}}</p></i></td>
+                                                <td><i class="{{i.30}}" style="color: #FBB917"><p>{{i.30in}}</p><p>{{i.30out}}{{i.30dy}}</p></i></td>
+                                                <td><i class="{{i.31}}" style="color: #FBB917"><p>{{i.31in}}</p><p>{{i.31out}}{{i.31dy}}</p></i></td>
+
+<!--                                                    <td class="text-left">{{i.Full_name}}</td>-->
+
+<!--                                                <td><div class="dropdown"><h class=""><i class="{{i.1}}" style="color: #FBB917"></i> <div class="dropdown-content"><p>{{i.1in}}</p><p>{{i.1out}}</p></div></h></div></td>-->
+<!--                                                <td><div class="dropdown"><h class=""><i class="{{i.2}}" style="color: #FBB917"></i> <div class="dropdown-content"><p>{{i.2in}}</p><p>{{i.2out}}</p></div></h></div></td>-->
+<!--                                                 <td><div class="dropdown"><h class=""><i class="{{i.3}}" style="color: #FBB917"></i> <div class="dropdown-content"><p>{{i.3in}}</p><p>{{i.3out}}</p></div></h></div></td>-->
+<!--                                                <td><div class="dropdown"><h class=""><i class="{{i.4}}" style="color: #FBB917"></i> <div class="dropdown-content"><p>{{i.4in}}</p><p>{{i.4out}}</p></div></h></div></td>-->
+<!--                                                <td><div class="dropdown"><h class=""><i class="{{i.5}}" style="color: #FBB917"></i> <div class="dropdown-content"><p>{{i.5in}}</p><p>{{i.5out}}</p></div></h></div></td>-->
+<!--                                                <td><div class="dropdown"><h class=""><i class="{{i.6}}" style="color: #FBB917"></i> <div class="dropdown-content"><p>{{i.6in}}</p><p>{{i.6out}}</p></div></h></div></td>-->
+<!--                                                <td><div class="dropdown"><h class=""><i class="{{i.7}}" style="color: #FBB917"></i> <div class="dropdown-content"><p>{{i.7in}}</p><p>{{i.7out}}</p></div></h></div></td>-->
+<!--                                                <td><div class="dropdown"><h class=""><i class="{{i.8}}" style="color: #FBB917"></i> <div class="dropdown-content"><p>{{i.8in}}</p><p>{{i.8out}}</p></div></h></div></td>-->
+<!--                                                <td><div class="dropdown"><h class=""><i class="{{i.9}}" style="color: #FBB917"></i> <div class="dropdown-content"><p>{{i.9in}}</p><p>{{i.9out}}</p></div></h></div></td>-->
+<!--                                                <td><div class="dropdown"><h class=""><i class="{{i.10}}" style="color: #FBB917"></i> <div class="dropdown-content"><p>{{i.10in}}</p><p>{{i.10out}}</p></div></h></div></td>-->
+<!--                                                <td><div class="dropdown"><h class=""><i class="{{i.11}}" style="color: #FBB917"></i> <div class="dropdown-content"><p>{{i.11in}}</p><p>{{i.11out}}</p></div></h></div></td>-->
+<!--                                                <td><div class="dropdown"><h class=""><i class="{{i.12}}" style="color: #FBB917"></i> <div class="dropdown-content"><p>{{i.12in}}</p><p>{{i.12out}}</p></div></h></div></td>-->
+<!--                                                <td><div class="dropdown"><h class=""><i class="{{i.13}}" style="color: #FBB917"></i> <div class="dropdown-content"><p>{{i.13in}}</p><p>{{i.13out}}</p></div></h></div></td>-->
+<!--                                                <td><div class="dropdown"><h class=""><i class="{{i.14}}" style="color: #FBB917"></i> <div class="dropdown-content"><p>{{i.14in}}</p><p>{{i.14out}}</p></div></h></div></td>-->
+<!--                                                <td><div class="dropdown"><h class=""><i class="{{i.15}}" style="color: #FBB917"></i> <div class="dropdown-content"><p>{{i.15in}}</p><p>{{i.15out}}</p></div></h></div></td>-->
+<!--                                                <td><div class="dropdown"><h class=""><i class="{{i.16}}" style="color: #FBB917"></i> <div class="dropdown-content"><p>{{i.16in}}</p><p>{{i.16out}}</p></div></h></div></td>-->
+<!--                                                <td><div class="dropdown"><h class=""><i class="{{i.17}}" style="color: #FBB917"></i> <div class="dropdown-content"><p>{{i.17in}}</p><p>{{i.17out}}</p></div></h></div></td>-->
+<!--                                                <td><div class="dropdown"><h class=""><i class="{{i.18}}" style="color: #FBB917"></i> <div class="dropdown-content"><p>{{i.18in}}</p><p>{{i.18out}}</p></div></h></div></td>-->
+<!--                                                <td><div class="dropdown"><h class=""><i class="{{i.19}}" style="color: #FBB917"></i> <div class="dropdown-content"><p>{{i.19in}}</p><p>{{i.19out}}</p></div></h></div></td>-->
+<!--                                                <td><div class="dropdown"><h class=""><i class="{{i.20}}" style="color: #FBB917"></i> <div class="dropdown-content"><p>{{i.20in}}</p><p>{{i.20out}}</p></div></h></div></td>-->
+<!--                                                <td><div class="dropdown"><h class=""><i class="{{i.21}}" style="color: #FBB917"></i> <div class="dropdown-content"><p>{{i.21in}}</p><p>{{i.21out}}</p></div></h></div></td>-->
+<!--                                                <td><div class="dropdown"><h class=""><i class="{{i.22}}" style="color: #FBB917"></i> <div class="dropdown-content"><p>{{i.22in}}</p><p>{{i.22out}}</p></div></h></div></td>-->
+<!--                                                <td><div class="dropdown"><h class=""><i class="{{i.23}}" style="color: #FBB917"></i> <div class="dropdown-content"><p>{{i.23in}}</p><p>{{i.23out}}</p></div></h></div></td>-->
+<!--                                                <td><div class="dropdown"><h class=""><i class="{{i.24}}" style="color: #FBB917"></i> <div class="dropdown-content"><p>{{i.24in}}</p><p>{{i.24out}}</p></div></h></div></td>-->
+<!--                                                <td><div class="dropdown"><h class=""><i class="{{i.25}}" style="color: #FBB917"></i> <div class="dropdown-content"><p>{{i.25in}}</p><p>{{i.25out}}</p></div></h></div></td>-->
+<!--                                                <td><div class="dropdown"><h class=""><i class="{{i.26}}" style="color: #FBB917"></i> <div class="dropdown-content"><p>{{i.26in}}</p><p>{{i.26out}}</p></div></h></div></td>-->
+<!--                                                 <td><div class="dropdown"><h class=""><i class="{{i.27}}" style="color: #FBB917"></i> <div class="dropdown-content"><p>{{i.27in}}</p><p>{{i.27out}}</p></div></h></div></td>-->
+<!--                                                <td><div class="dropdown"><h class=""><i class="{{i.28}}" style="color: #FBB917"></i> <div class="dropdown-content"><p>{{i.28in}}</p><p>{{i.28out}}</p></div></h></div></td>-->
+<!--                                                <td><div class="dropdown"><h class=""><i class="{{i.29}}" style="color: #FBB917"></i> <div class="dropdown-content"><p>{{i.29in}}</p><p>{{i.29out}}</p></div></h></div></td>-->
+<!--                                                <td><div class="dropdown"><h class=""><i class="{{i.30}}" style="color: #FBB917"></i> <div class="dropdown-content"><p>{{i.30in}}</p><p>{{i.30out}}</p></div></h></div></td>-->
+<!--                                                <td><div class="dropdown"><h class=""><i class="{{i.31}}" style="color: #FBB917"></i> <div class="dropdown-content"><p>{{i.31in}}</p><p>{{i.31out}}</p></div></h></div></td>-->
+
+
+
+                                            </tr>
+
+                                        {% endfor %}
+
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Student Attendence Area End Here -->
+               <footer class="footer-wrap-layout1">
+    <div class="copyright">
+       Copyrights  ©  <a href="#">SBSY</a> 2020. All rights reserved.
+    </div>
+</footer>
+            </div>
+        </div>
+        <!-- Page Area End Here -->
+    </div>
+
+
+
+
+        <script src="{% static 'SchoolDesign/js/jquery-3.3.1.min.js' %}"></script>
+        <script src="{% static 'SchoolDesign/js/plugins.js' %}"></script>
+        <script src="{% static 'SchoolDesign/js/popper.min.js' %}"></script>
+        <script src="{% static 'SchoolDesign/js/bootstrap.min.js' %}"></script>
+        <script src="{% static 'SchoolDesign/js/select2.min.js' %}"></script>
+
+        <script src="{% static 'SchoolDesign/js/jquery.scrollUp.min.js' %}"></script>
+        <script src="{% static 'SchoolDesign/js/main.js' %}"></script>
+
+
+
+
+
+</body>
+
+</html>

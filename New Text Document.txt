@@ -1,0 +1,65 @@
+
+
+*************** rename or add filed in User  django************
+
+
+1)-for empty migration file:
+
+python manage.py makemigrations --empty auth
+
+
+2)-go to the direcatory location:
+
+cd   C:\Users\PRASHANT TIWARI\AppData\Local\Programs\Python\Python37\Lib\site-packages\django\contrib\auth\migrations
+
+3) change the field:
+
+from django.db import migrations
+
+
+class Migration(migrations.Migration):
+
+    dependencies = [
+        ('auth', '0011_update_proxy_permissions'),
+    ]
+
+    operations = [ migrations.RenameField(
+        model_name='User',
+        old_name='last_name',
+        new_name='school_code'
+    ),
+    ]
+
+
+4): come  to main directory :
+ 
+python manage.py makemigrations auth
+
+python manage.py migrate
+
+
+
+notes: https://exceptionshub.com/django-how-to-rename-a-model-field-using-south-2.html
+
+
+
+
+# print(request.user.id)
+	# x=request.user.groups.get(id=2)
+	# print(x,"nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn")
+	# print(type(x))
+	# print(x.name)
+	# x.name="admin"
+	# x.save()
+
+#convert single queryset into dictonry
+ x=ParentsMaster.objects.values().filter(user_id=36).first()
+
+
+
+#filter group name
+ x=User.objects.filter(groups=3,username="meghrajsharma33").exists()
+
+
+ from django.contrib.auth.models import Group,User
+  x=Group.objects.all().values()

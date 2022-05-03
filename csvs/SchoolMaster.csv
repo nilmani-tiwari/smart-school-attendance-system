@@ -1,0 +1,29 @@
+school_id,school_name,school_code,registration_number,affiliated_by,email,mobile,address,city,pincode,image,principal_sign_image,logo_of_school,password,created_on,created_by
+3,Govt. Girls Sr. Sec. School,demo1,1309260,CBSE,nilmani085@gmail.com,9999999999,Bderpur,delhi,110044,images/9296d022-6903-40e8-9f55-56ac790adce6_ZW4DsMq.jpg,images/f2ff8b52-75b3-43fc-90be-36b5c990ed77.jpg,images/e63fb36b-43d9-4d63-ab2b-ea62fa0debfe_RItAuYx.jpg,12345,2020-08-23 19:42:19+00:00,None
+8,saint xavier public school,sxps,989898,Cbse,sxps@gmail.com,8945868986,"b-45,mathura road,faridabad",haryana,875479,images/happy-cute-cartoon-school-children_29937-5701_NYUvpc8.jpg,,,None,2021-04-10 16:49:30.484785+00:00,None
+9,demo3 school,demo3,88888888,Cbse,demo3@gmail.com,9898987889,demo vihar,demo,546567,images/2875_9JGtA0A.png,,,None,2021-04-10 16:49:30.484785+00:00,None
+10,test1,t0016473,345884358,cbse,t@gmail.com,8984756437,meethapur,new delhi,874858,images/2875_yVm0QPN.png,,,None,2021-04-10 16:49:30.484785+00:00,None
+11,st mary's global school,st001,3565644,cbsc,nehawife12345@gmail.com,7292959314,sakhe bazar gopalganj,gopalganj,841438,images/photo_2020-10-05_16-18-38.jpg,,,None,2021-04-10 16:49:30.484785+00:00,None
+12,राजकीय मध्य विद्यालय गणेश स्थान  माँझा ,10150605203,10150605203,BIHAR GOVERNMENT,middleschoolganeshasthanmanjha@gmail.com,8002114902,GANESH ASTHAN MANJHA ,BADKAGAON,841436,images/7_8_5_class.xlsx,,,None,2021-04-10 16:49:30.484785+00:00,None
+13,R. S. Memorial Public School,s003,12345,HBSE,Satyaveershandilya@gmail.com,9255276804,Ladiyaka,Palwal,None,images/R_S_Memorial_school.jpg,images/sign_rsmemorial_.jpg,,None,2021-04-10 16:49:30.484785+00:00,None
+14,Vijay demo public school,S004,1234,CBSE,vijaydemo@gmail.com,9466243536,Chandhut,Palwal,121102,images/1612850932555141512108.jpg,images/a6d9bc97-3b8f-42b8-ab26-5e67074d2044_xaZuhCm.jpg,images/e63fb36b-43d9-4d63-ab2b-ea62fa0debfe_9qUUZK3.jpg,12345,2021-04-10 16:49:30.484785+00:00,None
+16,SHIVAKESH PUBLIC  SCHOOL,soo5,24187Admin,HBSE,spsgulawad@gmail.com,9466646367,Gulawad,Palwal,121107,images/16129334579898090943723614828693.jpg,,,12345,2021-04-10 16:49:30.484785+00:00,None
+17,Adarsh Vidya mandir sr.sec school  ,s006,24141admin,HBSE,avmschoolmpkaurali@gmail.com,9813969669,Meerpur kaurali,Palwal,121107,images/16129369584725485452047482852750.jpg,,,12345,2021-04-10 16:49:30.484785+00:00,None
+18,Brij Mandal punlic high school,s007,23456,HBSE,bmphskhambi@gmail.com,9813700487,Khambi,Palwal,121107,images/1612940426352408868186691380791.jpg,,,12345,2021-04-10 16:49:30.484785+00:00,None
+19,Oxford junior school,m001,122323,new delhi,dubeyravi254@gmail.com,7739970391,sasamusa,gopalganj,841505,images/16129448285051459873349498413149.jpg,,,12345,2021-04-10 16:49:30.484785+00:00,None
+20,Shiv public school,s008,23457,HBSE,spsbhoopgarh@gmail.com,9050959650,Bhoopgarh,Palwal,121106,images/16129449794996660225142451698242.jpg,,,12345,2021-04-10 16:49:30.484785+00:00,None
+21,M B I School,n001,GOP135,Bihar Govt,Mbiinternationalschoolgpl@gmail.com,9471855208,Basdila bazar,gopalganj,841428,images/bf92c001-5683-405e-9294-5018f97de161.jpg,images/74b2dd56-54ff-4db9-84fe-62bba41634bd_155.jpg,images/e63fb36b-43d9-4d63-ab2b-ea62fa0debfe_8akeh1s.jpg,12345,2021-04-10 16:49:30.484785+00:00,None
+22,Siddharth Public School,S009,85478532797,HBSE,dayachand1314@gmail.com,7838131482,Sehatpur pharidabad,Pharidabad,120034,images/16137201783908704243060397982365.jpg,,,12345,2021-04-10 16:49:30.484785+00:00,None
+24,s.k School,c001,9654335687,HBSE,ram@gmail.com,9654335687,Gurgaon,Gurgaon,121105,images/IMG_20210220_112905_J2mK58C.jpg,,,12345,2021-04-10 16:49:30.484785+00:00,None
+25,SBSY INDIA PVT.LTD,sbsy25,07ABCCS9960K1ZQ,CBSC,indiasbsy@gmail.com,9729888990,b 57 baderpur,delhi,110044,images/9296d022-6903-40e8-9f55-56ac790adce6.jpg,images/fb229444-d562-496e-96c1-4cf3a61853cb.jpg,images/e63fb36b-43d9-4d63-ab2b-ea62fa0debfe_HwmIMre.jpg,12345,2021-04-10 16:49:30.484785+00:00,None
+26,Sm inter college,sbsy26,,,aksharma791@gmail.com,8077872626,,,,,,,12345,2021-04-10 16:49:30.484785+00:00,None
+27,Vijay Bhatat Public School,sbsy27,123453,HBSE,mahesh15292@gmail.com,9350280400,badauli,palwal,121102,images/bbda929a-5abf-48af-b8e1-d86abc81d8a3.jpg,images/f2ff8b52-75b3-43fc-90be-36b5c990ed77_wCPfEZN.jpg,,12345,2021-04-10 16:49:30.484785+00:00,None
+28,STANFORD CONVENT SCHOOL,sbsy28,2730667,CBSC,stanford.convent07@gmail.com,9015777700,"D-55,KASANA COMPLEX, TAJPUR ROAD,BADAR PUR",NEW DELHI,110044,images/stanford_school.JPG,,,12345,2021-04-10 16:49:30.484785+00:00,None
+29,Modern Vidya Mandir,sbsy29,,HBSE,modernvidyamandir@gmail.com,9728455886,dewli road bhaghaula,palwal,121102,images/d5fe3334-d998-41a4-b797-004e4269b9dc.jpg,images/a6d9bc97-3b8f-42b8-ab26-5e67074d2044_MVvIqnj.jpg,,12345,2021-04-10 16:49:30.484785+00:00,None
+30,Chiantu model public school,None,,,mahesh15122020@gmail.com,9350280400,,,,,,,12345,2021-04-10 16:49:30.484785+00:00,None
+31,Chiantu model public school,sbsy31,,,mahesh@gmail.com,9350280400,,,,,,,12345,2021-04-10 16:49:30.484785+00:00,None
+32,Modern Public School,sbsy32,13,HBSE,chauhan1897@gmail.com,9050418403,,,,,,,12345,2021-04-10 16:49:30.484785+00:00,None
+33,R.K Public Middle School,sbsy33,None,None,rameshchauhan1897@gmail.com,9050418403,Mitrol,palwal,121105,,images/111nnnnnnnnnn.jpg,,12345,2021-04-10 16:49:30.484785+00:00,None
+34,M. B. Public school,sbsy34,,,mbpublicschoolbaroli@gmail.com,8053446060,,,,,,,12345,2021-04-10 16:49:30.484785+00:00,None
+35,jj dd school,sbsy35,,,jjdd@gmail.com,1000202020,,,,,,,12345,2021-04-10 16:49:30.484785+00:00,None
+36,Delhi public school,sbsy36,Br27895v,CBSC,delhipublicschool45@gmail.com,7352813725,Gopalganj,Gopalganj,841437,images/IMG-20210317-WA0031.jpg,images/IMG20210317115834.jpg,,12345,2021-04-10 16:49:30.484785+00:00,None

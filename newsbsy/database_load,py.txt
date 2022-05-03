@@ -1,0 +1,276 @@
+import json
+from .models import Movie
+
+# you can also keep this inside a view
+with open('movie_data.json', encoding='utf-8') as data_file:
+    json_data = json.loads(data_file.read())
+
+    for movie_data in json_data:
+        movie = Movie.create(**movie_data)
+        # movie and genres created
+
+
+
+dd=SchoolMaster.objects.values()
+
+
+import json
+from school.models import SchoolMaster
+
+dd=SchoolMaster.objects.values()
+with open('school_schoolmaster.json', encoding='utf-8') as data_file:
+    json_data = json.loads(data_file.read())
+
+    for school_schoolmaster in json_data:
+         dd.update_or_create(school_schoolmaster)
+       
+
+
+
+import json
+from school.models import SchoolMaster
+
+dd=SchoolMaster.objects.values()
+data_file=open('school_schoolmaster.json', encoding='utf-8')
+
+json_data = json.loads(data_file.read())
+
+for school_data in json_data:
+        SchoolMaster.objects.update_or_create(school_data.items())
+       
+
+
+import json
+from school.models import SchoolMaster
+
+dd=SchoolMaster.objects.values()
+data_file=open('school_schoolmaster.json', encoding='utf-8')
+
+json_data = json.loads(data_file.read())
+
+for school_data in json_data:
+        SchoolMaster(school_data.items()).save()
+       
+
+
+import json
+from school.models import SchoolMaster
+
+dd=SchoolMaster.objects.values()
+data_file=open('school_schoolmaster.json', encoding='utf-8')
+
+json_data = json.loads(data_file.read())
+
+for school_data in json_data:
+        SchoolMaster(*school_data).save()
+       
+
+
+
+import json
+from school.models import SchoolMaster
+
+dd=SchoolMaster.objects.values()
+data_file=open('school_schoolmaster.json', encoding='utf-8')
+
+json_data = json.loads(data_file.read())
+
+for school_data in json_data:
+        SchoolMaster(**school_data).save()
+       
+
+
+
+
+
+
+for school_data in json_data:
+        User(**school_data).save()
+
+
+for school_data in json_data:
+        Permission(**school_data).save()
+
+
+
+from django.contrib.auth.models import User, Permission,Group
+data_file=open('auth_group.json', encoding='utf-8')
+
+for school_data in json_data:
+        Group(**school_data).save()
+
+
+auth_group_permissions.json
+
+
+from django.contrib.auth.models import User, Permission,Group
+data_file=open('auth_group_permissions.json', encoding='utf-8')
+json_data = json.loads(data_file.read())
+for school_data in json_data:
+        Group(**school_data).save()
+
+
+
+
+
+from django.contrib.auth.models import User, Permission
+
+
+data_file=open('auth_user_groups.json', encoding='utf-8')
+json_data = json.loads(data_file.read())
+
+
+from django.contrib.auth.models import User
+for school_data in json_data:
+        user=User.objects.filter(id=school_data["id"])
+        user.groups.add(school_data["group_id"])
+
+
+
+data_file=open('school_ownermaster.json', encoding='utf-8')
+json_data = json.loads(data_file.read())
+for school_data in json_data:
+        OwnerMaster(**school_data).save()
+
+
+school_attendance
+
+
+data_file=open('school_attendance.json', encoding='utf-8')
+json_data = json.loads(data_file.read())
+for school_data in json_data:
+        Attendance(**school_data).save()
+
+
+school_classmaster
+
+
+data_file=open('school_classmaster.json', encoding='utf-8')
+json_data = json.loads(data_file.read())
+for school_data in json_data:
+        ClassMaster(**school_data).save()
+
+
+
+
+
+school_divisionmaster
+
+
+data_file=open('school_divisionmaster.json', encoding='utf-8')
+json_data = json.loads(data_file.read())
+for school_data in json_data:
+        DivisionMaster(**school_data).save()
+
+
+
+
+school_mediummaster
+
+
+data_file=open('school_mediummaster.json', encoding='utf-8')
+json_data = json.loads(data_file.read())
+for school_data in json_data:
+        MediumMaster(**school_data).save()
+
+
+
+
+school_parentsmaster
+
+
+data_file=open('school_parentsmaster.json', encoding='utf-8')
+json_data = json.loads(data_file.read())
+for school_data in json_data:
+        ParentsMaster(**school_data).save()
+
+
+
+school_staffmaster
+
+
+data_file=open('school_staffmaster.json', encoding='utf-8')
+json_data = json.loads(data_file.read())
+for school_data in json_data:
+        StaffMaster(**school_data).save()
+
+
+
+school_staffmaster
+
+
+data_file=open('school_staffmaster.json', encoding='utf-8')
+json_data = json.loads(data_file.read())
+for school_data in json_data:
+        StaffMaster(**school_data).save()
+
+
+school_studentmaster
+
+
+data_file=open('school_studentmaster.json', encoding='utf-8')
+json_data = json.loads(data_file.read())
+for school_data in json_data:
+        StudentMaster(**school_data).save()
+
+
+
+
+data_file=open('school_studentmaster.json', encoding='utf-8')
+json_data = json.loads(data_file.read())
+for school_data in json_data:
+        try:
+            StudentMaster(**school_data).save()
+        except:pass
+
+
+
+
+
+data_file=open('auth_user_groups.json', encoding='utf-8')
+json_data = json.loads(data_file.read())
+
+
+from django.contrib.auth.models import User
+for school_data in json_data:
+        user=User.objects.get(id=school_data["user_id"])
+        group = Group.objects.get(id=school_data["group_id"])
+        user.groups.add(group)
+       
+
+
+
+
+
+
+
+
+school_machine_update
+
+
+data_file=open('school_school_machine_update.json', encoding='utf-8')
+json_data = json.loads(data_file.read())
+for school_data in json_data:
+        school_machine_update(**school_data).save()
+
+
+
+
+
+from django.contrib.auth.models import Group
+group = Group.objects.get(id=1)
+user=User.objects.get(id=1)
+user.groups.add(group)
+
+
+
+
+data_file=open('auth_user_groups.json', encoding='utf-8')
+json_data = json.loads(data_file.read())
+
+
+from django.contrib.auth.models import User
+for school_data in json_data:
+        user=User.objects.get(id=school_data["user_id"])
+        group = Group.objects.get(id=school_data["group_id"])
+        user.groups.add(group)

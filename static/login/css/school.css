@@ -1,0 +1,54 @@
+.bounce {
+ height: 70px;
+ overflow: hidden;
+ position: relative;
+ background: #00008b;
+ border: 1px solid orange;
+}
+.bounce h2 {
+ position: absolute;
+ width: 100%;
+ height: 100%;
+color:red;
+ margin: 0;
+ line-height: 70px;
+ text-align: center;
+  Starting position 
+ -moz-transform:translateX(50%);
+ -webkit-transform:translateX(50%);
+ transform:translateX(50%);
+  Apply animation to this element 
+ -moz-animation: bouncing-text 5s linear infinite alternate;
+ -webkit-animation: bouncing-text 5s linear infinite alternate;
+ animation: bouncing-text 5s linear infinite alternate;
+}
+ Move it (define the animation) 
+@-moz-keyframes bouncing-text {
+ 0%   { -moz-transform: translateX(50%); }
+ 100% { -moz-transform: translateX(-50%); }
+}
+@-webkit-keyframes bouncing-text {
+ 0%   { -webkit-transform: translateX(50%); }
+ 100% { -webkit-transform: translateX(-50%); }
+}
+@keyframes bouncing-text {
+ 0%   {
+ -moz-transform: translateX(50%); /* Browser bug fix 
+ -webkit-transform: translateX(50%); /* Browser bug fix 
+ transform: translateX(50%);
+ }
+ 100% {
+ -moz-transform: translateX(-50%); /* Browser bug fix 
+ -webkit-transform: translateX(-50%); /* Browser bug fix 
+ transform: translateX(-50%);
+ }
+}
+
+
+
+.success{
+                    list-style:None;
+                    background-color:#2e6da4;
+                    color:red;
+                    box-shadow: 12px 12px 12px #e61c66;
+                    text-align: center;}

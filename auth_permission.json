@@ -1,0 +1,866 @@
+[
+    {
+        "codename": "add_logentry",
+        "content_type_id": 1,
+        "id": 1,
+        "name": "Can add log entry"
+    },
+    {
+        "codename": "change_logentry",
+        "content_type_id": 1,
+        "id": 2,
+        "name": "Can change log entry"
+    },
+    {
+        "codename": "delete_logentry",
+        "content_type_id": 1,
+        "id": 3,
+        "name": "Can delete log entry"
+    },
+    {
+        "codename": "view_logentry",
+        "content_type_id": 1,
+        "id": 4,
+        "name": "Can view log entry"
+    },
+    {
+        "codename": "add_permission",
+        "content_type_id": 2,
+        "id": 5,
+        "name": "Can add permission"
+    },
+    {
+        "codename": "change_permission",
+        "content_type_id": 2,
+        "id": 6,
+        "name": "Can change permission"
+    },
+    {
+        "codename": "delete_permission",
+        "content_type_id": 2,
+        "id": 7,
+        "name": "Can delete permission"
+    },
+    {
+        "codename": "view_permission",
+        "content_type_id": 2,
+        "id": 8,
+        "name": "Can view permission"
+    },
+    {
+        "codename": "add_group",
+        "content_type_id": 3,
+        "id": 9,
+        "name": "Can add group"
+    },
+    {
+        "codename": "change_group",
+        "content_type_id": 3,
+        "id": 10,
+        "name": "Can change group"
+    },
+    {
+        "codename": "delete_group",
+        "content_type_id": 3,
+        "id": 11,
+        "name": "Can delete group"
+    },
+    {
+        "codename": "view_group",
+        "content_type_id": 3,
+        "id": 12,
+        "name": "Can view group"
+    },
+    {
+        "codename": "add_user",
+        "content_type_id": 4,
+        "id": 13,
+        "name": "Can add user"
+    },
+    {
+        "codename": "change_user",
+        "content_type_id": 4,
+        "id": 14,
+        "name": "Can change user"
+    },
+    {
+        "codename": "delete_user",
+        "content_type_id": 4,
+        "id": 15,
+        "name": "Can delete user"
+    },
+    {
+        "codename": "view_user",
+        "content_type_id": 4,
+        "id": 16,
+        "name": "Can view user"
+    },
+    {
+        "codename": "add_contenttype",
+        "content_type_id": 5,
+        "id": 17,
+        "name": "Can add content type"
+    },
+    {
+        "codename": "change_contenttype",
+        "content_type_id": 5,
+        "id": 18,
+        "name": "Can change content type"
+    },
+    {
+        "codename": "delete_contenttype",
+        "content_type_id": 5,
+        "id": 19,
+        "name": "Can delete content type"
+    },
+    {
+        "codename": "view_contenttype",
+        "content_type_id": 5,
+        "id": 20,
+        "name": "Can view content type"
+    },
+    {
+        "codename": "add_session",
+        "content_type_id": 6,
+        "id": 21,
+        "name": "Can add session"
+    },
+    {
+        "codename": "change_session",
+        "content_type_id": 6,
+        "id": 22,
+        "name": "Can change session"
+    },
+    {
+        "codename": "delete_session",
+        "content_type_id": 6,
+        "id": 23,
+        "name": "Can delete session"
+    },
+    {
+        "codename": "view_session",
+        "content_type_id": 6,
+        "id": 24,
+        "name": "Can view session"
+    },
+    {
+        "codename": "add_attendance",
+        "content_type_id": 7,
+        "id": 25,
+        "name": "Can add attendance"
+    },
+    {
+        "codename": "change_attendance",
+        "content_type_id": 7,
+        "id": 26,
+        "name": "Can change attendance"
+    },
+    {
+        "codename": "delete_attendance",
+        "content_type_id": 7,
+        "id": 27,
+        "name": "Can delete attendance"
+    },
+    {
+        "codename": "view_attendance",
+        "content_type_id": 7,
+        "id": 28,
+        "name": "Can view attendance"
+    },
+    {
+        "codename": "add_attendance_api",
+        "content_type_id": 8,
+        "id": 29,
+        "name": "Can add attendance_api"
+    },
+    {
+        "codename": "change_attendance_api",
+        "content_type_id": 8,
+        "id": 30,
+        "name": "Can change attendance_api"
+    },
+    {
+        "codename": "delete_attendance_api",
+        "content_type_id": 8,
+        "id": 31,
+        "name": "Can delete attendance_api"
+    },
+    {
+        "codename": "view_attendance_api",
+        "content_type_id": 8,
+        "id": 32,
+        "name": "Can view attendance_api"
+    },
+    {
+        "codename": "add_classmaster",
+        "content_type_id": 9,
+        "id": 33,
+        "name": "Can add class master"
+    },
+    {
+        "codename": "change_classmaster",
+        "content_type_id": 9,
+        "id": 34,
+        "name": "Can change class master"
+    },
+    {
+        "codename": "delete_classmaster",
+        "content_type_id": 9,
+        "id": 35,
+        "name": "Can delete class master"
+    },
+    {
+        "codename": "view_classmaster",
+        "content_type_id": 9,
+        "id": 36,
+        "name": "Can view class master"
+    },
+    {
+        "codename": "add_divisionmaster",
+        "content_type_id": 10,
+        "id": 37,
+        "name": "Can add division master"
+    },
+    {
+        "codename": "change_divisionmaster",
+        "content_type_id": 10,
+        "id": 38,
+        "name": "Can change division master"
+    },
+    {
+        "codename": "delete_divisionmaster",
+        "content_type_id": 10,
+        "id": 39,
+        "name": "Can delete division master"
+    },
+    {
+        "codename": "view_divisionmaster",
+        "content_type_id": 10,
+        "id": 40,
+        "name": "Can view division master"
+    },
+    {
+        "codename": "add_mediummaster",
+        "content_type_id": 11,
+        "id": 41,
+        "name": "Can add medium master"
+    },
+    {
+        "codename": "change_mediummaster",
+        "content_type_id": 11,
+        "id": 42,
+        "name": "Can change medium master"
+    },
+    {
+        "codename": "delete_mediummaster",
+        "content_type_id": 11,
+        "id": 43,
+        "name": "Can delete medium master"
+    },
+    {
+        "codename": "view_mediummaster",
+        "content_type_id": 11,
+        "id": 44,
+        "name": "Can view medium master"
+    },
+    {
+        "codename": "add_ownermaster",
+        "content_type_id": 12,
+        "id": 45,
+        "name": "Can add owner master"
+    },
+    {
+        "codename": "change_ownermaster",
+        "content_type_id": 12,
+        "id": 46,
+        "name": "Can change owner master"
+    },
+    {
+        "codename": "delete_ownermaster",
+        "content_type_id": 12,
+        "id": 47,
+        "name": "Can delete owner master"
+    },
+    {
+        "codename": "view_ownermaster",
+        "content_type_id": 12,
+        "id": 48,
+        "name": "Can view owner master"
+    },
+    {
+        "codename": "add_parentsmaster",
+        "content_type_id": 13,
+        "id": 49,
+        "name": "Can add parents master"
+    },
+    {
+        "codename": "change_parentsmaster",
+        "content_type_id": 13,
+        "id": 50,
+        "name": "Can change parents master"
+    },
+    {
+        "codename": "delete_parentsmaster",
+        "content_type_id": 13,
+        "id": 51,
+        "name": "Can delete parents master"
+    },
+    {
+        "codename": "view_parentsmaster",
+        "content_type_id": 13,
+        "id": 52,
+        "name": "Can view parents master"
+    },
+    {
+        "codename": "add_schoolmaster",
+        "content_type_id": 14,
+        "id": 53,
+        "name": "Can add school master"
+    },
+    {
+        "codename": "change_schoolmaster",
+        "content_type_id": 14,
+        "id": 54,
+        "name": "Can change school master"
+    },
+    {
+        "codename": "delete_schoolmaster",
+        "content_type_id": 14,
+        "id": 55,
+        "name": "Can delete school master"
+    },
+    {
+        "codename": "view_schoolmaster",
+        "content_type_id": 14,
+        "id": 56,
+        "name": "Can view school master"
+    },
+    {
+        "codename": "add_staffmaster",
+        "content_type_id": 15,
+        "id": 57,
+        "name": "Can add staff master"
+    },
+    {
+        "codename": "change_staffmaster",
+        "content_type_id": 15,
+        "id": 58,
+        "name": "Can change staff master"
+    },
+    {
+        "codename": "delete_staffmaster",
+        "content_type_id": 15,
+        "id": 59,
+        "name": "Can delete staff master"
+    },
+    {
+        "codename": "view_staffmaster",
+        "content_type_id": 15,
+        "id": 60,
+        "name": "Can view staff master"
+    },
+    {
+        "codename": "add_studentmaster",
+        "content_type_id": 16,
+        "id": 61,
+        "name": "Can add student master"
+    },
+    {
+        "codename": "change_studentmaster",
+        "content_type_id": 16,
+        "id": 62,
+        "name": "Can change student master"
+    },
+    {
+        "codename": "delete_studentmaster",
+        "content_type_id": 16,
+        "id": 63,
+        "name": "Can delete student master"
+    },
+    {
+        "codename": "view_studentmaster",
+        "content_type_id": 16,
+        "id": 64,
+        "name": "Can view student master"
+    },
+    {
+        "codename": "add_notice_board",
+        "content_type_id": 17,
+        "id": 65,
+        "name": "Can add notice_board"
+    },
+    {
+        "codename": "change_notice_board",
+        "content_type_id": 17,
+        "id": 66,
+        "name": "Can change notice_board"
+    },
+    {
+        "codename": "delete_notice_board",
+        "content_type_id": 17,
+        "id": 67,
+        "name": "Can delete notice_board"
+    },
+    {
+        "codename": "view_notice_board",
+        "content_type_id": 17,
+        "id": 68,
+        "name": "Can view notice_board"
+    },
+    {
+        "codename": "add_notice",
+        "content_type_id": 17,
+        "id": 69,
+        "name": "Can add notice"
+    },
+    {
+        "codename": "change_notice",
+        "content_type_id": 17,
+        "id": 70,
+        "name": "Can change notice"
+    },
+    {
+        "codename": "delete_notice",
+        "content_type_id": 17,
+        "id": 71,
+        "name": "Can delete notice"
+    },
+    {
+        "codename": "view_notice",
+        "content_type_id": 17,
+        "id": 72,
+        "name": "Can view notice"
+    },
+    {
+        "codename": "add_notice_board_school",
+        "content_type_id": 17,
+        "id": 73,
+        "name": "Can add notice_board_school"
+    },
+    {
+        "codename": "change_notice_board_school",
+        "content_type_id": 17,
+        "id": 74,
+        "name": "Can change notice_board_school"
+    },
+    {
+        "codename": "delete_notice_board_school",
+        "content_type_id": 17,
+        "id": 75,
+        "name": "Can delete notice_board_school"
+    },
+    {
+        "codename": "view_notice_board_school",
+        "content_type_id": 17,
+        "id": 76,
+        "name": "Can view notice_board_school"
+    },
+    {
+        "codename": "add_school_transport",
+        "content_type_id": 18,
+        "id": 77,
+        "name": "Can add school_ transport"
+    },
+    {
+        "codename": "change_school_transport",
+        "content_type_id": 18,
+        "id": 78,
+        "name": "Can change school_ transport"
+    },
+    {
+        "codename": "delete_school_transport",
+        "content_type_id": 18,
+        "id": 79,
+        "name": "Can delete school_ transport"
+    },
+    {
+        "codename": "view_school_transport",
+        "content_type_id": 18,
+        "id": 80,
+        "name": "Can view school_ transport"
+    },
+    {
+        "codename": "add_school_library",
+        "content_type_id": 19,
+        "id": 81,
+        "name": "Can add school_library"
+    },
+    {
+        "codename": "change_school_library",
+        "content_type_id": 19,
+        "id": 82,
+        "name": "Can change school_library"
+    },
+    {
+        "codename": "delete_school_library",
+        "content_type_id": 19,
+        "id": 83,
+        "name": "Can delete school_library"
+    },
+    {
+        "codename": "view_school_library",
+        "content_type_id": 19,
+        "id": 84,
+        "name": "Can view school_library"
+    },
+    {
+        "codename": "add_school_holiday",
+        "content_type_id": 20,
+        "id": 85,
+        "name": "Can add school_holiday"
+    },
+    {
+        "codename": "change_school_holiday",
+        "content_type_id": 20,
+        "id": 86,
+        "name": "Can change school_holiday"
+    },
+    {
+        "codename": "delete_school_holiday",
+        "content_type_id": 20,
+        "id": 87,
+        "name": "Can delete school_holiday"
+    },
+    {
+        "codename": "view_school_holiday",
+        "content_type_id": 20,
+        "id": 88,
+        "name": "Can view school_holiday"
+    },
+    {
+        "codename": "add_message_pack",
+        "content_type_id": 21,
+        "id": 89,
+        "name": "Can add message_pack"
+    },
+    {
+        "codename": "change_message_pack",
+        "content_type_id": 21,
+        "id": 90,
+        "name": "Can change message_pack"
+    },
+    {
+        "codename": "delete_message_pack",
+        "content_type_id": 21,
+        "id": 91,
+        "name": "Can delete message_pack"
+    },
+    {
+        "codename": "view_message_pack",
+        "content_type_id": 21,
+        "id": 92,
+        "name": "Can view message_pack"
+    },
+    {
+        "codename": "add_quary_form",
+        "content_type_id": 22,
+        "id": 93,
+        "name": "Can add quary_form"
+    },
+    {
+        "codename": "change_quary_form",
+        "content_type_id": 22,
+        "id": 94,
+        "name": "Can change quary_form"
+    },
+    {
+        "codename": "delete_quary_form",
+        "content_type_id": 22,
+        "id": 95,
+        "name": "Can delete quary_form"
+    },
+    {
+        "codename": "view_quary_form",
+        "content_type_id": 22,
+        "id": 96,
+        "name": "Can view quary_form"
+    },
+    {
+        "codename": "add_user_command",
+        "content_type_id": 23,
+        "id": 97,
+        "name": "Can add user_command"
+    },
+    {
+        "codename": "change_user_command",
+        "content_type_id": 23,
+        "id": 98,
+        "name": "Can change user_command"
+    },
+    {
+        "codename": "delete_user_command",
+        "content_type_id": 23,
+        "id": 99,
+        "name": "Can delete user_command"
+    },
+    {
+        "codename": "view_user_command",
+        "content_type_id": 23,
+        "id": 100,
+        "name": "Can view user_command"
+    },
+    {
+        "codename": "add_gpsrestapi",
+        "content_type_id": 24,
+        "id": 101,
+        "name": "Can add gpsrestapi"
+    },
+    {
+        "codename": "change_gpsrestapi",
+        "content_type_id": 24,
+        "id": 102,
+        "name": "Can change gpsrestapi"
+    },
+    {
+        "codename": "delete_gpsrestapi",
+        "content_type_id": 24,
+        "id": 103,
+        "name": "Can delete gpsrestapi"
+    },
+    {
+        "codename": "view_gpsrestapi",
+        "content_type_id": 24,
+        "id": 104,
+        "name": "Can view gpsrestapi"
+    },
+    {
+        "codename": "add_bikeapi",
+        "content_type_id": 25,
+        "id": 105,
+        "name": "Can add bikeapi"
+    },
+    {
+        "codename": "change_bikeapi",
+        "content_type_id": 25,
+        "id": 106,
+        "name": "Can change bikeapi"
+    },
+    {
+        "codename": "delete_bikeapi",
+        "content_type_id": 25,
+        "id": 107,
+        "name": "Can delete bikeapi"
+    },
+    {
+        "codename": "view_bikeapi",
+        "content_type_id": 25,
+        "id": 108,
+        "name": "Can view bikeapi"
+    },
+    {
+        "codename": "add_pumpapi",
+        "content_type_id": 26,
+        "id": 109,
+        "name": "Can add pumpapi"
+    },
+    {
+        "codename": "change_pumpapi",
+        "content_type_id": 26,
+        "id": 110,
+        "name": "Can change pumpapi"
+    },
+    {
+        "codename": "delete_pumpapi",
+        "content_type_id": 26,
+        "id": 111,
+        "name": "Can delete pumpapi"
+    },
+    {
+        "codename": "view_pumpapi",
+        "content_type_id": 26,
+        "id": 112,
+        "name": "Can view pumpapi"
+    },
+    {
+        "codename": "add_bike_user",
+        "content_type_id": 27,
+        "id": 113,
+        "name": "Can add bike_user"
+    },
+    {
+        "codename": "change_bike_user",
+        "content_type_id": 27,
+        "id": 114,
+        "name": "Can change bike_user"
+    },
+    {
+        "codename": "delete_bike_user",
+        "content_type_id": 27,
+        "id": 115,
+        "name": "Can delete bike_user"
+    },
+    {
+        "codename": "view_bike_user",
+        "content_type_id": 27,
+        "id": 116,
+        "name": "Can view bike_user"
+    },
+    {
+        "codename": "add_school_machine_api",
+        "content_type_id": 28,
+        "id": 117,
+        "name": "Can add school_machine_api"
+    },
+    {
+        "codename": "change_school_machine_api",
+        "content_type_id": 28,
+        "id": 118,
+        "name": "Can change school_machine_api"
+    },
+    {
+        "codename": "delete_school_machine_api",
+        "content_type_id": 28,
+        "id": 119,
+        "name": "Can delete school_machine_api"
+    },
+    {
+        "codename": "view_school_machine_api",
+        "content_type_id": 28,
+        "id": 120,
+        "name": "Can view school_machine_api"
+    },
+    {
+        "codename": "add_school_machine_details",
+        "content_type_id": 29,
+        "id": 121,
+        "name": "Can add school_machine_details"
+    },
+    {
+        "codename": "change_school_machine_details",
+        "content_type_id": 29,
+        "id": 122,
+        "name": "Can change school_machine_details"
+    },
+    {
+        "codename": "delete_school_machine_details",
+        "content_type_id": 29,
+        "id": 123,
+        "name": "Can delete school_machine_details"
+    },
+    {
+        "codename": "view_school_machine_details",
+        "content_type_id": 29,
+        "id": 124,
+        "name": "Can view school_machine_details"
+    },
+    {
+        "codename": "add_school_machine_update",
+        "content_type_id": 30,
+        "id": 125,
+        "name": "Can add school_machine_update"
+    },
+    {
+        "codename": "change_school_machine_update",
+        "content_type_id": 30,
+        "id": 126,
+        "name": "Can change school_machine_update"
+    },
+    {
+        "codename": "delete_school_machine_update",
+        "content_type_id": 30,
+        "id": 127,
+        "name": "Can delete school_machine_update"
+    },
+    {
+        "codename": "view_school_machine_update",
+        "content_type_id": 30,
+        "id": 128,
+        "name": "Can view school_machine_update"
+    },
+    {
+        "codename": "add_bike_user_details",
+        "content_type_id": 31,
+        "id": 129,
+        "name": "Can add bike_user_details"
+    },
+    {
+        "codename": "change_bike_user_details",
+        "content_type_id": 31,
+        "id": 130,
+        "name": "Can change bike_user_details"
+    },
+    {
+        "codename": "delete_bike_user_details",
+        "content_type_id": 31,
+        "id": 131,
+        "name": "Can delete bike_user_details"
+    },
+    {
+        "codename": "view_bike_user_details",
+        "content_type_id": 31,
+        "id": 132,
+        "name": "Can view bike_user_details"
+    },
+    {
+        "codename": "add_posts",
+        "content_type_id": 32,
+        "id": 133,
+        "name": "Can add posts"
+    },
+    {
+        "codename": "change_posts",
+        "content_type_id": 32,
+        "id": 134,
+        "name": "Can change posts"
+    },
+    {
+        "codename": "delete_posts",
+        "content_type_id": 32,
+        "id": 135,
+        "name": "Can delete posts"
+    },
+    {
+        "codename": "view_posts",
+        "content_type_id": 32,
+        "id": 136,
+        "name": "Can view posts"
+    },
+    {
+        "codename": "add_busmap",
+        "content_type_id": 33,
+        "id": 137,
+        "name": "Can add busmap"
+    },
+    {
+        "codename": "change_busmap",
+        "content_type_id": 33,
+        "id": 138,
+        "name": "Can change busmap"
+    },
+    {
+        "codename": "delete_busmap",
+        "content_type_id": 33,
+        "id": 139,
+        "name": "Can delete busmap"
+    },
+    {
+        "codename": "view_busmap",
+        "content_type_id": 33,
+        "id": 140,
+        "name": "Can view busmap"
+    },
+    {
+        "codename": "add_busapi",
+        "content_type_id": 34,
+        "id": 141,
+        "name": "Can add busapi"
+    },
+    {
+        "codename": "change_busapi",
+        "content_type_id": 34,
+        "id": 142,
+        "name": "Can change busapi"
+    },
+    {
+        "codename": "delete_busapi",
+        "content_type_id": 34,
+        "id": 143,
+        "name": "Can delete busapi"
+    },
+    {
+        "codename": "view_busapi",
+        "content_type_id": 34,
+        "id": 144,
+        "name": "Can view busapi"
+    }
+]

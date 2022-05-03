@@ -1,0 +1,172 @@
+[
+    {
+        "app_label": "admin",
+        "id": 1,
+        "model": "logentry"
+    },
+    {
+        "app_label": "auth",
+        "id": 2,
+        "model": "permission"
+    },
+    {
+        "app_label": "auth",
+        "id": 3,
+        "model": "group"
+    },
+    {
+        "app_label": "auth",
+        "id": 4,
+        "model": "user"
+    },
+    {
+        "app_label": "contenttypes",
+        "id": 5,
+        "model": "contenttype"
+    },
+    {
+        "app_label": "sessions",
+        "id": 6,
+        "model": "session"
+    },
+    {
+        "app_label": "school",
+        "id": 7,
+        "model": "attendance"
+    },
+    {
+        "app_label": "school",
+        "id": 8,
+        "model": "attendance_api"
+    },
+    {
+        "app_label": "school",
+        "id": 9,
+        "model": "classmaster"
+    },
+    {
+        "app_label": "school",
+        "id": 10,
+        "model": "divisionmaster"
+    },
+    {
+        "app_label": "school",
+        "id": 11,
+        "model": "mediummaster"
+    },
+    {
+        "app_label": "school",
+        "id": 12,
+        "model": "ownermaster"
+    },
+    {
+        "app_label": "school",
+        "id": 13,
+        "model": "parentsmaster"
+    },
+    {
+        "app_label": "school",
+        "id": 14,
+        "model": "schoolmaster"
+    },
+    {
+        "app_label": "school",
+        "id": 15,
+        "model": "staffmaster"
+    },
+    {
+        "app_label": "school",
+        "id": 16,
+        "model": "studentmaster"
+    },
+    {
+        "app_label": "school",
+        "id": 17,
+        "model": "notice_board_school"
+    },
+    {
+        "app_label": "school",
+        "id": 18,
+        "model": "school_transport"
+    },
+    {
+        "app_label": "school",
+        "id": 19,
+        "model": "school_library"
+    },
+    {
+        "app_label": "school",
+        "id": 20,
+        "model": "school_holiday"
+    },
+    {
+        "app_label": "school",
+        "id": 21,
+        "model": "message_pack"
+    },
+    {
+        "app_label": "school",
+        "id": 22,
+        "model": "quary_form"
+    },
+    {
+        "app_label": "school",
+        "id": 23,
+        "model": "user_command"
+    },
+    {
+        "app_label": "school",
+        "id": 24,
+        "model": "gpsrestapi"
+    },
+    {
+        "app_label": "school",
+        "id": 25,
+        "model": "bikeapi"
+    },
+    {
+        "app_label": "school",
+        "id": 26,
+        "model": "pumpapi"
+    },
+    {
+        "app_label": "school",
+        "id": 27,
+        "model": "bike_user"
+    },
+    {
+        "app_label": "school",
+        "id": 28,
+        "model": "school_machine_api"
+    },
+    {
+        "app_label": "school",
+        "id": 29,
+        "model": "school_machine_details"
+    },
+    {
+        "app_label": "school",
+        "id": 30,
+        "model": "school_machine_update"
+    },
+    {
+        "app_label": "school",
+        "id": 31,
+        "model": "bike_user_details"
+    },
+    {
+        "app_label": "school",
+        "id": 32,
+        "model": "posts"
+    },
+    {
+        "app_label": "school",
+        "id": 33,
+        "model": "busmap"
+    },
+    {
+        "app_label": "school",
+        "id": 34,
+        "model": "busapi"
+    }
+]

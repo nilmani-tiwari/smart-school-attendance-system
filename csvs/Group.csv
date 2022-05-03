@@ -1,0 +1,6 @@
+user,id,name,permissions
+NA,1,sbsy_admin,auth.Permission.None
+NA,2,admin,auth.Permission.None
+NA,3,staff,auth.Permission.None
+NA,4,student,auth.Permission.None
+NA,5,parents,auth.Permission.None

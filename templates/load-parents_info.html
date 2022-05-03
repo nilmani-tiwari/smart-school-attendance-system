@@ -1,0 +1,85 @@
+
+{% for i in parents_info %}
+
+{% if i.Parents_mobile %}
+
+<div class="card height-auto" id="ddlparents">
+<div class="row">
+<div class="heading-layout1" style="width:100%;">
+  <div class="item-title">
+      <h3> &nbsp;&nbsp;Parents Remaining Information :  {{i.existance_status}}</h3>
+  </div>
+</div>
+  
+
+  <div class="col-xl-3 col-lg-6 col-12 form-group">
+    <label>Father's Full name *</label>
+    <input type="text" placeholder="" class="form-control" id="fathername" name="fathername" required value="{{i.fathername}}"  readonly>
+ </div>
+
+<div class="col-xl-3 col-lg-6 col-12 form-group">
+    <label>Mothers's Full name *</label>
+    <input type="text" placeholder="" class="form-control" id="mothername" name="mothername" required value="{{i.mothername}}" readonly>
+ </div>
+
+
+ 
+
+  <div class="col-xl-3 col-lg-6 col-12 form-group">
+    <label>Address *</label>
+    <input type="text" placeholder="" class="form-control" id="ddlAddress" name="Address" value="{{i.Parents_Address}}" required readonly>
+</div>
+
+  <div class="col-xl-3 col-lg-6 col-12 form-group">
+    <label>pincode *</label>
+    <input type="text" placeholder="" class="form-control" id="ddlpincode" name="pincode" maxlength="6" value="{{i.Parents_pincode}}" required readonly>
+</div>
+
+</div>
+
+
+
+{%else%}
+
+<div class="card height-auto" id="ddlparents">
+<div class="row">
+<div class="heading-layout1" style="width:100%;">
+  <div class="item-title">
+      <h3> &nbsp;&nbsp;Parents Remaining Information :  {{i.existance_status}}</h3>
+  </div>
+</div>
+  
+
+  <div class="col-xl-3 col-lg-6 col-12 form-group">
+    <label>Father's Full name *</label>
+    <input type="text" placeholder="" class="form-control" id="fathername" name="fathername" required value="{{i.fathername}}">
+ </div>
+
+<div class="col-xl-3 col-lg-6 col-12 form-group">
+    <label>Mothers's Full name *</label>
+    <input type="text" placeholder="" class="form-control" id="mothername" name="mothername" required value="{{i.mothername}}">
+ </div>
+
+
+ 
+
+  <div class="col-xl-3 col-lg-6 col-12 form-group">
+    <label>Address *</label>
+    <input type="text" placeholder="" class="form-control" id="ddlAddress" name="Address" value="{{i.Parents_Address}}" required>
+</div>
+
+  <div class="col-xl-3 col-lg-6 col-12 form-group">
+    <label>pincode *</label>
+    <input type="text" placeholder="" class="form-control" id="ddlpincode" name="pincode" maxlength="6" value="{{i.Parents_pincode}}" required>
+</div>
+
+</div>
+{%endif%}
+
+{% endfor %}
+
+
+
+
+
+

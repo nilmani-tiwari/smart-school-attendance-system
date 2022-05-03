@@ -1,0 +1,8 @@
+transport_id,school_code,Vehicle_Number,Driver_Name,Phone_Number,License_Number,Route_Name,reader_machine_no,gps_sim_no,ssid,password
+7,demo1,bn008,zxsw,898767654543,56756766,vccc,None,None,None,None
+8,demo1,xyzpt,dth sanker,993773767263,avdmp67p,bdr pr to jhpur,None,None,None,None
+9,s004,Hr30j3768,Ramesh,9729888990,Dl46854t,Baroli to palwal,None,None,None,None
+10,s004,Hr30p5647,Dheeraj,9050764268,Dl4785w,Deghot to palwal ,None,None,None,None
+11,m001,BR28C4801,Sonu gupta,9876907539,45568995335,Khajuri,None,None,None,None
+12,m001,BR28D5507,Mohan Gupta,8934246875,34246785784,Baniyachhapar,None,None,None,None
+13,sbsy36,BR01G0678,Dilip manjhi,9852347046,Br28gjdjj789292,Rajendra Nagar to Patel Nagar ,None,None,None,None

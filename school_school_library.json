@@ -1,0 +1,83 @@
+[
+    {
+        "Book_Name": "KJDHF",
+        "Class": "5",
+        "Subject": "KJRHJQK",
+        "Writter_Name": "HJTA",
+        "created_on": "2020-09-16 16:23:42.261410",
+        "school_code": "demo1",
+        "school_library_id": 14
+    },
+    {
+        "Book_Name": "DSHJF",
+        "Class": "5",
+        "Subject": "DSFGA",
+        "Writter_Name": "FG",
+        "created_on": "2020-09-16 16:23:42.261410",
+        "school_code": "demo1",
+        "school_library_id": 15
+    },
+    {
+        "Book_Name": "NBXNC",
+        "Class": "6",
+        "Subject": "CVBVZ",
+        "Writter_Name": "GHDH",
+        "created_on": "2020-09-16 16:23:42.261410",
+        "school_code": "demo1",
+        "school_library_id": 17
+    },
+    {
+        "Book_Name": "HJSSJFH",
+        "Class": "5",
+        "Subject": "HJHJ",
+        "Writter_Name": "HHJ",
+        "created_on": "2020-09-16 16:23:42.261410",
+        "school_code": "demo1",
+        "school_library_id": 18
+    },
+    {
+        "Book_Name": "SDJBJ",
+        "Class": "8",
+        "Subject": "HJHJ",
+        "Writter_Name": "HJHJJH",
+        "created_on": "2020-09-16 16:23:42.261410",
+        "school_code": "demo1",
+        "school_library_id": 19
+    },
+    {
+        "Book_Name": "Book1",
+        "Class": "2",
+        "Subject": "Science",
+        "Writter_Name": "Ram",
+        "created_on": "2021-02-09 15:27:01.432799",
+        "school_code": "s004",
+        "school_library_id": 20
+    },
+    {
+        "Book_Name": "Ramayana",
+        "Class": "10",
+        "Subject": "Hindi",
+        "Writter_Name": "Valmik",
+        "created_on": "2021-02-26 12:24:51.936006",
+        "school_code": "demo1",
+        "school_library_id": 21
+    },
+    {
+        "Book_Name": "Madhusala",
+        "Class": "12",
+        "Subject": "Hindi",
+        "Writter_Name": "hari vansh",
+        "created_on": "2021-02-26 12:26:37.287311",
+        "school_code": "demo1",
+        "school_library_id": 22
+    },
+    {
+        "Book_Name": "Ankurbhag 1",
+        "Class": "1",
+        "Subject": "Hindi",
+        "Writter_Name": "Vinit kumar",
+        "created_on": "2021-03-17 07:11:55.399470",
+        "school_code": "sbsy36",
+        "school_library_id": 23
+    }
+]

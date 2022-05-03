@@ -1,0 +1,238 @@
+<html>
+    {%load static%}
+
+<head>
+
+    <style>
+        .card_bg {
+            width: 204px;
+            height: 321.5px;
+            margin: 0 auto;
+            margin-bottom: 23px;
+            border: 2px solid #06a3da;
+            position: relative;
+            float: left;
+            margin-top:-140px;
+        }
+
+        .card_content {
+            position: absolute;
+            top: 0px;
+            width: 100%;
+            z-index: 10000000;
+        }
+
+        .school_name {
+           width: 100%;
+           margin-top: 7px;
+
+        }
+
+        .school_heading {
+            padding: 5px;
+            font-family: verdana;
+            font-weight: bold;
+            color: #ffffff;
+            font-size: 14px;
+            text-align: center;
+            display: block;
+            padding-bottom: 0px;
+            -webkit-print-color-adjust: exact;
+        }
+
+        .school_sub_heading {
+            padding: 5px;
+            font-family: verdana;
+            color: #ffffff;
+            font-size: 10px;
+            text-align: center;
+            display: block;
+            font-weight: bold;
+            -webkit-print-color-adjust: exact;
+        }
+
+        .student_img {
+              width: 90px;
+    height: 100px;
+    margin-top: 5px;
+    margin-left: 57px;
+    border-radius: 23px;
+    border: 1px solid #1c70ac;
+        }
+
+        .student_type {
+           width: 100%;
+    text-align: center;
+    margin-top: 8px;
+    font-family: verdana;
+    font-weight: bolder;
+    font-size: 19px;
+    position: absolute;
+    right: -87px;
+    top: 158px;
+    color: #bdb9b9;
+    -webkit-print-color-adjust: exact;
+    transform: rotate(-90deg);
+        }
+
+        .student_name {
+            width: 100%;
+            margin-top: 6px;
+            text-align: center;
+            font-size: 12px;
+            font-weight: bold;
+            font-family: verdana;
+            color: #3280a4;
+        }
+
+        .student_detail {
+           /*width: 100%;*/
+    font-size: 11px;
+    line-height: 9px;
+    /* font-weight: bold; */
+    margin-top: 5px;
+    margin-left: 16px;
+    font-family: verdana;
+    line-height: 12px;
+    white-space: nowrap;
+        }
+
+            .student_detail tr td:first-child {
+                text-align: left;
+                padding-right: 3px;
+            }
+
+            .student_detail tr td:last-child {
+                text-align: left;
+                padding-left: 3px;
+                color: #05577d;
+            }
+
+        .principal_text {
+          font-family: verdana;
+    font-size: 9px;
+    width: 97%;
+    text-align: right;
+    padding-right: 5px;
+    color: #071927;
+
+        }
+
+        .sign_img {
+          width: 30px;
+    margin-left: 11px;
+}
+        }
+
+        .footer_1 {
+            width: 100%;
+        }
+
+        .session {
+       float: left;
+    width: 44%;
+    padding: 5px;
+    padding-top: 10px;
+    padding-left: 49px;
+    font-size: 21px;
+    color: #bdb9b9;
+        }
+
+        .sign_container {
+           float: left;
+    width: 23%;
+        }
+        .footer_2{
+                color: white;
+    font-size: 11px;
+    width: 100%;
+    text-align: center;
+    /* background: red; */
+    float: left;
+    font-family: verdana;
+     -webkit-print-color-adjust: exact;
+        }
+         body > .card_bg:nth-child(odd) {
+            transform: rotate(-90deg);
+        }
+
+        body > .card_bg:nth-child(even) {
+            transform: rotate(90deg);
+            margin-left: 150px;
+        }
+
+        body {
+            margin-top: 90px;
+            width: 600px;
+            margin-left: 100px;
+        }
+        
+        
+        .nowrap {
+  white-space: nowrap ;
+}
+
+.capital{
+  text-transform: uppercase;
+}
+
+    </style>
+</head>
+     {% for i in data %}
+<body >
+    <div class="card_bg">
+        <img src="{% static 'student_icard3/Student_template_1.jpg' %}" />
+        <div class="card_content">
+            <div class="school_name">
+                <span class="school_heading nowrap">{{ request.user.first_name }}</span>
+                <span class="school_sub_heading"> {{school_info.address}} {{school_info.city}}  {{school_info.pincode}}</span>
+            </div>
+           
+            <img class="student_img" src="/media/{{i.image}}" />
+            <div class="student_name capital">{{i.Full_name}}</div>
+            <table class="student_detail">
+                
+                 <tr>
+                    <td>Username</td>
+                    <td>:&nbsp;{{i.user_name}}</td>
+                </tr>
+                <tr>
+                    <td>Father Name</td>
+                    <td>:&nbsp;{{i.fathername}}</td>
+                </tr>
+                <tr>
+                    <td>D.O.B:</td>
+                    <td>:&nbsp;{{i.date_of_birth}}</td>
+                </tr>
+               
+                <tr>
+                    <td>Class & Sec:</td>
+                    <td>:&nbsp; {{i.class_name}}-{{i.division_name}}</td>
+                </tr>
+                <tr>
+                    <td>Address:</td>
+                    <td>:&nbsp;{{i.Parents_Address}}</td>
+                </tr>
+                <tr>
+                    <td>Mobile:</td>
+                    <td>:&nbsp;{{i.Parents_mobile}}</td>
+                </tr>
+                
+            </table>
+            <div class="student_type">STUDENT</div>
+            <div class="footer_1">
+                <div class="session">2021-22</div>
+                <div class="sign_container">
+                    <img class="sign_img" src="/media/{{school_info.principal_sign_image}}" />
+                    <div class="principal_text">Principal</div>
+                </div>
+            </div>
+
+          
+        </div>
+    </div>
+
+
+</body>
+{% endfor %}
+</html>

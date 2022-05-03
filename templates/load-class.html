@@ -1,0 +1,13 @@
+<option value="">Please Select *</option>
+{% for i in class_name %}
+<option value="{{ i.class_name  }}">{{ i.class_name }}</option>
+{% endfor %}
+
+
+{% for i in Division %}
+<option value="{{ i.division_name  }}">{{ i.division_name }}</option>
+{% endfor %}
+
+{% for i in students %}
+<option value="{{ i.user_name  }}">{{ i.Full_name }}</option>
+{% endfor %}

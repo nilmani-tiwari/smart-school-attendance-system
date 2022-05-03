@@ -1,0 +1,93 @@
+[
+    {
+        "Driver_Name": "zxsw",
+        "License_Number": "56756766",
+        "Phone_Number": "898767654543",
+        "Route_Name": "vccc",
+        "Vehicle_Number": "bn008",
+        "gps_sim_no": null,
+        "password": null,
+        "reader_machine_no": null,
+        "school_code": "demo1",
+        "ssid": null,
+        "transport_id": 7
+    },
+    {
+        "Driver_Name": "dth sanker",
+        "License_Number": "avdmp67p",
+        "Phone_Number": "993773767263",
+        "Route_Name": "bdr pr to jhpur",
+        "Vehicle_Number": "xyzpt",
+        "gps_sim_no": null,
+        "password": null,
+        "reader_machine_no": null,
+        "school_code": "demo1",
+        "ssid": null,
+        "transport_id": 8
+    },
+    {
+        "Driver_Name": "Ramesh",
+        "License_Number": "Dl46854t",
+        "Phone_Number": "9729888990",
+        "Route_Name": "Baroli to palwal",
+        "Vehicle_Number": "Hr30j3768",
+        "gps_sim_no": null,
+        "password": null,
+        "reader_machine_no": null,
+        "school_code": "s004",
+        "ssid": null,
+        "transport_id": 9
+    },
+    {
+        "Driver_Name": "Dheeraj",
+        "License_Number": "Dl4785w",
+        "Phone_Number": "9050764268",
+        "Route_Name": "Deghot to palwal ",
+        "Vehicle_Number": "Hr30p5647",
+        "gps_sim_no": null,
+        "password": null,
+        "reader_machine_no": null,
+        "school_code": "s004",
+        "ssid": null,
+        "transport_id": 10
+    },
+    {
+        "Driver_Name": "Sonu gupta",
+        "License_Number": "45568995335",
+        "Phone_Number": "9876907539",
+        "Route_Name": "Khajuri",
+        "Vehicle_Number": "BR28C4801",
+        "gps_sim_no": null,
+        "password": null,
+        "reader_machine_no": null,
+        "school_code": "m001",
+        "ssid": null,
+        "transport_id": 11
+    },
+    {
+        "Driver_Name": "Mohan Gupta",
+        "License_Number": "34246785784",
+        "Phone_Number": "8934246875",
+        "Route_Name": "Baniyachhapar",
+        "Vehicle_Number": "BR28D5507",
+        "gps_sim_no": null,
+        "password": null,
+        "reader_machine_no": null,
+        "school_code": "m001",
+        "ssid": null,
+        "transport_id": 12
+    },
+    {
+        "Driver_Name": "Dilip manjhi",
+        "License_Number": "Br28gjdjj789292",
+        "Phone_Number": "9852347046",
+        "Route_Name": "Rajendra Nagar to Patel Nagar ",
+        "Vehicle_Number": "BR01G0678",
+        "gps_sim_no": null,
+        "password": null,
+        "reader_machine_no": null,
+        "school_code": "sbsy36",
+        "ssid": null,
+        "transport_id": 13
+    }
+]

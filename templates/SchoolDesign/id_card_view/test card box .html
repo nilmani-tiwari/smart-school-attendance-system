@@ -1,0 +1,273 @@
+<html>
+
+<head>
+
+    <style>
+        .card_bg {
+            width: 204px;
+            height: 321.5px;
+            margin: 0 auto;
+            margin-bottom: 30px;
+            /*border: 2px solid #06a3da;*/
+            position: relative;
+            float: left;
+            margin-left: 100px;
+            border: #071927;
+        }
+
+        .card_content {
+            position: absolute;
+            top: 0px;
+            width: 100%;
+            z-index: 10000000;
+        }
+
+        .school_name {
+            width: 100%;
+            margin-top: 7px;
+        }
+
+        .school_heading {
+            padding: 2px;
+            font-weight: bold;
+            color: #ffffff;
+            font-size: 21px;
+            text-align: center;
+            display: block;
+            padding-top: 0px;
+            padding-bottom: 0px;
+            -webkit-print-color-adjust: exact;
+        }
+
+        .school_sub_heading {
+            padding: 5px;
+            color: #ffffff;
+            font-size: 11px;
+            text-align: center;
+            display: block;
+            font-weight: bold;
+            -webkit-print-color-adjust: exact;
+        }
+
+        .student_img {
+           width: 67px;
+    height: 85px;
+    margin-top: 10px;
+    margin-left: 11px;
+    border: 1px solid #1c70ac;
+        }
+
+        .student_type {
+            width: 100%;
+            text-align: center;
+            margin-top: 8px;
+            font-family: verdana;
+            font-weight: bolder;
+            font-size: 19px;
+            position: absolute;
+            right: -87px;
+            top: 158px;
+            color: #bdb9b9;
+            -webkit-print-color-adjust: exact;
+            transform: rotate(-90deg);
+        }
+
+        .student_name {
+                width: 100%;
+    margin-top: 8px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+			  -webkit-print-color-adjust: exact;
+        }
+
+        .student_detail {
+            font-size: 12px;
+            line-height: 9px;
+            margin-top: 7px;
+            margin-left: 16px;
+            line-height: 12px;
+            white-space: nowrap;
+            flex: left;
+        }
+
+            .student_detail tr td:first-child {
+                text-align: left;
+                padding-right: 3px;
+            }
+
+            .student_detail tr td:last-child {
+                text-align: left;
+                padding-left: 3px;
+            }
+
+        .principal_text {
+            font-family: verdana;
+            font-size: 9px;
+            width: 97%;
+            text-align: right;
+            padding-right: 5px;
+            color: #071927;
+        }
+
+        .sign_img {
+            width: 30px;
+            margin-left: 11px;
+        }
+
+        }
+
+        .footer_1 {
+            width: 100%;
+        }
+
+        .session {
+           padding: 2px;
+    padding-left: 30px;
+    padding-top: 10px;
+    font-size: 16px;
+    color: blue;
+    font-weight: bold;
+        }
+
+        .sign_container {
+        float: right;
+    width: 23%;
+    right: 9px;
+    bottom: -5px;
+    position: absolute;
+    padding-right: 10px;
+}
+
+
+        .footer_2 {
+            color: white;
+            font-size: 11px;
+            width: 100%;
+            text-align: center;
+            /* background: red; */
+            float: left;
+            font-family: verdana;
+            -webkit-print-color-adjust: exact;
+        }
+
+        .school_sub_heading_2 {
+            color: blue;
+            font-size: 7px;
+            padding-top: 8px;
+            display: block;
+            padding-left: 10px;
+            font-weight: bold;
+            font-family: cursive;
+        }
+    </style>
+</head>
+
+<body >
+   
+    <div class="card_bg">
+        <!--<img src="Student_template_3.jpg" />-->
+        
+    <img width="250" height="250" src="https://th.bing.com/th/id/OIP.W8apTKARTqVhmLzMCisNmAHaEs?pid=ImgDet&rs=1' %}" />
+
+        <div class="card_content">
+            <div class="school_name">
+                <!--<span class="school_heading">{{ request.user.first_name }} Gopalganj</span>-->
+                                <span class="school_heading">{{ request.user.first_name }} </span>
+
+                <!--<span class="school_sub_heading">Vill. Baroli, Palwal(Hr.) M.9876543211 </span>-->
+                
+ <!--<span class="school_sub_heading">(Address- {{school_info.address}} {{school_info.city}} {{school_info.pincode}})</span>-->
+            <!--<span class="school_sub_heading">  {{school_info.address}} ({{school_info.city}})</span>-->
+
+                <span class="school_sub_heading">(Affilated to {{school_info.affiliated_by}})</span>
+
+                <!--<span class="school_sub_heading">(Affilated to {{school_info.affiliated_by}},School Code:{{school_info.registration_number}})</span>-->
+            </div>
+           
+            <div class="midSection" style="height: 95px;">
+                <div class="school_logo" style="width:50%; float:left;height: 95px;">
+                    <div class="session">2021-22</div>
+                    <!--<img class="school_logo" src="school_logo.png" style="width: 56px;height: 65px;margin-left: 23px;margin-bottom:5px;" />-->
+                    <img class="sign_img" src="/media/{{school_info.logo_of_school}}" style="width: 56px;height: 65px;margin-left: 23px;margin-bottom:5px;" />
+
+                   
+                </div>
+                <div style="width:50%; float:right;">
+                    <!--<img class="student_img" src="student.jpg" />-->
+                    <img class="student_img" src="/media/{{i.image}}">
+
+                </div>
+            </div>
+
+            <div class="student_name"> {{i.Full_name}}</div>
+            <!--<table class="student_detail">-->
+            <!--    <tr>-->
+            <!--        <td>Father Name</td>-->
+            <!--        <td>:&nbsp;Meghraj</td>-->
+            <!--    </tr>-->
+            <!--    <tr>-->
+            <!--        <td>D.O.B:</td>-->
+            <!--        <td>:&nbsp;03-Feb-1987</td>-->
+            <!--    </tr>-->
+            <!--    <tr>-->
+            <!--        <td>Adm. No:</td>-->
+            <!--        <td>:&nbsp;2230</td>-->
+            <!--    </tr>-->
+            <!--    <tr>-->
+            <!--        <td>Class & Sec:</td>-->
+            <!--        <td>:&nbsp; 5-A</td>-->
+            <!--    </tr>-->
+            <!--    <tr>-->
+            <!--        <td>Mobile:</td>-->
+            <!--        <td>:&nbsp;9050725826</td>-->
+            <!--    </tr>-->
+            <!--    <tr>-->
+            <!--        <td>Address:</td>-->
+            <!--        <td>:&nbsp;BAROLI</td>-->
+            <!--    </tr>-->
+            <!--</table>-->
+            
+            <table class="student_detail">
+             <tr>
+                    <td>Father Name</td>
+                    <td>:&nbsp;{{i.fathername}}</td>
+                </tr>
+                <tr>
+                    <td>D.O.B:</td>
+                    <td>:&nbsp;{{i.date_of_birth}}</td>
+                </tr>
+                <tr>
+                    <td>Adm. No:</td>
+                    <td>:&nbsp;{{i.admission_no}}</td>
+                </tr>
+                <tr>
+                    <td>Class & Sec:</td>
+                    <td>:&nbsp; {{i.class_name}}-{{i.division_name}}</td>
+                </tr>
+                <tr>
+                    <td>Address:</td>
+                    <td>:&nbsp;{{i.Parents_Address}}</td>
+                </tr>
+                <tr>
+                    <td>Mobile:</td>
+                    <td>:&nbsp;{{i.Parents_mobile}}</td>
+                </tr>
+                </table>
+
+            <div class="footer_1">
+
+                <div class="sign_container">
+                    <!--<img class="sign_img" src="p_sign.png" />-->
+                    <img class="sign_img" src="/media/{{school_info.principal_sign_image}}">
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+</body>
+
+</html>

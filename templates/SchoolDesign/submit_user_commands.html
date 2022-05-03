@@ -1,0 +1,29 @@
+<!doctype html>
+{% load static %}
+<html >
+
+<head>
+    
+    <title>SBSY | Home 1</title>
+    
+   
+</head>
+<body>
+
+    <form action="" method="post">
+        {% csrf_token %}
+        Bulb
+        <button name="Bulb" type="submit" value="on">on</button>
+        <button name="Bulb" type="submit" value="off">off</button>
+   </form> 
+  
+  <form action="" method="post">
+    {% csrf_token %}
+        Fan
+        <button name="Fan" type="submit" value="on">on</button>
+        <button name="Fan" type="submit" value="off">off</button>
+   </form> 
+
+</body>
+
+</html>

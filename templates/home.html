@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h>helloo {{ request.user.username }}</h>
+<br><br>
+{% if request.user.groups.all.0.name == 'admin' %}
+<b>admin</b>
+<br>
+<b>student</b>
+<br>
+<br>
+<b>staff</b>
+<br>
+<b>parents</b>
+<br>
+{% endif %}
+{% if request.user.groups.all.0.name == 'staff' %}
+<b>student</b>
+<br>
+<b>staff</b>
+<br>
+{% endif %}
+<br>
+{% if request.user.groups.all.0.name == 'parents' %}
+<b>parents</b>
+<br>
+<b>student</b>
+<br>
+<br>
+{% endif %}
+
+
+
+ <a  class="hello-msg" href="{% url 'logout' %}">Logout</a>
+
+</body>
+</html>
+
+

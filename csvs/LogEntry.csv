@@ -1,0 +1,437 @@
+id,action_time,user,content_type,object_id,object_repr,action_flag,change_message
+436,2021-03-20 07:05:39.028455+00:00,alok,school | busmap,8,busmap object (8),1,"[{""added"": {}}]"
+435,2021-03-20 07:03:06.964997+00:00,alok,school | busmap,7,busmap object (7),2,"[{""changed"": {""fields"": [""Date""]}}]"
+434,2021-03-20 07:02:52.593677+00:00,alok,school | busmap,6,busmap object (6),2,"[{""changed"": {""fields"": [""Date""]}}]"
+433,2021-03-20 07:02:38.487867+00:00,alok,school | busmap,5,busmap object (5),2,"[{""changed"": {""fields"": [""Date""]}}]"
+432,2021-03-20 07:02:26.050884+00:00,alok,school | busmap,4,busmap object (4),2,"[{""changed"": {""fields"": [""Date""]}}]"
+431,2021-03-20 07:02:12.553827+00:00,alok,school | busmap,3,busmap object (3),2,"[{""changed"": {""fields"": [""Date""]}}]"
+430,2021-03-20 07:01:49.547055+00:00,alok,school | busmap,2,busmap object (2),2,"[{""changed"": {""fields"": [""Date""]}}]"
+429,2021-03-20 07:01:15.735042+00:00,alok,school | busmap,1,busmap object (1),2,"[{""changed"": {""fields"": [""Date""]}}]"
+428,2021-03-20 02:21:57.320988+00:00,alok,school | school master,33,R.K Public Middle School sbsy33,2,"[{""changed"": {""fields"": [""Principal sign image""]}}]"
+427,2021-03-20 02:14:06.982545+00:00,alok,school | school master,33,R.K Public Middle School sbsy33,2,"[{""changed"": {""fields"": [""Principal sign image""]}}]"
+426,2021-03-20 02:11:18.564988+00:00,alok,school | school master,33,R.K Public Middle School sbsy33,2,[]
+425,2021-03-18 12:06:01.865245+00:00,alok,school | busmap,7,busmap object (7),1,"[{""added"": {}}]"
+424,2021-03-18 12:04:33.095468+00:00,alok,school | busmap,6,busmap object (6),1,"[{""added"": {}}]"
+423,2021-03-18 12:00:54.203780+00:00,alok,school | busmap,5,busmap object (5),1,"[{""added"": {}}]"
+422,2021-03-18 11:59:16.118560+00:00,alok,school | busmap,4,busmap object (4),1,"[{""added"": {}}]"
+421,2021-03-18 11:56:40.245369+00:00,alok,school | busmap,3,busmap object (3),1,"[{""added"": {}}]"
+420,2021-03-18 11:50:53.114186+00:00,alok,school | busmap,2,busmap object (2),1,"[{""added"": {}}]"
+419,2021-03-18 11:48:00.673244+00:00,alok,school | busmap,1,busmap object (1),1,"[{""added"": {}}]"
+418,2021-03-17 15:12:51.977549+00:00,alok,school | staff master,498,Rupa rani,2,"[{""changed"": {""fields"": [""Staff card number""]}}]"
+417,2021-03-17 15:12:11.087439+00:00,alok,school | staff master,497,Pradeep gupta,2,"[{""changed"": {""fields"": [""Staff card number""]}}]"
+416,2021-03-17 15:11:03.104500+00:00,alok,school | student master,486,Santosh singh ,2,"[{""changed"": {""fields"": [""Student card number""]}}]"
+415,2021-03-17 15:10:15.802297+00:00,alok,school | student master,482,Raju kumar ,2,"[{""changed"": {""fields"": [""Student card number""]}}]"
+414,2021-03-17 15:09:13.105400+00:00,alok,school | student master,490,Proyanshu kumar ,2,"[{""changed"": {""fields"": [""Student card number""]}}]"
+413,2021-03-17 15:08:16.522080+00:00,alok,school | student master,496,Prerna kumari ,2,"[{""changed"": {""fields"": [""Student card number""]}}]"
+412,2021-03-17 15:07:38.750391+00:00,alok,school | student master,488,Muskan kumari ,2,"[{""changed"": {""fields"": [""Student card number""]}}]"
+411,2021-03-17 15:06:43.470185+00:00,alok,school | student master,492,Mayank kumar ,2,"[{""changed"": {""fields"": [""Student card number""]}}]"
+410,2021-03-17 11:00:17.829667+00:00,alok,school | school master,2,demo2 school demo2,3,
+409,2021-03-17 10:59:36.763766+00:00,alok,school | school master,3,Govt. Girls Sr. Sec. School demo1,2,"[{""changed"": {""fields"": [""School name""]}}]"
+408,2021-03-16 13:35:08.745859+00:00,alok,school | school master,33,R.K Public Middle School sbsy33,2,"[{""changed"": {""fields"": [""Address"", ""City"", ""Pincode"", ""Principal sign image""]}}]"
+407,2021-03-13 10:19:24.565843+00:00,alok,school | staff master,388,tescher333,2,"[{""changed"": {""fields"": [""Staff card number""]}}]"
+406,2021-03-13 10:04:33.779953+00:00,alok,school | attendance,363,s003 teacher2 2021-03-13,3,
+405,2021-03-13 10:04:33.732030+00:00,alok,school | attendance,364,s003 teacher2 2021-03-13,3,
+404,2021-03-13 10:04:33.684960+00:00,alok,school | attendance,365,s003 teacher1 2021-03-13,3,
+403,2021-03-13 10:04:33.638977+00:00,alok,school | attendance,366,s003 teacher3 2021-03-13,3,
+402,2021-03-13 10:04:33.590901+00:00,alok,school | attendance,367,s003 teacher1 2021-03-13,3,
+401,2021-03-13 10:04:33.544960+00:00,alok,school | attendance,368,s003 Kajal 2021-03-13,3,
+400,2021-03-13 10:04:33.497933+00:00,alok,school | attendance,369,s003 Vipul 2021-03-13,3,
+399,2021-03-13 10:04:33.450964+00:00,alok,school | attendance,370,s003 Pawan 2021-03-13,3,
+398,2021-03-13 10:04:33.403831+00:00,alok,school | attendance,371,s003 Raj 2021-03-13,3,
+397,2021-03-13 10:04:33.356894+00:00,alok,school | attendance,372,s003 Deepak 2021-03-13,3,
+396,2021-03-13 10:04:33.309831+00:00,alok,school | attendance,373,s003 Rozi 2021-03-13,3,
+395,2021-03-13 10:04:33.262915+00:00,alok,school | attendance,374,s003 Sonya 2021-03-13,3,
+394,2021-03-13 10:04:33.215900+00:00,alok,school | attendance,375,s003 Abijit 2021-03-13,3,
+393,2021-03-13 10:04:33.170123+00:00,alok,school | attendance,376,s003 Chintu Kaushik 2021-03-13,3,
+392,2021-03-13 10:04:33.129508+00:00,alok,school | attendance,377,s003 Nitin 2021-03-13,3,
+391,2021-03-13 08:00:31.736818+00:00,alok,school | staff master,387,teacher2,2,"[{""changed"": {""fields"": [""Staff card number""]}}]"
+390,2021-03-13 08:00:09.615204+00:00,alok,school | staff master,386,teacher1,2,"[{""changed"": {""fields"": [""Staff card number""]}}]"
+389,2021-03-13 07:38:17.162093+00:00,alok,school | staff master,387,teacher2,2,"[{""changed"": {""fields"": [""Staff card number""]}}]"
+388,2021-03-13 07:37:45.835902+00:00,alok,school | staff master,386,teacher1,2,"[{""changed"": {""fields"": [""Staff card number""]}}]"
+387,2021-03-13 06:24:15.758984+00:00,alok,school | attendance,341,sbsy27 Rajender singh 2021-03-13,3,
+386,2021-03-13 06:24:15.711915+00:00,alok,school | attendance,342,sbsy27 Dinesh kumar 2021-03-13,3,
+385,2021-03-13 06:24:15.688576+00:00,alok,school | attendance,343,sbsy27 Poonam chauhan 2021-03-13,3,
+384,2021-03-13 06:24:15.687468+00:00,alok,school | attendance,344,sbsy27 Vivek shukla 2021-03-13,3,
+383,2021-03-13 06:24:15.686062+00:00,alok,school | attendance,345,sbsy32 Poonam chauhan 2021-03-13,3,
+382,2021-03-13 06:24:15.520107+00:00,alok,school | attendance,346,sbsy32 Dinesh kumar 2021-03-13,3,
+381,2021-03-13 06:24:15.475156+00:00,alok,school | attendance,347,sbsy32 Rajender singh 2021-03-13,3,
+380,2021-03-13 06:24:15.432452+00:00,alok,school | attendance,348,sbsy32 Vivek shukla 2021-03-13,3,
+379,2021-03-13 06:20:38.572424+00:00,alok,school | staff master,374,Dinesh kumar,2,"[{""changed"": {""fields"": [""Staff card number""]}}]"
+378,2021-03-13 06:19:36.326247+00:00,alok,school | staff master,374,Dinesh kumar,2,"[{""changed"": {""fields"": [""Staff card number""]}}]"
+377,2021-03-13 06:07:03.045935+00:00,alok,school | staff master,373,Vivek shukla,2,"[{""changed"": {""fields"": [""Staff card number""]}}]"
+376,2021-03-13 06:06:32.279460+00:00,alok,school | staff master,376,Poonam chauhan,2,"[{""changed"": {""fields"": [""Staff card number""]}}]"
+375,2021-03-13 06:05:50.794151+00:00,alok,school | staff master,374,Dinesh kumar,2,"[{""changed"": {""fields"": [""Staff card number""]}}]"
+374,2021-03-13 06:05:11.667195+00:00,alok,school | staff master,375,Rajender singh,2,"[{""changed"": {""fields"": [""Staff card number""]}}]"
+373,2021-03-12 07:09:13.264133+00:00,alok,school | staff master,370,teacher3,2,"[{""changed"": {""fields"": [""Staff card number""]}}]"
+372,2021-03-12 07:08:38.025866+00:00,alok,school | staff master,369,teacher2,2,"[{""changed"": {""fields"": [""Staff card number""]}}]"
+371,2021-03-12 07:08:11.064054+00:00,alok,school | staff master,368,teacher1,2,"[{""changed"": {""fields"": [""Staff card number""]}}]"
+370,2021-03-11 09:36:43.869898+00:00,alok,school | student master,346,yash ,2,"[{""changed"": {""fields"": [""Image""]}}]"
+369,2021-03-10 08:00:57.185098+00:00,alok,school | owner master,325,AMAN KASANA,2,"[{""changed"": {""fields"": [""Owner email""]}}]"
+368,2021-03-10 08:00:34.212881+00:00,alok,school | school master,28,STANFORD CONVENT SCHOOL,2,"[{""changed"": {""fields"": [""Email""]}}]"
+367,2021-03-10 08:00:00.911655+00:00,alok,auth | user,325,stanford.convent07@gmail.com,2,"[{""changed"": {""fields"": [""Username"", ""Email address""]}}]"
+366,2021-03-10 07:48:26.611934+00:00,alok,school | staff master,340,teacher14,2,"[{""changed"": {""fields"": [""Staff card number""]}}]"
+365,2021-03-10 07:47:52.122734+00:00,alok,school | staff master,339,teacher13,2,"[{""changed"": {""fields"": [""Staff card number""]}}]"
+364,2021-03-10 07:47:15.231456+00:00,alok,school | staff master,338,teacher12,2,"[{""changed"": {""fields"": [""Staff card number""]}}]"
+363,2021-03-10 07:46:39.790040+00:00,alok,school | staff master,337,teacher11,2,"[{""changed"": {""fields"": [""Staff card number""]}}]"
+362,2021-03-10 07:46:07.755120+00:00,alok,school | staff master,336,teacher10,2,"[{""changed"": {""fields"": [""Staff card number""]}}]"
+361,2021-03-10 07:23:26.802869+00:00,alok,school | staff master,334,teacher9,2,"[{""changed"": {""fields"": [""Staff card number""]}}]"
+360,2021-03-10 07:22:09.243837+00:00,alok,school | staff master,333,teacher8,2,[]
+359,2021-03-10 07:19:06.441434+00:00,alok,school | staff master,335,teacher0,2,[]
+358,2021-03-10 07:18:20.074878+00:00,alok,school | staff master,327,teacher2,2,"[{""changed"": {""fields"": [""Staff card number""]}}]"
+357,2021-03-10 07:15:53.592445+00:00,alok,school | staff master,334,teacher9,2,"[{""changed"": {""fields"": [""Staff card number""]}}]"
+356,2021-03-10 07:15:18.119332+00:00,alok,school | staff master,333,teacher8,2,"[{""changed"": {""fields"": [""Staff card number""]}}]"
+355,2021-03-10 07:14:18.963121+00:00,alok,school | staff master,332,teacher7,2,"[{""changed"": {""fields"": [""Staff card number""]}}]"
+354,2021-03-10 07:12:42.085829+00:00,alok,school | staff master,331,teacher6,2,"[{""changed"": {""fields"": [""Staff card number""]}}]"
+353,2021-03-10 07:11:42.582564+00:00,alok,school | staff master,330,teacher5,2,"[{""changed"": {""fields"": [""Staff card number""]}}]"
+352,2021-03-10 07:10:45.583028+00:00,alok,school | staff master,329,teacher4,2,"[{""changed"": {""fields"": [""Staff card number""]}}]"
+351,2021-03-10 07:09:58.783757+00:00,alok,school | staff master,328,teacher3,2,"[{""changed"": {""fields"": [""Staff card number""]}}]"
+350,2021-03-10 07:07:20.229678+00:00,alok,school | staff master,326,teacher1,2,"[{""changed"": {""fields"": [""Staff card number""]}}]"
+349,2021-03-10 07:06:39.810944+00:00,alok,school | staff master,335,teacher0,2,"[{""changed"": {""fields"": [""Staff card number""]}}]"
+348,2021-03-10 07:05:21.547978+00:00,alok,school | staff master,335,teacher0,2,"[{""changed"": {""fields"": [""Staff card number""]}}]"
+347,2021-03-10 06:25:10.442152+00:00,alok,school | owner master,325,AMAN KASANA,2,"[{""changed"": {""fields"": [""Owner email""]}}]"
+346,2021-03-10 06:24:31.294137+00:00,alok,auth | user,325,stanford.covent07@gmail.com,2,"[{""changed"": {""fields"": [""Username""]}}]"
+345,2021-03-10 06:22:50.148106+00:00,alok,auth | user,325,standford.covent07@gmail.com,2,"[{""changed"": {""fields"": [""Email address""]}}]"
+344,2021-03-10 06:21:30.541683+00:00,alok,school | school master,28,STANFORD CONVENT SCHOOL,2,"[{""changed"": {""fields"": [""Email""]}}]"
+343,2021-03-09 17:03:54.287135+00:00,alok,school | school master,14,Vijay demo public school,2,"[{""changed"": {""fields"": [""Principal sign image"", ""Logo of school""]}}]"
+342,2021-03-09 16:57:33.723296+00:00,alok,auth | user,135,vijaydemo@gmail.com,2,"[{""changed"": {""fields"": [""First name""]}}]"
+341,2021-03-09 12:34:55.457723+00:00,alok,school | school_machine_update,7,school_machine_update object (7),2,[]
+340,2021-03-09 12:32:53.695800+00:00,alok,school | school_machine_update,7,school_machine_update object (7),2,"[{""changed"": {""fields"": [""Gwid"", ""Ssid"", ""Password""]}}]"
+339,2021-03-09 12:20:19.721216+00:00,alok,school | school_machine_update,7,school_machine_update object (7),2,"[{""changed"": {""fields"": [""Gwid""]}}]"
+338,2021-03-09 12:19:41.979797+00:00,alok,school | school_machine_update,7,school_machine_update object (7),2,"[{""changed"": {""fields"": [""Gwid""]}}]"
+337,2021-03-09 12:18:55.183968+00:00,alok,school | school_machine_update,7,school_machine_update object (7),2,"[{""changed"": {""fields"": [""Gwid""]}}]"
+336,2021-03-08 14:04:06.549083+00:00,alok,school | student master,302,bunty ,2,"[{""changed"": {""fields"": [""Student card number""]}}]"
+335,2021-03-08 14:03:31.070118+00:00,alok,school | student master,306,kiran ,2,"[{""changed"": {""fields"": [""Student card number""]}}]"
+334,2021-03-08 14:02:49.944274+00:00,alok,school | student master,304,manish kumar ,2,"[{""changed"": {""fields"": [""Student card number""]}}]"
+333,2021-03-08 13:40:16.598612+00:00,alok,school | school master,15,Vijay bharat pablic school,3,
+332,2021-03-08 13:39:48.733570+00:00,alok,auth | user,145,vilaybharat@gmail.com,3,
+331,2021-03-08 13:37:21.007528+00:00,alok,auth | user,145,vilaybharat@gmail.com,2,"[{""changed"": {""fields"": [""Last name""]}}]"
+330,2021-03-08 13:36:15.396182+00:00,alok,school | owner master,145,vijay singh,1,"[{""added"": {}}]"
+329,2021-03-08 13:32:05.556748+00:00,alok,school | school master,15,Vijay bharat pablic school,2,"[{""changed"": {""fields"": [""School code""]}}]"
+328,2021-03-08 12:40:32.911172+00:00,alok,school | school_machine_update,6,school_machine_update object (6),2,"[{""changed"": {""fields"": [""School code""]}}]"
+327,2021-03-06 14:16:14.493571+00:00,alok,school | school_machine_update,1,school_machine_update object (1),1,"[{""added"": {}}]"
+326,2021-03-05 10:49:21.754968+00:00,alok,school | school master,21,M B I School,2,"[{""changed"": {""fields"": [""Principal sign image""]}}]"
+325,2021-03-05 10:44:14.698855+00:00,alok,school | school master,21,M B I School,2,"[{""changed"": {""fields"": [""Principal sign image""]}}]"
+324,2021-03-05 10:26:24.436833+00:00,alok,school | school master,21,M B I School,2,"[{""changed"": {""fields"": [""Principal sign image"", ""Logo of school""]}}]"
+323,2021-03-05 10:22:28.359634+00:00,alok,school | school master,3,Demo Public School Gopalganj,2,"[{""changed"": {""fields"": [""Address""]}}]"
+322,2021-03-05 10:19:50.143494+00:00,alok,school | school master,3,Demo Public School Gopalganj,2,"[{""changed"": {""fields"": [""Principal sign image""]}}]"
+321,2021-03-05 10:17:59.953391+00:00,alok,school | school master,3,Demo Public School Gopalganj,2,"[{""changed"": {""fields"": [""Principal sign image""]}}]"
+320,2021-03-05 10:15:39.962431+00:00,alok,school | school master,3,Demo Public School Gopalganj,2,[]
+319,2021-03-05 10:02:18.709038+00:00,alok,school | school master,3,Demo Public School Gopalganj,2,"[{""changed"": {""fields"": [""Principal sign image""]}}]"
+318,2021-03-05 10:01:48.601904+00:00,alok,school | school master,3,Demo Public School Gopalganj,2,"[{""changed"": {""fields"": [""Principal sign image""]}}]"
+317,2021-03-05 09:58:48.550154+00:00,alok,school | school master,25,SBSY INDIA PVT.LTD,2,"[{""changed"": {""fields"": [""Principal sign image""]}}]"
+316,2021-03-05 09:58:23.551783+00:00,alok,school | school master,25,SBSY INDIA PVT.LTD,2,"[{""changed"": {""fields"": [""Principal sign image""]}}]"
+315,2021-03-05 09:19:10.778932+00:00,alok,school | school master,3,Demo Public School Gopalganj,2,"[{""changed"": {""fields"": [""Image"", ""Principal sign image"", ""Logo of school""]}}]"
+314,2021-03-05 09:18:03.373154+00:00,alok,school | school master,25,SBSY INDIA PVT.LTD,2,"[{""changed"": {""fields"": [""Image""]}}]"
+313,2021-03-05 09:13:10.034388+00:00,alok,school | school master,25,SBSY INDIA PVT.LTD,2,"[{""changed"": {""fields"": [""Logo of school""]}}]"
+312,2021-03-05 09:11:20.885885+00:00,alok,school | school master,25,SBSY INDIA PVT.LTD,2,"[{""changed"": {""fields"": [""Logo of school""]}}]"
+311,2021-03-05 09:03:41.199301+00:00,alok,school | school master,25,SBSY INDIA PVT.LTD,2,"[{""changed"": {""fields"": [""Principal sign image""]}}]"
+310,2021-03-05 09:00:25.631979+00:00,alok,school | owner master,288,meghraj sharma,2,"[{""changed"": {""fields"": [""Owner address"", ""Owner city"", ""Owner pincode""]}}]"
+309,2021-03-05 08:59:23.354864+00:00,alok,school | school master,25,SBSY INDIA PVT.LTD,2,"[{""changed"": {""fields"": [""Address""]}}]"
+308,2021-03-05 08:41:48.473750+00:00,alok,school | school master,25,SBSY INDIA PVT.LTD,2,"[{""changed"": {""fields"": [""Registration number""]}}]"
+307,2021-03-03 11:35:10.075912+00:00,alok,school | school master,13,R. S. Memorial Public School,2,"[{""changed"": {""fields"": [""Address"", ""City"", ""Pincode""]}}]"
+306,2021-03-03 10:33:13.906348+00:00,alok,school | school master,13,R. S. Memorial Public School,2,"[{""changed"": {""fields"": [""Principal sign image""]}}]"
+305,2021-03-02 12:58:43.708221+00:00,alok,school | owner master,135,Vijay,2,"[{""changed"": {""fields"": [""Owner school code""]}}]"
+304,2021-03-02 00:39:42.513469+00:00,alok,school | owner master,51,Satyaveer shandilya,2,"[{""changed"": {""fields"": [""Owner school code""]}}]"
+303,2021-02-28 08:20:08.265684+00:00,alok,school | school master,22,Siddharth Public School,2,"[{""changed"": {""fields"": [""Affiliated by""]}}]"
+302,2021-02-26 13:10:23.929188+00:00,alok,auth | user,280,ram@gmail.com,2,"[{""changed"": {""fields"": [""Email address""]}}]"
+301,2021-02-26 13:08:40.452992+00:00,alok,auth | user,280,ram@gmail.com,2,"[{""changed"": {""fields"": [""Last name""]}}]"
+300,2021-02-26 13:03:54.691615+00:00,alok,school | class master,18,ClassMaster object (18),3,
+299,2021-02-26 12:43:05.578830+00:00,alok,auth | user,281,rasm@gmail.com,3,
+298,2021-02-26 12:39:39.557586+00:00,alok,school | school master,24,s.k School,2,"[{""changed"": {""fields"": [""Email""]}}]"
+297,2021-02-26 12:39:19.626578+00:00,alok,school | school master,23,s.k School,3,
+296,2021-02-25 17:35:09.564424+00:00,alok,school | student master,279,Gunjan kumari ,2,"[{""changed"": {""fields"": [""Division name""]}}]"
+295,2021-02-25 17:28:50.465614+00:00,alok,school | school master,3,Demo Public School Gopalganj,2,"[{""changed"": {""fields"": [""Principal sign image""]}}]"
+294,2021-02-25 17:25:28.507927+00:00,alok,auth | user,2,nilmani085@gmail.com,2,"[{""changed"": {""fields"": [""First name""]}}]"
+293,2021-02-25 17:23:00.668407+00:00,alok,school | school master,3,Demo Public School Gopalganj,2,"[{""changed"": {""fields"": [""Registration number"", ""Affiliated by""]}}]"
+292,2021-02-25 16:51:03.246526+00:00,alok,school | school master,13,R. S. Memorial Public School,2,"[{""changed"": {""fields"": [""Principal sign image""]}}]"
+291,2021-02-25 14:19:30.423439+00:00,alok,auth | user,51,Satyaveershandilya@gmail.com,2,"[{""changed"": {""fields"": [""First name""]}}]"
+290,2021-02-25 10:50:34.987878+00:00,alok,school | student master,279,Gunjan kumari ,2,"[{""changed"": {""fields"": [""Admission no""]}}]"
+289,2021-02-25 10:49:30.314225+00:00,alok,school | student master,279,Gunjan kumari ,2,"[{""changed"": {""fields"": [""Division name""]}}]"
+288,2021-02-25 10:47:25.296163+00:00,alok,auth | user,2,nilmani085@gmail.com,2,"[{""changed"": {""fields"": [""First name""]}}]"
+287,2021-02-25 10:30:24.561504+00:00,alok,auth | user,2,nilmani085@gmail.com,2,"[{""changed"": {""fields"": [""First name""]}}]"
+286,2021-02-25 10:09:36.470752+00:00,alok,auth | user,2,nilmani085@gmail.com,2,"[{""changed"": {""fields"": [""First name""]}}]"
+285,2021-02-24 12:14:59.959414+00:00,alok,school | staff master,268,Sonya,2,"[{""changed"": {""fields"": [""Staff card number""]}}]"
+284,2021-02-24 12:13:45.723253+00:00,alok,school | staff master,269,Deepak,2,[]
+283,2021-02-24 12:13:43.256675+00:00,alok,school | staff master,269,Deepak,2,"[{""changed"": {""fields"": [""Staff card number""]}}]"
+282,2021-02-24 12:12:49.745610+00:00,alok,school | staff master,270,Chintu Kaushik,2,"[{""changed"": {""fields"": [""Staff card number""]}}]"
+281,2021-02-24 12:11:55.712918+00:00,alok,school | staff master,271,Raj,2,"[{""changed"": {""fields"": [""Staff card number""]}}]"
+280,2021-02-24 12:10:55.410888+00:00,alok,school | staff master,272,Vipul,2,"[{""changed"": {""fields"": [""Staff card number""]}}]"
+279,2021-02-24 12:10:07.204191+00:00,alok,school | staff master,273,Abisake,2,"[{""changed"": {""fields"": [""Staff First name"", ""Staff card number""]}}]"
+278,2021-02-24 12:08:35.554039+00:00,alok,school | staff master,274,Pawan,2,"[{""changed"": {""fields"": [""Staff card number""]}}]"
+277,2021-02-24 12:07:21.781856+00:00,alok,school | staff master,275,Kajal,2,"[{""changed"": {""fields"": [""Staff card number""]}}]"
+276,2021-02-24 12:06:05.758420+00:00,alok,school | staff master,278,Abijit,2,"[{""changed"": {""fields"": [""Staff card number""]}}]"
+275,2021-02-24 12:03:08.989029+00:00,alok,school | staff master,276,Rozi,2,"[{""changed"": {""fields"": [""Staff card number""]}}]"
+274,2021-02-24 12:01:42.400405+00:00,alok,school | staff master,277,Nitin,2,"[{""changed"": {""fields"": [""Staff card number""]}}]"
+273,2021-02-24 11:45:00.544403+00:00,alok,school | school master,14,Vijay demo public school,2,"[{""changed"": {""fields"": [""School name""]}}]"
+272,2021-02-24 09:28:41.401831+00:00,alok,school | student master,265,Ramesh ,2,"[{""changed"": {""fields"": [""Student card number""]}}]"
+271,2021-02-24 09:28:22.639686+00:00,alok,school | student master,267,Ram ,2,"[{""changed"": {""fields"": [""Student card number""]}}]"
+270,2021-02-23 11:38:53.319058+00:00,alok,school | posts,6,okkkk,1,"[{""added"": {}}]"
+269,2021-02-23 11:38:25.579710+00:00,alok,school | posts,5,,3,
+268,2021-02-23 11:38:10.711458+00:00,alok,school | posts,4,,3,
+267,2021-02-23 11:37:38.150467+00:00,alok,school | posts,5,,1,"[{""added"": {}}]"
+266,2021-02-23 11:37:37.422860+00:00,alok,school | posts,4,,1,"[{""added"": {}}]"
+265,2021-02-23 11:35:08.368186+00:00,alok,school | posts,3,one more post,1,"[{""added"": {}}]"
+264,2021-02-23 11:25:55.249524+00:00,alok,school | posts,2,new,1,"[{""added"": {}}]"
+263,2021-02-23 11:15:52.350686+00:00,alok,school | posts,1,hello,1,"[{""added"": {}}]"
+262,2021-02-19 15:50:43.649863+00:00,alok,school | staff master,246,jatin kumar,2,"[{""changed"": {""fields"": [""Staff medium name""]}}]"
+261,2021-02-19 15:46:06.689518+00:00,alok,school | staff master,245,manish kumar,2,"[{""changed"": {""fields"": [""Staff medium name""]}}]"
+260,2021-02-19 15:29:36.995952+00:00,alok,school | staff master,56,Satyaveer Sharma,2,[]
+259,2021-02-19 14:48:02.492014+00:00,alok,auth | user,117,ravikumar@gmail.com,3,
+258,2021-02-19 14:48:02.348664+00:00,alok,auth | user,241,ravi09009@gmail.com,3,
+257,2021-02-19 14:48:02.345620+00:00,alok,auth | user,242,ravi0900879@gmail.com,3,
+256,2021-02-19 14:48:02.343294+00:00,alok,auth | user,240,ravi009@gmail.com,3,
+255,2021-02-19 13:36:48.003181+00:00,alok,school | staff master,50,mohit tiwari,2,"[{""changed"": {""fields"": [""Staff First name"", ""Staff Last name""]}}]"
+254,2021-02-19 13:33:18.143561+00:00,alok,school | staff master,52,Sapna,2,"[{""changed"": {""fields"": [""Staff Last name""]}}]"
+253,2021-02-19 13:32:52.430294+00:00,alok,school | staff master,54,Aruna Kumari,2,"[{""changed"": {""fields"": [""Staff First name"", ""Staff Last name""]}}]"
+252,2021-02-19 13:32:32.308443+00:00,alok,school | staff master,55,Manju Bala,2,"[{""changed"": {""fields"": [""Staff First name"", ""Staff Last name""]}}]"
+251,2021-02-19 13:32:08.747518+00:00,alok,school | staff master,56,Satyaveer Sharma,2,"[{""changed"": {""fields"": [""Staff First name"", ""Staff Last name""]}}]"
+250,2021-02-19 13:31:35.503524+00:00,alok,school | staff master,116,Sf T,2,"[{""changed"": {""fields"": [""Staff First name"", ""Staff Last name""]}}]"
+249,2021-02-19 13:31:14.609545+00:00,alok,school | staff master,117,Ravi Kumar,2,"[{""changed"": {""fields"": [""Staff First name"", ""Staff Last name""]}}]"
+248,2021-02-19 13:30:55.129427+00:00,alok,school | staff master,129,Rajesh kumari,2,"[{""changed"": {""fields"": [""Staff Last name""]}}]"
+247,2021-02-19 13:30:33.715209+00:00,alok,school | staff master,130,Hemlata,2,"[{""changed"": {""fields"": [""Staff Last name""]}}]"
+246,2021-02-19 13:30:02.662880+00:00,alok,school | staff master,175,Mukesh kumar Singh,2,"[{""changed"": {""fields"": [""Staff First name"", ""Staff Last name""]}}]"
+245,2021-02-19 13:29:36.646561+00:00,alok,school | staff master,178,Manoj bhardwaj,2,"[{""changed"": {""fields"": [""Staff First name"", ""Staff Last name""]}}]"
+244,2021-02-19 12:06:09.534614+00:00,alok,school | school master,13,R. S. Memorial Public School,2,"[{""changed"": {""fields"": [""School name""]}}]"
+243,2021-02-19 07:42:28.778106+00:00,alok,school | school master,22,Siddharth Public School,2,"[{""changed"": {""fields"": [""School name""]}}]"
+242,2021-02-18 12:52:03.111725+00:00,alok,school | bike_user,6,bike_user object (6),2,"[{""changed"": {""fields"": [""Rf id1"", ""Rf id2""]}}]"
+241,2021-02-18 12:24:49.423783+00:00,alok,school | bike_user,6,bike_user object (6),2,"[{""changed"": {""fields"": [""Rf id1""]}}]"
+240,2021-02-18 12:21:27.933771+00:00,alok,school | bike_user,6,bike_user object (6),2,[]
+239,2021-02-18 12:21:12.148766+00:00,alok,school | bike_user,6,bike_user object (6),2,"[{""changed"": {""fields"": [""Address"", ""Rf id1"", ""Rf id2""]}}]"
+238,2021-02-16 13:58:08.123828+00:00,alok,school | bike_user,1,bike_user object (1),2,"[{""changed"": {""fields"": [""Address"", ""Rf id1"", ""Rf id2""]}}]"
+237,2021-02-16 13:27:42.631607+00:00,alok,school | bike_user,2,bike_user object (2),1,"[{""added"": {}}]"
+236,2021-02-16 09:51:08.772820+00:00,alok,school | bike_user,1,bike_user object (1),2,"[{""changed"": {""fields"": [""Machine id""]}}]"
+235,2021-02-14 13:23:42.116137+00:00,alok,school | bike_user,1,bike_user object (1),2,"[{""changed"": {""fields"": [""Ssid"", ""Password"", ""Rf id1"", ""Rf id2""]}}]"
+234,2021-02-14 13:06:27.645906+00:00,alok,school | bike_user,1,bike_user object (1),2,[]
+233,2021-02-14 13:06:09.517748+00:00,alok,school | bike_user,1,bike_user object (1),2,"[{""changed"": {""fields"": [""Ssid"", ""Rf id1"", ""Rf id2""]}}]"
+232,2021-02-11 12:09:03.668028+00:00,alok,school | owner master,189,Anshu kumar mishara,2,"[{""changed"": {""fields"": [""Owner image""]}}]"
+231,2021-02-11 12:07:44.920256+00:00,alok,school | owner master,189,Anshu kumar mishara,2,"[{""changed"": {""fields"": [""Owner image""]}}]"
+230,2021-02-11 05:46:21.333255+00:00,alok,auth | user,2,nilmani085@gmail.com,2,"[{""changed"": {""fields"": [""Username""]}}]"
+229,2021-02-11 05:42:09.994382+00:00,alok,school | school master,3,Demo Public School Gopalganj,2,"[{""changed"": {""fields"": [""School name"", ""Email""]}}]"
+228,2021-02-11 05:35:37.511200+00:00,alok,school | owner master,2,nilmani tiwari,2,"[{""changed"": {""fields"": [""Owner email""]}}]"
+227,2021-02-11 04:40:39.887439+00:00,alok,auth | user,169,dubeyravi254@gmail.com,2,[]
+226,2021-02-10 11:26:08.900492+00:00,alok,school | medium master,29,English  m001,1,"[{""added"": {}}]"
+225,2021-02-10 11:25:27.361432+00:00,alok,school | medium master,28,Hindi  m001,1,"[{""added"": {}}]"
+224,2021-02-10 11:24:27.266438+00:00,alok,auth | user,169,dubeyravi254@gmail.com,2,"[{""changed"": {""fields"": [""Username"", ""Last name"", ""Email address""]}}]"
+223,2021-02-10 11:22:53.312867+00:00,alok,school | school master,19,Oxford junior school,2,"[{""changed"": {""fields"": [""Email""]}}]"
+222,2021-02-10 11:22:09.778088+00:00,alok,school | owner master,169,Ravi Bhardwaj,2,"[{""changed"": {""fields"": [""Owner email""]}}]"
+221,2021-02-10 11:20:06.447358+00:00,alok,school | owner master,169,Ravi Bhardwaj,1,"[{""added"": {}}]"
+220,2021-02-10 11:11:18.578327+00:00,alok,school | school master,19,Oxford junior school,2,"[{""changed"": {""fields"": [""School code"", ""Registration number""]}}]"
+219,2021-02-10 07:27:48.726553+00:00,alok,auth | user,164,bmphskhambi@gmail.com,2,"[{""changed"": {""fields"": [""Username""]}}]"
+218,2021-02-10 07:25:14.751451+00:00,alok,school | school master,18,Brij Mandal punlic high school,2,"[{""changed"": {""fields"": [""Email""]}}]"
+217,2021-02-10 05:40:49.995460+00:00,alok,school | owner master,162,Ramniwas,2,"[{""changed"": {""fields"": [""Owner school code""]}}]"
+216,2021-02-09 13:40:07.897307+00:00,alok,auth | user,60,9991446898,3,
+215,2021-02-09 13:40:07.895020+00:00,alok,auth | user,59,9991446060,3,
+214,2021-02-09 10:32:38.940097+00:00,alok,school | medium master,18,English  s004,2,"[{""changed"": {""fields"": [""Medium name""]}}]"
+213,2021-02-09 10:32:21.699133+00:00,alok,school | medium master,19,Hindi  s004,2,"[{""changed"": {""fields"": [""Medium name""]}}]"
+212,2021-02-09 10:24:47.999463+00:00,alok,school | medium master,18,Hindi  s004,2,"[{""changed"": {""fields"": [""Medium name""]}}]"
+211,2021-02-09 10:24:29.733113+00:00,alok,school | medium master,19,English  s004,2,"[{""changed"": {""fields"": [""Medium name""]}}]"
+210,2021-02-09 10:23:50.717064+00:00,alok,school | medium master,19,english  s004,1,"[{""added"": {}}]"
+209,2021-02-09 10:23:23.733516+00:00,alok,school | medium master,18,hindi  s004,2,"[{""changed"": {""fields"": [""School code""]}}]"
+208,2021-02-09 10:23:05.517518+00:00,alok,school | medium master,18,hindi  soo4,1,"[{""added"": {}}]"
+207,2021-02-09 10:20:12.840463+00:00,alok,school | owner master,135,Vijay,2,"[{""changed"": {""fields"": [""Owner school code""]}}]"
+206,2021-02-08 12:52:15.720079+00:00,alok,school | staff master,130,Hemlata hemlata,2,"[{""changed"": {""fields"": [""Staff card number""]}}]"
+205,2021-02-08 12:40:53.179052+00:00,alok,school | staff master,129,Rajesh Kumari,2,"[{""changed"": {""fields"": [""Staff card number""]}}]"
+204,2021-02-08 12:27:49.481822+00:00,alok,school | staff master,128,Ram dffgj,2,"[{""changed"": {""fields"": [""Staff card number""]}}]"
+203,2021-02-08 11:42:11.752409+00:00,alok,school | staff master,127,sumesh singh,2,"[{""changed"": {""fields"": [""Staff card number""]}}]"
+202,2021-02-08 11:31:35.461144+00:00,alok,school | staff master,126,sunny singh,2,[]
+201,2021-02-08 11:26:03.084851+00:00,alok,school | staff master,126,sunny singh,2,"[{""changed"": {""fields"": [""Staff card number""]}}]"
+200,2021-02-08 11:11:07.230657+00:00,alok,school | staff master,125,rinku sharma,2,"[{""changed"": {""fields"": [""Staff subject"", ""Staff card number""]}}]"
+199,2021-02-08 11:09:54.421888+00:00,alok,school | staff master,125,rinku sharma,2,[]
+198,2021-02-08 11:04:37.619113+00:00,alok,school | staff master,125,rinku sharma,2,"[{""changed"": {""fields"": [""Staff subject""]}}]"
+197,2021-02-08 07:05:02.548329+00:00,alok,school | staff master,124,rajesh1 sharma,2,"[{""changed"": {""fields"": [""Staff card number""]}}]"
+196,2021-02-08 07:03:45.495569+00:00,alok,school | staff master,124,rajesh1 sharma,2,"[{""changed"": {""fields"": [""Staff card number""]}}]"
+195,2021-02-08 06:54:32.004772+00:00,alok,school | staff master,123,Rajesh Kumari,2,"[{""changed"": {""fields"": [""Staff user""]}}]"
+194,2021-02-08 06:51:26.793392+00:00,alok,auth | user,123,8053304032,2,[]
+193,2021-02-08 06:50:47.095111+00:00,alok,auth | user,123,8053304032,2,"[{""changed"": {""fields"": [""First name"", ""Last name"", ""Email address"", ""Staff status"", ""Groups""]}}]"
+192,2021-02-08 06:48:33.898948+00:00,alok,auth | user,123,8053304032,1,"[{""added"": {}}]"
+191,2021-02-08 06:18:08.662937+00:00,alok,school | staff master,58,Hemlata hemlata,2,[]
+190,2021-02-08 06:17:15.222176+00:00,alok,school | staff master,57,Rajesh Kumari,2,"[{""changed"": {""fields"": [""Staff card number""]}}]"
+189,2021-02-08 06:06:23.007640+00:00,alok,school | staff master,54,Aruna Kumari,2,"[{""changed"": {""fields"": [""Staff card number""]}}]"
+188,2021-02-08 06:04:57.753005+00:00,alok,school | staff master,52,sapna sapna,2,"[{""changed"": {""fields"": [""Staff Last name"", ""Staff city"", ""Staff card number""]}}]"
+187,2021-02-08 06:01:06.040542+00:00,alok,school | staff master,55,Manju Bala,2,"[{""changed"": {""fields"": [""Staff card number""]}}]"
+186,2021-02-08 06:00:11.089743+00:00,alok,school | staff master,56,Satyaveer Sharma,2,"[{""changed"": {""fields"": [""Staff card number""]}}]"
+185,2021-02-08 05:58:32.558492+00:00,alok,school | staff master,57,Rajesh Kumari,2,"[{""changed"": {""fields"": [""Staff card number""]}}]"
+184,2021-02-08 05:57:31.548208+00:00,alok,school | staff master,58,Hemlata hemlata,2,"[{""changed"": {""fields"": [""Staff card number""]}}]"
+183,2021-02-04 14:32:01.152578+00:00,alok,school | school master,13,R. S. Memorial School,2,"[{""changed"": {""fields"": [""School code""]}}]"
+182,2021-02-04 14:30:23.535297+00:00,alok,auth | user,56,satyaveershandila@gmail.com,2,"[{""changed"": {""fields"": [""Last name""]}}]"
+181,2021-02-04 14:14:49.411502+00:00,alok,auth | user,56,satyaveershandila@gmail.com,2,"[{""changed"": {""fields"": [""Last name""]}}]"
+180,2021-02-04 14:13:46.148226+00:00,alok,school | school master,13,R. S. Memorial School,2,"[{""changed"": {""fields"": [""School code""]}}]"
+179,2021-02-02 16:28:18.995566+00:00,alok,school | bike_user,1,bike_user object (1),2,"[{""changed"": {""fields"": [""Rf id1""]}}]"
+178,2021-02-02 15:48:07.844758+00:00,alok,school | bike_user,1,bike_user object (1),2,[]
+177,2021-02-02 15:47:49.181798+00:00,alok,school | bike_user,1,bike_user object (1),1,"[{""added"": {}}]"
+176,2020-11-22 10:53:54.475718+00:00,alok,school | student master,48,siddharth  tiwarishashikant535@gmail.com  47,2,"[{""changed"": {""fields"": [""Student card number""]}}]"
+175,2020-10-17 02:48:04.106208+00:00,alok,school | user_command,1,user_command object (1),1,"[{""added"": {}}]"
+174,2020-10-05 11:17:28.078333+00:00,alok,auth | user,43,stmglobalschool@gmail.com,2,"[{""changed"": {""fields"": [""Username"", ""Email address""]}}]"
+173,2020-09-22 08:13:22.587073+00:00,alok,school | attendance,9,demo1 mani 2020-09-22,2,"[{""changed"": {""fields"": [""Outtime""]}}]"
+172,2020-09-21 19:31:05.851424+00:00,alok,auth | user,37,demo3@gmail.com,2,"[{""changed"": {""fields"": [""Groups""]}}]"
+171,2020-09-21 14:50:44.517882+00:00,alok,school | medium master,4,Hindi  sxps,2,"[{""changed"": {""fields"": [""Medium name""]}}]"
+170,2020-09-21 14:47:25.111588+00:00,alok,auth | user,35,sxps@gmail.com,3,
+169,2020-09-21 14:47:07.947818+00:00,alok,school | school master,7,saint xavier public school,3,
+168,2020-09-21 14:45:29.858096+00:00,alok,school | school master,6,saint xavier public school,3,
+167,2020-09-21 14:35:56.978670+00:00,alok,school | school master,5,saint xavier public school,3,
+166,2020-09-21 14:28:40.512770+00:00,alok,school | school master,4,saint xavier public school,3,
+165,2020-09-21 10:38:37.448706+00:00,alok,school | parents master,6,Yoshio Minamoto 2222222222:6,3,
+164,2020-09-21 10:38:37.363679+00:00,alok,school | parents master,8,Nobisume  3333333333:8,3,
+163,2020-09-21 10:38:37.278569+00:00,alok,school | parents master,11,mr. mukesh  kumar jha 9313697663:11,3,
+162,2020-09-21 10:38:37.182640+00:00,alok,school | parents master,25,ronit vivek 5555555777:25,3,
+161,2020-09-21 10:38:37.024415+00:00,alok,school | parents master,33,yash 9599093984:33,3,
+160,2020-09-21 10:35:04.063161+00:00,alok,auth | user,22,vivek22,3,
+159,2020-09-21 10:35:03.978277+00:00,alok,auth | user,13,teacher1@gmail.com,3,
+158,2020-09-21 10:35:03.893463+00:00,alok,auth | user,10,shyam@gmail.com,3,
+157,2020-09-21 10:35:03.798261+00:00,alok,auth | user,3,9991446060,3,
+156,2020-09-21 10:06:41.118814+00:00,alok,school | student master,34,yashpal  yashpal@gmail.com,2,"[{""changed"": {""fields"": [""Parents id""]}}]"
+155,2020-09-21 08:32:11.571308+00:00,alok,school | message_pack,1,message_pack object (1),1,"[{""added"": {}}]"
+154,2020-09-21 08:05:29.911952+00:00,alok,school | student master,22,vivek kumar  rajuvvvv@gmail.com,3,
+153,2020-09-21 08:03:14.053809+00:00,alok,school | student master,22,vivek kumar  rajuvvvv@gmail.com,2,"[{""changed"": {""fields"": [""Parents id""]}}]"
+152,2020-09-21 07:58:07.514982+00:00,alok,school | student master,22,vivek kumar  rajuvvvv@gmail.com,2,"[{""changed"": {""fields"": [""Parents id""]}}]"
+151,2020-09-21 07:40:53.677614+00:00,alok,school | student master,14,anvi  anvi@gmail.com,2,"[{""changed"": {""fields"": [""Student card number""]}}]"
+150,2020-09-21 07:40:38.422321+00:00,alok,school | student master,15,piyush  piyush@gmail.com,2,"[{""changed"": {""fields"": [""Student card number""]}}]"
+149,2020-09-21 07:40:13.308322+00:00,alok,school | student master,18,ABCD  abcdefg@gmail.com,2,"[{""changed"": {""fields"": [""Student card number""]}}]"
+148,2020-09-21 07:39:56.318036+00:00,alok,school | student master,20,nathasa  nathsa@gmail.com,2,"[{""changed"": {""fields"": [""Student card number""]}}]"
+147,2020-09-21 07:39:38.065012+00:00,alok,school | student master,22,vivek kumar  rajuvvvv@gmail.com,2,"[{""changed"": {""fields"": [""Student card number""]}}]"
+146,2020-09-21 07:39:16.748851+00:00,alok,school | student master,28,bhavesh singh  bhavesh@gmail.com,2,"[{""changed"": {""fields"": [""Student card number""]}}]"
+145,2020-09-21 07:39:04.646662+00:00,alok,school | student master,30,robin bharti  bharati@gmail.com,2,"[{""changed"": {""fields"": [""Student card number""]}}]"
+144,2020-09-21 07:38:47.377414+00:00,alok,school | student master,32,robin bharti hello  bharatttti@gmail.com,2,"[{""changed"": {""fields"": [""Student card number""]}}]"
+143,2020-09-21 07:38:37.883629+00:00,alok,school | student master,34,yashpal  yashpal@gmail.com,2,"[{""changed"": {""fields"": [""Student card number""]}}]"
+142,2020-09-17 14:12:01.856361+00:00,alok,auth | user,21,8888888888,3,
+141,2020-09-17 14:12:01.666492+00:00,alok,auth | user,24,8888866668,3,
+140,2020-09-17 14:12:01.496380+00:00,alok,auth | user,26,8888666888,3,
+139,2020-09-17 14:10:31.114317+00:00,alok,auth | user,23,bhaveshsingh19,3,
+138,2020-09-17 13:05:52.556613+00:00,alok,auth | user,6,2222222222,2,[]
+137,2020-09-17 11:48:51.677847+00:00,alok,auth | user,6,2222222222,2,"[{""changed"": {""fields"": [""Email address""]}}]"
+136,2020-09-16 10:31:05.712013+00:00,alok,school | notice_board_school,15,demo1 fsdkj,2,"[{""changed"": {""fields"": [""Created on""]}}]"
+135,2020-08-27 12:29:05.698961+00:00,alok,auth | user,4,1111111111,2,"[{""changed"": {""fields"": [""First name""]}}]"
+134,2020-08-27 12:28:44.137031+00:00,alok,school | parents master,4,Nobisuke Nobi 1111111111,2,"[{""changed"": {""fields"": [""Fathername""]}}]"
+133,2020-08-27 12:28:34.605487+00:00,alok,school | parents master,4,hbhjj 1111111111,2,"[{""changed"": {""fields"": [""Fathername""]}}]"
+132,2020-08-27 12:03:51.628992+00:00,alok,school | parents master,4,Nobisuke Nobi 1111111111,2,[]
+131,2020-08-27 12:01:29.400873+00:00,alok,school | parents master,4,Nobisuke Nobi 1111111111,2,"[{""changed"": {""fields"": [""Fathername"", ""Parents image""]}}]"
+130,2020-08-27 11:07:00.542716+00:00,alok,school | student master,14,anvi  anvi@gmail.com,2,"[{""changed"": {""fields"": [""Image""]}}]"
+129,2020-08-25 10:07:56.092696+00:00,alok,school | school_holiday,8,demo1 diwali,3,
+128,2020-08-25 10:07:55.985617+00:00,alok,school | school_holiday,9,demo1 diwali,3,
+127,2020-08-25 10:07:55.899622+00:00,alok,school | school_holiday,10,demo1 sbsy holiday,3,
+126,2020-08-25 10:07:55.815594+00:00,alok,school | school_holiday,11,demo1 abcd,3,
+125,2020-08-25 10:07:55.730277+00:00,alok,school | school_holiday,12,demo1 abcd,3,
+124,2020-08-25 10:07:55.642205+00:00,alok,school | school_holiday,13,demo1 holi ,3,
+123,2020-08-25 07:58:05.711403+00:00,alok,school | school_holiday,1,demo1 diwali,3,
+122,2020-08-25 07:58:05.635308+00:00,alok,school | school_holiday,2,demo1 diwali,3,
+121,2020-08-25 07:58:05.561506+00:00,alok,school | school_holiday,3,demo1 diwali,3,
+120,2020-08-25 07:58:05.476733+00:00,alok,school | school_holiday,4,demo1 diwali,3,
+119,2020-08-25 07:58:05.382406+00:00,alok,school | school_holiday,5,demo1 diwali,3,
+118,2020-08-25 07:58:05.297294+00:00,alok,school | school_holiday,6,demo1 diwali,3,
+117,2020-08-25 07:58:05.164005+00:00,alok,school | school_holiday,7,demo1 diwali,3,
+116,2020-08-25 07:46:30.224633+00:00,alok,school | school_holiday,2,demo1 diwali,3,
+115,2020-08-24 18:52:00.631141+00:00,alok,school | school_library,3,demo1,3,
+114,2020-08-24 18:48:07.128519+00:00,alok,school | school_library,2,demo1,3,
+113,2020-08-24 18:47:54.068894+00:00,alok,school | school_library,1,demo1,3,
+112,2020-08-24 11:12:10.977166+00:00,alok,school | school_ transport,1,demo1 hgfdsjhg,3,
+111,2020-08-24 07:48:57.037319+00:00,alok,school | attendance,6,demo1 Nobita Nobi 2020-08-24,3,
+110,2020-08-24 07:46:05.235628+00:00,alok,school | attendance,3,demo1 Nobita Nobi 2020-01-08,3,
+109,2020-08-24 07:46:05.150855+00:00,alok,school | attendance,4,demo1 Nobita Nobi 2020-05-08,3,
+108,2020-08-24 07:46:05.060144+00:00,alok,school | attendance,5,demo1 Nobita Nobi 2020-08-17,3,
+107,2020-08-24 07:44:32.549113+00:00,alok,school | attendance_api,16,attendance_api object (16),3,
+106,2020-08-23 20:57:38.758312+00:00,alok,school | attendance_api,7,attendance_api object (7),3,
+105,2020-08-23 20:56:56.585946+00:00,alok,school | attendance,1,demo1 Nobita Nobi 2020-02-08,3,
+104,2020-08-23 20:56:56.501175+00:00,alok,school | attendance,2,demo1 Nobita Nobi 2020-07-28,3,
+103,2020-08-23 20:50:51.004829+00:00,alok,school | attendance_api,5,attendance_api object (5),3,
+102,2020-08-23 20:05:01.949929+00:00,alok,school | attendance_api,1,attendance_api object (1),3,
+101,2020-08-23 20:05:01.799053+00:00,alok,school | attendance_api,3,attendance_api object (3),3,
+100,2020-08-23 20:05:01.691010+00:00,alok,school | attendance_api,4,attendance_api object (4),3,
+99,2020-08-23 19:43:01.575634+00:00,alok,school | school master,3,demo1 school,2,"[{""changed"": {""fields"": [""School name""]}}]"
+98,2020-08-23 19:42:39.941006+00:00,alok,school | school master,3,demo1,2,"[{""changed"": {""fields"": [""School name""]}}]"
+97,2020-08-23 19:42:23.307656+00:00,alok,school | school master,3,demo public school,1,"[{""added"": {}}]"
+96,2020-08-23 19:34:25.102507+00:00,alok,school | student master,5,Nobita Nobi  nobita@gmail.com,2,"[{""changed"": {""fields"": [""Student card number""]}}]"
+95,2020-08-22 19:10:22.955067+00:00,alok,school | notice_board_school,1,demo1 Ganesh chaturthi,3,
+94,2020-08-22 18:51:45.110416+00:00,alok,school | notice_board_school,16,demo1 Ganesh chaturthi,3,
+93,2020-08-22 18:51:44.862594+00:00,alok,school | notice_board_school,17,demo1 Independence Day,3,
+92,2020-08-22 15:52:06.983407+00:00,alok,school | notice_board_school,15,demo1 ggv,3,
+91,2020-08-22 13:15:12.807996+00:00,alok,school | notice_board_school,9,demo1 bnnm,3,
+90,2020-08-22 13:15:12.724441+00:00,alok,school | notice_board_school,10,demo1 gh,3,
+89,2020-08-22 13:15:12.638666+00:00,alok,school | notice_board_school,11,demo1 bbbnnjhjhj,3,
+88,2020-08-22 13:15:12.554302+00:00,alok,school | notice_board_school,12,demo1 bbbnnjhjhj,3,
+87,2020-08-22 13:15:12.467616+00:00,alok,school | notice_board_school,13,demo1 nbn,3,
+86,2020-08-22 13:15:12.384021+00:00,alok,school | notice_board_school,14,demo1 nbn,3,
+85,2020-08-22 13:15:03.516115+00:00,alok,school | notice_board_school,6,demo1 jhj,3,
+84,2020-08-22 13:15:03.441317+00:00,alok,school | notice_board_school,7,demo1 jhj,3,
+83,2020-08-22 13:15:03.357572+00:00,alok,school | notice_board_school,8,demo1 bnnm,3,
+82,2020-08-22 13:08:44.600233+00:00,alok,school | notice_board_school,1,demo1 gbbbbb,3,
+81,2020-08-22 13:08:44.514128+00:00,alok,school | notice_board_school,2,demo1 gbbbbb,3,
+80,2020-08-22 13:08:44.429549+00:00,alok,school | notice_board_school,3,demo1 gbbbbb,3,
+79,2020-08-22 13:08:44.334254+00:00,alok,school | notice_board_school,4,demo1 gbbbbb,3,
+78,2020-08-22 13:08:44.190102+00:00,alok,school | notice_board_school,5,demo1 gbbbbb,3,
+77,2020-08-22 12:21:08.003894+00:00,alok,school | notice_board_school,2,demo1 independance day,3,
+76,2020-08-22 12:18:12.196425+00:00,alok,school | notice_board_school,2,demo1 independance day,1,"[{""added"": {}}]"
+75,2020-08-22 12:06:56.398049+00:00,alok,school | notice_board_school,44,demo1 gbbbbb,3,
+74,2020-08-22 12:06:56.312923+00:00,alok,school | notice_board_school,45,demo1 gbbbbb,3,
+73,2020-08-22 12:06:56.181540+00:00,alok,school | notice_board_school,46,demo1 gbbbbb,3,
+72,2020-08-22 12:06:56.044999+00:00,alok,school | notice_board_school,47,demo1 gbbbbb,3,
+71,2020-08-22 12:00:22.489060+00:00,alok,school | notice_board_school,20,demo1 Holiday,3,
+70,2020-08-22 12:00:22.403798+00:00,alok,school | notice_board_school,36,demo1 hgfdsajh,3,
+69,2020-08-22 12:00:22.319643+00:00,alok,school | notice_board_school,37,demo1 hgfdsajh,3,
+68,2020-08-22 12:00:22.234920+00:00,alok,school | notice_board_school,38,demo1 hgfdsajh,3,
+67,2020-08-22 12:00:22.148793+00:00,alok,school | notice_board_school,39,demo1 hgfdsajh,3,
+66,2020-08-22 12:00:22.053328+00:00,alok,school | notice_board_school,40,demo1 gbbbbb,3,
+65,2020-08-22 12:00:21.968604+00:00,alok,school | notice_board_school,41,demo1 gbbbbb,3,
+64,2020-08-22 12:00:21.882512+00:00,alok,school | notice_board_school,42,demo1 gbbbbb,3,
+63,2020-08-22 12:00:21.701350+00:00,alok,school | notice_board_school,43,demo1 gbbbbb,3,
+62,2020-08-22 11:41:57.633601+00:00,alok,school | notice_board_school,35,demo1 dfdgfs,3,
+61,2020-08-22 11:41:47.486255+00:00,alok,school | notice_board_school,31,demo1 hjsdfhj,3,
+60,2020-08-22 11:41:47.389613+00:00,alok,school | notice_board_school,32,demo1 dfdgfs,3,
+59,2020-08-22 11:41:47.304886+00:00,alok,school | notice_board_school,33,demo1 dfdgfs,3,
+58,2020-08-22 11:41:47.141722+00:00,alok,school | notice_board_school,34,demo1 dfdgfs,3,
+57,2020-08-22 11:24:03.906323+00:00,alok,school | notice_board_school,29,demo1 hjsdfhj,3,
+56,2020-08-22 11:24:03.728778+00:00,alok,school | notice_board_school,30,demo1 hjsdfhj,3,
+55,2020-08-22 11:23:21.652271+00:00,alok,school | notice_board_school,27,demo1 15 august,3,
+54,2020-08-22 11:23:21.565020+00:00,alok,school | notice_board_school,28,demo1 15 august,3,
+53,2020-08-22 11:11:02.384947+00:00,alok,school | notice_board_school,26,demo1 15 august,3,
+52,2020-08-22 11:10:35.379563+00:00,alok,school | notice_board_school,21,demo1 15 august,3,
+51,2020-08-22 11:10:35.295741+00:00,alok,school | notice_board_school,22,demo1 15 august,3,
+50,2020-08-22 11:10:35.210725+00:00,alok,school | notice_board_school,23,demo1 15 august,3,
+49,2020-08-22 11:10:35.125270+00:00,alok,school | notice_board_school,24,demo1 15 august,3,
+48,2020-08-22 11:10:34.949980+00:00,alok,school | notice_board_school,25,demo1 15 august,3,
+47,2020-08-22 11:05:47.558432+00:00,alok,school | notice_board_school,16,demo1 Holidays,3,
+46,2020-08-22 11:05:47.473391+00:00,alok,school | notice_board_school,17,demo1 Holiday,3,
+45,2020-08-22 11:05:47.388619+00:00,alok,school | notice_board_school,18,demo1 Holiday,3,
+44,2020-08-22 11:05:47.197344+00:00,alok,school | notice_board_school,19,demo1 Holiday,3,
+43,2020-08-22 10:56:35.315774+00:00,alok,school | school master,1,demo1 school,3,
+42,2020-08-22 10:56:18.940533+00:00,alok,school | notice_board_school,12,demo1 Holidays,3,
+41,2020-08-22 10:56:10.751589+00:00,alok,school | notice_board_school,13,demo1 Holidays,3,
+40,2020-08-22 10:56:10.666598+00:00,alok,school | notice_board_school,14,demo1 Holidays,3,
+39,2020-08-22 10:56:10.489550+00:00,alok,school | notice_board_school,15,demo1 Holidays,3,
+38,2020-08-22 10:52:42.600359+00:00,alok,school | notice_board_school,8,demo1 Holidays,3,
+37,2020-08-22 10:52:42.369652+00:00,alok,school | notice_board_school,9,demo1 Holidays,3,
+36,2020-08-22 10:52:42.286283+00:00,alok,school | notice_board_school,10,demo1 Holidays,3,
+35,2020-08-22 10:52:42.203508+00:00,alok,school | notice_board_school,11,demo1 Holidays,3,
+34,2020-08-22 10:43:00.857124+00:00,alok,school | notice_board_school,2,demo1 abc,3,
+33,2020-08-22 10:43:00.771505+00:00,alok,school | notice_board_school,3,demo1 gfdg,3,
+32,2020-08-22 10:43:00.686164+00:00,alok,school | notice_board_school,4,demo1 ghgh,3,
+31,2020-08-22 10:43:00.602259+00:00,alok,school | notice_board_school,5,demo1 ghgh,3,
+30,2020-08-22 10:43:00.517617+00:00,alok,school | notice_board_school,6,demo1 ghgh,3,
+29,2020-08-22 10:43:00.429196+00:00,alok,school | notice_board_school,7,demo1 ghgh,3,
+28,2020-08-22 09:55:45.584159+00:00,alok,school | notice_board_school,1,demo1 independance day,3,
+27,2020-08-22 09:53:14.525622+00:00,alok,school | notice_board_school,1,demo1 independance day,1,"[{""added"": {}}]"
+26,2020-08-22 07:45:09.004178+00:00,alok,school | owner master,3,meghraj sharma,1,"[{""added"": {}}]"
+25,2020-08-22 07:42:27.044901+00:00,alok,school | owner master,2,nilmani tiwari,2,"[{""changed"": {""fields"": [""Owner mobile""]}}]"
+24,2020-08-22 07:41:54.895039+00:00,alok,auth | user,2,9060555656,2,"[{""changed"": {""fields"": [""Username""]}}]"
+23,2020-08-22 07:40:56.651612+00:00,alok,auth | user,3,9991446060,2,"[{""changed"": {""fields"": [""Username""]}}]"
+22,2020-08-22 07:39:15.078624+00:00,alok,auth | user,3,8888888888,2,"[{""changed"": {""fields"": [""First name"", ""Last name"", ""Email address"", ""Staff status"", ""Groups""]}}]"
+21,2020-08-22 07:38:37.050989+00:00,alok,auth | user,3,8888888888,1,"[{""added"": {}}]"
+20,2020-08-22 07:37:46.593090+00:00,alok,auth | user,2,9999999999,2,"[{""changed"": {""fields"": [""Username""]}}]"
+19,2020-08-22 07:37:22.555342+00:00,alok,school | owner master,2,nilmani tiwari,2,"[{""changed"": {""fields"": [""Owner mobile""]}}]"
+18,2020-08-22 07:35:35.462142+00:00,alok,school | school master,2,demo2 school,1,"[{""added"": {}}]"
+17,2020-08-22 07:30:38.376912+00:00,alok,school | medium master,3,English  demo2,1,"[{""added"": {}}]"
+16,2020-08-22 07:30:05.714013+00:00,alok,school | medium master,2,Hindi  demo1,2,"[{""changed"": {""fields"": [""School code"", ""Medium name""]}}]"
+15,2020-08-22 07:29:25.386786+00:00,alok,school | medium master,2,demo1  Hindi,1,"[{""added"": {}}]"
+14,2020-08-22 07:29:09.312786+00:00,alok,school | medium master,1,English  demo1,1,"[{""added"": {}}]"
+13,2020-08-22 07:28:23.603960+00:00,alok,school | owner master,2,nilmani tiwari,2,"[{""changed"": {""fields"": [""Owner gender"", ""Owner date of birth"", ""Owner email"", ""Owner mobile"", ""Owner qualification"", ""Owner address"", ""Owner city"", ""Owner pincode"", ""Owner school code""]}}]"
+12,2020-08-22 07:26:04.847548+00:00,alok,school | owner master,2,OwnerMaster object (2),1,"[{""added"": {}}]"
+11,2020-08-22 07:21:30.182903+00:00,alok,auth | user,2,nilmani,2,"[{""changed"": {""fields"": [""Staff status""]}}]"
+10,2020-08-22 07:21:15.223080+00:00,alok,auth | user,2,nilmani,2,"[{""changed"": {""fields"": [""Groups""]}}]"
+9,2020-08-22 07:06:47.467952+00:00,alok,auth | user,2,nilmani,2,"[{""changed"": {""fields"": [""First name"", ""Last name"", ""Email address""]}}]"
+8,2020-08-22 07:06:19.747669+00:00,alok,auth | user,2,nilmani,1,"[{""added"": {}}]"
+7,2020-08-22 07:04:07.246651+00:00,alok,school | school master,1,demo1 school,1,"[{""added"": {}}]"
+6,2020-08-21 13:40:05.946456+00:00,alok,auth | group,5,parents,2,"[{""changed"": {""fields"": [""Name""]}}]"
+5,2020-08-21 13:39:55.410793+00:00,alok,auth | group,5,parents',1,"[{""added"": {}}]"
+4,2020-08-21 13:39:37.586165+00:00,alok,auth | group,4,student,1,"[{""added"": {}}]"
+3,2020-08-21 13:39:20.624611+00:00,alok,auth | group,3,staff,1,"[{""added"": {}}]"
+2,2020-08-21 13:38:44.858998+00:00,alok,auth | group,2,admin,1,"[{""added"": {}}]"
+1,2020-08-21 13:38:00.072155+00:00,alok,auth | group,1,sbsy_admin,1,"[{""added"": {}}]"

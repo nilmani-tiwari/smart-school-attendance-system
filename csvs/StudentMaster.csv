@@ -1,0 +1,169 @@
+user,user_name,Full_name,gender,date_of_birth,email,mobile,blood_group,image,Address,city,pincode,admission_no,Religion,reservation_category,school_code,medium_name,class_name,division_name,parents_id,student_card_number,password,created_on,created_by
+Nobita5,Nobita5,Nobita Nobi,Male,04/03/2008,nobita@gmail.com,1111111111,A+,images/shizuka-minamoto-nobita-nobi-doraemon-animation-doraemon-png-clip-art.png,"c-123, noida",newdelhi,110034,N12345,Hindu,General,demo1,English,8,A,4,AX9087666NIiiiiiL,None,2020-08-22 13:32:01+00:00,None
+anvi11,anvi11,anvi,Female,03/08/2020,anvi@gmail.com,9999999779,A+,images/suneo-honekawa.png,"c-123, noida",newdelhi,110034,11112234TR,Hindu,General,demo1,English,8,A,4,987866565fhgjvnmbnv,None,2020-08-27 16:32:01+00:00,None
+ABCD14,ABCD14,ABCD,Male,01/09/2020,abcdefg@gmail.com,6567878789,A+,images/shizuka-minamoto-nobita-nobi-doraemon-animation-doraemon-png-clip-art_HswsLfN.png,meethapur,delhi,110044,45568787,Hindu,General,demo1,English,6,A,17,45656767gfgfhghj,None,2020-09-01 23:59:55+00:00,None
+nathasa20,nathasa20,nathasa,Female,11/02/2006,nathsa@gmail.com,9191919191,B+,images/hgghggj67.jpg,a-45 faridbad,haryana,435356,21312546,Hindu,General,demo1,English,5,A,19,AX9087666NIL,None,2020-09-10 14:37:58+00:00,None
+bhavesh28,bhavesh28,bhavesh singh,Male,09/09/2020,bhavesh@gmail.com,9999999999,A-,images/dhddj.jpg,mithapur,delhi,110044,766767767,Hindu,ST,demo1,English,8,A,27,5678790ghjhkjkjll,None,2020-09-17 19:42:23+00:00,None
+mani39,mani39,mani,Male,15/09/2020,mani@gmail.com,6203432069,B+,images/OIP_5.jpg,kuchaikot,gopalganj,110065,65544334,Hindu,General,demo1,English,12,A,38,AS45TY7UI8,None,2020-09-22 05:40:55.115282+00:00,None
+kumar42,kumar42,kumar,Male,06/12/2000,mani@gmail.com,6203432069,B+,images/gu6.jpg,kuchaikot,gopalganj,110065,233223,Hindu,General,demo1,English,8,A,38,6756AVCD,None,2020-09-22 08:03:07.164464+00:00,None
+Ravi45,Ravi45,Ravi bhardwaj,Male,21/10/2002,dubeyravi254@gmail.Com,7739970391,B+,images/IMG_20201004_104352.jpg,sasamusa,gopalganj,841505,0286,Hindu,OBC,demo1,English,12,B,44,AX9087666NIL,None,2020-10-05 15:25:16.749809+00:00,None
+siddharth48,siddharth48,siddharth,Male,24/08/2015,tiwarishashikant535@gmail.com,6205945122,B+,images/OIP_3.jpg,narainia,mirganj,841438,22,Hindu,General,demo1,English,5,A,47,SD1234567,None,2020-11-22 09:58:21+00:00,None
+Rupesh94,Rupesh94,Rupesh,Male,28/10/2008,,,,images/e926c6ab-920b-4ed5-a8bd-2a45dc0574e8.jpg,Raidaska,Palwal,121105,60,None,None,s003,English,7,A,93,None,12345,2021-02-05 06:56:15.052825+00:00,None
+Thunder96,Thunder96,Thunder,Male,08/09/2011,,1992992929,,images/16125088114776735836407272432376.jpg,Rundhi,Palwal,121105,466,None,None,s003,English,4,A,95,None,12345,2021-02-05 07:09:17.699302+00:00,None
+Rahul103,Rahul103,Rahul,Male,01/01/2009,,,,images/IMG_20210302_133200.jpg,Deeghot,Palwal,121105,448,None,None,s003,English,5,A,102,None,12345,2021-02-06 03:58:00.181496+00:00,None
+Sonu105,Sonu105,Sonu,Male,05/02/2009,,,,images/sonu7.jpg,Ladiyaka,Palwal,121105,9,None,None,s003,English,7,A,104,None,12345,2021-02-06 04:13:13.082945+00:00,None
+Yashwant107,Yashwant107,Yashwant,Male,03/12/2005,,,,images/yashwant8.jpg,Ladiyalka,Palwal,121105,12,None,None,s003,English,8,A,106,None,12345,2021-02-06 04:16:30.996769+00:00,None
+Lakhan108,Lakhan108,Lakhan sharma,Male,01/07/2007,,7027349883,,images/IMG_20210302_134048_0UZPJ0n.jpg,Ladiyaka,Palwal,121105,48,None,None,s003,English,6,A,106,None,12345,2021-02-06 04:22:46.681649+00:00,None
+Kiran109,Kiran109,Kiran,Female,01/01/2010,,,,images/kiran4.jpg,Ladiyaka,Palwal,121105,457,None,None,s003,English,4,A,106,None,12345,2021-02-06 04:25:44.312972+00:00,None
+Renuka111,Renuka111,Renuka,Female,30/01/2008,,,,images/IMG_20210302_133942.jpg,Ladiyaka,Palwal,121105,3,None,None,s003,English,7,A,110,None,12345,2021-02-06 06:36:11.511258+00:00,None
+Himanshi113,Himanshi113,Himanshi,Female,30/01/2010,,,,images/himanshi5.jpg,Ladiyaka,Palwal,121105,492,None,None,s003,English,5,A,112,None,12345,2021-02-06 06:41:16.908377+00:00,None
+Mukul121,Mukul121,Mukul sharma,Male,25/03/2013,,,,images/mukulsharma2.jpg,Ladiyaka,Palwal,121105,538,None,None,s003,English,2,A,120,None,12345,2021-02-08 05:35:32.244476+00:00,None
+Kumari132,Kumari132,Kumari khusi,Female,16/5/2001,None,None,None,images/aWxb8yM-30976949322.jpg,Jahangirpuri j block,Delhi,110033,7,None,None,demo1,English,6,B,131,None,12345,2021-02-09 04:39:16.586707+00:00,None
+Kumari134,Kumari134,Kumari neha,Female,1/1/1,None,None,None,images/Screenshot_20190808-091243.png,Badarpur b block,Delhi,110044,12,None,None,demo1,English,5,A,133,None,12345,2021-02-09 04:43:49.192644+00:00,None
+Tanish137,Tanish137,Tanish kumar,Male,31/01/2008,,,,images/IMG_20210302_134201.jpg,Rundhi,Palwal,121105,437,None,None,s003,English,6,A,136,None,12345,2021-02-09 06:57:26.115856+00:00,None
+Manish138,Manish138,Manish kumar,Male,20/09/2009,,,,images/IMG_20210302_133239.jpg,Rundhi,Palwal,121105,461,None,None,s003,English,5,A,136,None,12345,2021-02-09 07:00:44.656258+00:00,None
+Aishwarya140,Aishwarya140,Aishwarya,Female,24/09/2013,,,,images/aiswrya2_rz1mcJx.jpg,Bata,Palwal,121105,537,None,None,s003,English,2,A,139,None,12345,2021-02-09 07:10:17.381629+00:00,None
+Anjali142,Anjali142,Anjali,Female,06/09/2012,,,,images/anjli3.jpg,Ladiyaka,Palwal,121105,528,None,None,s003,English,3,A,141,None,12345,2021-02-09 07:16:50.419685+00:00,None
+Vinay144,Vinay144,Vinay Sharma,Male,25/06/2011,,,,images/vinay2.jpg,Ladiyaka,Palwal,121105,606,None,None,s003,English,2,A,143,None,12345,2021-02-09 07:26:42.920607+00:00,None
+khushi146,khushi146,khushi,Female,07/11/2011,Ramsingh67910@gmail.com,8607682970,,images/khushi4.jpg,Ladiyaka,Palwal,121105,489,None,None,s003,English,4,A,110,None,12345,2021-02-09 10:11:18.125911+00:00,None
+Hitesh150,Hitesh150,Hitesh,Male,13/10/2009,None,None,None,images/fh57hg.jpg,Baroli,palwal,121102,357,None,None,s004,English,3,A,149,None,12345,2021-02-09 13:47:01.050224+00:00,None
+Krishna153,Krishna153,Krishna kumar,Male,17/01/2011,None,None,None,images/16128815348174381225540340744012.jpg,Baroli,palwal,121102,358,None,None,s004,English,3,A,149,None,12345,2021-02-09 14:45:57.854618+00:00,None
+Hitesh155,Hitesh155,Hitesh kumar,Male,13/10/2009,None,None,None,images/fh57hg_DfUV9fa.jpg,198/2/1 SHARDA FORTURE TOWER RAMESH MARKET EAST OF KAILESH,NEW DELHI,110065,355,None,None,s004,English,1,A,151,None,12345,2021-02-09 17:28:58.278563+00:00,None
+VIPAN156,VIPAN156,VIPAN KUMAR TALWAR ttttttt,Male,13/10/2009,None,None,None,images/fh57hg_9Fs9AZS.jpg,198/2/1 SHARDA FORTURE TOWER RAMESH MARKET EAST OF KAILESH,NEW DELHI,110065,357,None,None,s004,English,Nursery,A,151,None,12345,2021-02-09 17:34:01.259750+00:00,None
+Hitesh1157,Hitesh1157,Hitesh1,Male,08/02/2021,None,None,None,images/fh57hg_7mkqxf0.jpg,Baroli,palwal,121102,455,None,None,s004,English,Nursery,A,149,None,12345,2021-02-09 18:04:53.660810+00:00,None
+navin160,navin160,navin kumar,Male,08/02/2021,None,None,None,images/std1.jpg,delhi,delhi,233333,653636,None,None,s004,English,L.K.G,A,159,None,12345,2021-02-09 21:13:47.956330+00:00,None
+Jyoti161,Jyoti161,Jyoti,Female,12/06/2009,,,,images/IMG_20210302_133841.jpg,Rundhi,Palwal,121105,463,None,None,s003,English,5,A,100,None,12345,2021-02-10 03:48:45.332491+00:00,None
+Yogesh166,Yogesh166,Yogesh,Male,29/07/2012,,,,images/yogesh2.jpg,Ladiyaka,Palwal,121105,556,None,None,s003,English,2,A,165,None,12345,2021-02-10 07:11:53.725135+00:00,None
+Bhawana167,Bhawana167,Bhawana,Female,11/08/2008,bhawana2002@gmail.com,7023775119,A+,images/bhawana6.jpg,Ladiyaka,Palwal,121105,40,None,None,s003,English,6,A,165,None,12345,2021-02-10 07:35:21.030708+00:00,None
+Rakhi168,Rakhi168,Rakhi,Female,28/08/2010,,,,images/rakhi3.jpg,Deeghot,Palwal,121105,518,None,None,s003,English,3,A,102,None,12345,2021-02-10 07:50:42.810961+00:00,None
+Ravi172,Ravi172,Ravi,Male,01/02/2021,None,None,None,images/IMG_20201224_115305.jpg,Papauni khash,Gopalganj,181508,4556,None,None,st001,English,Nursery,A,171,None,12345,2021-02-10 13:05:49.516795+00:00,None
+Sunny174,Sunny174,Sunny,Female,01/02/2021,None,None,None,images/IMG_20201224_115301.jpg,Delhi,Alahabad,625263,63635,None,None,st001,English,L.K.G,A,173,None,12345,2021-02-10 13:10:44.513748+00:00,None
+Sudhir177,Sudhir177,Sudhir Kumar Tiwari,Male,05/01/2000,None,None,None,images/1613019945259894545653629168234.jpg,Sasamuaa,Gopalganj,841505,02544,None,None,m001,English,10,A,176,None,12345,2021-02-11 05:07:45.943452+00:00,None
+Kumkum180,Kumkum180,Kumkum,Female,05/11/2006,,,,images/IMG_20210302_135330.jpg,Ladiyaka,Palwal,121105,5,None,None,s003,English,7,A,179,None,12345,2021-02-11 07:24:08.782324+00:00,None
+Sanjana181,Sanjana181,Sanjana,Female,04/11/2010,,,,images/sanjana3.jpg,Ladiyaka,Palwal,121105,519,None,None,s003,English,3,A,179,None,12345,2021-02-11 07:30:23.112593+00:00,None
+Soniya183,Soniya183,Soniya,Female,06/12/2009,,,,images/soniya6.jpg,Ladiyaka,Palwal,121105,42,None,None,s003,English,6,A,182,None,12345,2021-02-11 07:48:17.054077+00:00,None
+Nisha184,Nisha184,Nisha,Female,30/08/2008,,,,images/nisha8.jpg,Ladiyaka,Palwal,121105,21,None,None,s003,English,8,A,182,None,12345,2021-02-11 07:56:55.086769+00:00,None
+Gitanjali186,Gitanjali186,Gitanjali  kumari,Female,14/12/2007,None,None,None,images/161303025894346125894.jpg,Vill Gurama  post sankhe khas,Gopalganj,841438,1301,None,None,st001,English,2,A,185,None,12345,2021-02-11 08:00:46.739527+00:00,None
+Somali188,Somali188,Somali kumari,Female,14/11/2012,None,None,None,images/16130310593791260752619.jpg,Vill Gurama  post sankhe khas,Gopalganj,841438,1302,None,None,st001,English,2,A,187,None,12345,2021-02-11 08:12:58.371307+00:00,None
+Yuvraj191,Yuvraj191,Yuvraj Mishra,Male,09-11-2015,Mbiinternationalschoolgpl@gmail.com,,,images/IMG_20201109_191408.jpg,Basdila,Gopalganj,841428,18180001,None,None,n001,English,Nursery,A,190,None,12345,2021-02-11 13:05:19.361421+00:00,None
+Sweta193,Sweta193,Sweta,Female,19/12/2006,,,,images/sweta_7.jpg,Deeghot,Palwal,121105,1,None,None,s003,English,7,A,192,None,12345,2021-02-12 04:42:14.984065+00:00,None
+Prince194,Prince194,Prince,Male,18/06/2013,,,,images/prince2.jpg,Deeghot,Palwal,121105,557,None,None,s003,English,2,A,192,None,12345,2021-02-12 08:03:50.861327+00:00,None
+Shivkumar196,Shivkumar196,Shivkumar,Male,28/05/2005,,,,images/siwkumar6.jpg,Ladiyaka,Palwal,121105,50,None,None,s003,English,6,A,195,None,12345,2021-02-13 07:18:11.976801+00:00,None
+Prateek197,Prateek197,Prateek,Male,14/07/2013,,,,images/pratik2.jpg,Ladiyaka,Palwal,121105,533,None,None,s003,English,2,A,112,None,12345,2021-02-13 07:25:55.059333+00:00,None
+Sakshi198,Sakshi198,Sakshi,Female,06/07/2012,,,,images/sakshi2.jpg,Ladiyaka,Palwal,121105,565,None,None,s003,English,3,A,112,None,12345,2021-02-13 07:33:23.749812+00:00,None
+Navya200,Navya200,Navya,Female,19/07/2013,,,,images/navya2.jpg,Amroli,Palwal,121105,609,None,None,s003,English,2,A,199,None,12345,2021-02-13 07:44:29.885807+00:00,None
+Sandeep201,Sandeep201,Sandeep Baghel,Male,17/04/2012,,,,images/sandeep3.jpg,Rundhi,Palwal,121105,521,None,None,s003,English,3,A,100,None,12345,2021-02-15 08:03:21.685038+00:00,None
+Hitesh203,Hitesh203,Hitesh kumar,Male,16/02/2011,,,,images/hiteshkumar4.jpg,Bata,Palwal,121105,470,None,None,s003,English,4,A,202,None,12345,2021-02-16 07:57:44.834310+00:00,None
+Monu205,Monu205,Monu,Male,01/03/2010,,,,images/IMG_20210302_133154.jpg,Deeghot,Palwal,121105,467,None,None,s003,English,4,A,204,None,12345,2021-02-16 08:10:39.821879+00:00,None
+Vishnu207,Vishnu207,Vishnu,Male,30/09/2011,,,,images/vishunu3.jpg,Deeghot,Palwal,121105,543,None,None,s003,English,3,A,206,None,12345,2021-02-16 08:23:29.325868+00:00,None
+Tushant209,Tushant209,Tushant,Male,14/02/2012,,,,images/tushant3.jpg,Ladiyaka,Palwal,121105,507,None,None,s003,English,3,A,208,None,12345,2021-02-17 05:30:35.480523+00:00,None
+Jitender211,Jitender211,Jitender,Male,10/12/2009,,,,images/jitender8_bXmf6IQ.jpg,Bata,Palwal,121105,14,None,None,s003,English,8,A,210,None,12345,2021-02-17 06:55:30.827358+00:00,None
+Dipti213,Dipti213,Dipti,Female,09/04/2013,,,,images/dipti3.jpg,Ladiyaka,Palwal,121105,529,None,None,s003,English,3,A,212,None,12345,2021-02-17 07:02:16.710909+00:00,None
+Nisha215,Nisha215,Nisha sharma,Female,08/03/2013,,,,images/nishasharma2.jpg,Ladiyaka,Palwal,121105,554,None,None,s003,English,2,A,214,None,12345,2021-02-17 07:08:45.101485+00:00,None
+Vanshika217,Vanshika217,Vanshika sharma,Female,15/03/2013,,,,images/vanshika2.jpg,Ladiyaka,Palwal,121105,551,None,None,s003,English,2,A,216,None,12345,2021-02-17 07:11:19.123490+00:00,None
+Gauri219,Gauri219,Gauri,Female,04/05/2013,,,,images/gauri2.jpg,Rundhi,Palwal,121105,564,None,None,s003,English,2,A,218,None,12345,2021-02-17 07:15:20.296810+00:00,None
+Himanshu220,Himanshu220,Himanshu,Male,05/12/2010,,,,images/himanshu4.jpg,Ladiyaka,Palwal,121105,488,None,None,s003,English,4,A,110,None,12345,2021-02-17 07:17:53.834005+00:00,None
+Sandeep221,Sandeep221,Sandeep,Male,17/04/2013,bhagalramshur84@gmail.com,,,images/sandeep3_g30YwBy.jpg,Rundhi,Palwal,121105,521,None,None,s003,English,3,A,100,None,12345,2021-02-17 07:20:22.152555+00:00,None
+Jaya223,Jaya223,Jaya,Female,18/05/2006,,,,images/jaya8.jpg,Rundhi,Palwal,121105,25,None,None,s003,English,8,A,222,None,12345,2021-02-17 07:39:40.204680+00:00,None
+Kuldeep224,Kuldeep224,Kuldeep,Male,15/03/2008,,,,images/kuldeep5.jpg,Rundhi,Palwal,121105,438,None,None,s003,English,5,A,222,None,12345,2021-02-17 07:44:36.107669+00:00,None
+Mohit226,Mohit226,Mohit,Male,25/05/2004,,,,images/mohit9.jpg,Rundhi,Palwal,121105,36,None,None,s003,English,9,A,225,None,12345,2021-02-17 07:51:22.489403+00:00,None
+Deepak227,Deepak227,Deepak Baghel,Male,03/10/2009,,,,images/IMG-20210220-WA0003.jpg,Rundhi,Palwal,121105,462,None,None,s003,English,5,A,218,None,12345,2021-02-18 06:40:50.051359+00:00,None
+Jatin229,Jatin229,Jatin,Male,01/01/2009,,,,images/jatin7.jpg,Ladiyaka,Palwal,121105,7,None,None,s003,English,7,A,228,None,12345,2021-02-18 08:12:25.562538+00:00,None
+Nidhi231,Nidhi231,Nidhi,Female,03/12/2013,,,,images/nidhi2.jpg,Ladiyaka,Palwal,121105,585,None,None,s003,English,2,A,230,None,12345,2021-02-18 08:18:44.621613+00:00,None
+Anuj232,Anuj232,Anuj,Male,16/11/2011,,,,images/anuj4.jpg,Ladiyaka,Palwal,121105,586,None,None,s003,English,4,A,230,None,12345,2021-02-18 08:21:59.399021+00:00,None
+Nitish234,Nitish234,Nitish kumar,Male,16/03/2009,,,,images/nitesh5.jpg,Rundhi,Palwal,121105,440,None,None,s003,English,5,A,233,None,12345,2021-02-19 06:33:35.256969+00:00,None
+Nandni235,Nandni235,Nandni,Female,12/10/2010,,,,images/nandni4.jpg,Rundhi,Palwal,121105,465,None,None,s003,English,4,A,233,None,12345,2021-02-19 06:35:41.093922+00:00,None
+Prachi236,Prachi236,Prachi,Female,15/01/2012,,,,images/prachi.jpg,Rundhi,Palwal,121105,503,None,None,s003,English,3,A,233,None,12345,2021-02-19 06:37:35.019537+00:00,None
+Mona239,Mona239,Mona,Female,01/02/2000,None,None,None,images/16137211446978091403125779626505.jpg,Sehatpur,Pharidabad,121003,220,None,None,S009,English,10,A,238,None,12345,2021-02-19 07:55:20.215713+00:00,None
+Mayank250,Mayank250,Mayank Bhardwaj,Male,05/01/2000,None,None,None,images/16137534478861528977156772956781.jpg,sasamusa,gopalganj,841505,765,None,None,m001,English,10,A,249,None,12345,2021-02-19 16:51:28.876595+00:00,None
+shashi255,shashi255,shashi,Male,06/12/2000,None,None,None,images/OIPder5.jpg,bederpur,None,110029,3884,None,None,demo1,English,7,A,254,None,12345,2021-02-23 08:44:12.218376+00:00,None
+Hitrjk257,Hitrjk257,Hitrjk,Male,03/10/2009,,,,images/OIP.jpg,Baroli,None,121105,462,None,None,demo1,English,6,B,256,None,12345,2021-02-23 09:24:03.186623+00:00,None
+Payal259,Payal259,Payal,Female,17/03/2014,None,None,None,images/IMG_20210223_100022.jpg,Rundhi,None,121105,598,None,None,s003,English,1,A,258,None,12345,2021-02-23 09:41:48.674535+00:00,None
+Shivam260,Shivam260,Shivam,Male,19/03/2013,,,,images/siwamkumar2.jpg,Rundhi,None,121105,547,None,None,s003,English,2,A,258,None,12345,2021-02-23 09:44:25.459808+00:00,None
+Ramesh265,Ramesh265,Ramesh,Male,10/02/2010,ram@gmail.com,None,None,images/IMG_20210220_112905.jpg,Sohna,None,145476,3554,None,None,S004,English,4,A,264,HAHSHD67D7D78,12345,2021-02-24 08:57:17+00:00,None
+Ram267,Ram267,Ram,Male,12/12/2012,None,None,None,images/IMG20210110115009.jpg,Sohna,None,12345,123,None,None,S004,English,1,A,266,HAHSHD67D7D7D,12345,2021-02-24 09:06:57+00:00,None
+Gunjan279,Gunjan279,Gunjan kumari,Female,01/01/2003,,,,images/IMG-20210303-WA0051.jpg,Jahangirpuri j block,None,110033,62,None,None,demo1,English,11,G,131,None,12345,2021-02-25 10:40:33+00:00,None
+jatin283,jatin283,jatin kumar,Male,08/02/2021,None,None,None,images/jg68.jpg,delhi,None,100000,3233,None,None,c001,English,Nursery,A,282,None,12345,2021-02-26 12:32:21.827680+00:00,None
+Ram286,Ram286,Ram,Male,15/12/1992,None,None,None,images/1614823417932-1500060436.jpg,Baroli,None,121102,478,None,None,s004,English,4,A,285,None,12345,2021-03-04 02:05:02.198967+00:00,None
+Krishna288,Krishna288,Krishna,Male,15/12/1992,None,None,None,images/1614824029510-64047670.jpg,Baroli,None,121102,486,None,None,s004,English,5,A,149,None,12345,2021-03-04 02:14:17.928800+00:00,None
+Banti290,Banti290,Banti,Male,02/01/2011,None,None,None,images/IMG_20210302_133230.jpg,Ladiyaka,None,121105,478,None,None,s003,English,4,A,289,None,12345,2021-03-06 04:04:31.203408+00:00,None
+Sonu295,Sonu295,Sonu,Male,09/03/2021,None,None,None,images/JPEG_20210307_102541_7772722862224859004.jpg,Hsjsjsj,None,152525,457,None,None,demo1,English,5,A,294,None,12345,2021-03-07 05:01:18.324363+00:00,None
+RJu297,RJu297,RJu,Male,10/03/2021,None,None,None,images/JPEG_20210307_174743_2972603909378857461.jpg,Fjjjoh,None,135558,568,None,None,S004,English,3,A,296,None,12345,2021-03-07 12:18:43.615259+00:00,None
+Haresh299,Haresh299,Haresh,Male,13 /10/2009,None,None,None,images/1615167504385-1034707935.jpg,Baroli,None,121102,478,None,None,s004,Hindi,Nursery,A,285,None,12345,2021-03-08 01:39:13.192764+00:00,None
+bunty302,bunty302,bunty,Male,02/01/2011,None,None,None,images/banti4_fmkqyE2.jpg,Ladiyaka,None,121105,1,None,None,sbsy27,English,1,A,301,20000EF4A47E,12345,2021-03-08 13:51:40+00:00,None
+manish304,manish304,manish kumar,Male,20/09/2009,None,None,None,images/manish5_j3ePuXP.jpg,rundhi,None,121105,2,None,None,sbsy27,English,5,A,303,20000EF4A67C,12345,2021-03-08 13:54:03+00:00,None
+kiran306,kiran306,kiran,Female,01/01/2010,None,None,None,images/kiran4_omz2Fnp.jpg,Ladiyaka,None,121105,3,None,None,sbsy27,English,4,A,305,20000F06371E,12345,2021-03-08 13:56:04+00:00,None
+prince308,prince308,prince,Male,02/02/2004,,,,images/prince2_5gXncFW.jpg,Ladiyaka,None,121105,4,None,None,sbsy27,English,2,A,307,None,12345,2021-03-08 13:58:33.943487+00:00,None
+Doli310,Doli310,Doli,Female,12/04/2010,None,None,None,images/IMG-20210309-WA0016.jpg,Ladiyaka,None,121105,433,None,None,s003,English,5,A,309,None,12345,2021-03-09 05:25:12.284226+00:00,None
+Devinder312,Devinder312,Devinder,Male,27/08/2011,None,None,None,images/IMG-20210309-WA0015.jpg,Ladiyaka,None,121105,480,None,None,s003,English,4,A,309,None,12345,2021-03-09 05:27:17.703585+00:00,None
+Shiwani313,Shiwani313,Shiwani,Female,09/11/2010,None,None,None,images/IMG-20210309-WA0014.jpg,Ladiyaka,None,121105,599,None,None,s003,English,3,A,312,None,12345,2021-03-09 05:29:49.942421+00:00,None
+Aarati315,Aarati315,Aarati,Female,14/07/2012,None,None,None,images/IMG-20210309-WA0017.jpg,Ladiyaka,None,121105,545,None,None,s003,English,2,A,312,None,12345,2021-03-09 05:32:54.208487+00:00,None
+rupu321,rupu321,rupu,Male,13/10/2009,None,None,None,images/16125079698448856671261817400267_mKCtj0f_oXTq5N3.jpg,baderpur,None,455558,5,None,None,S004,English,3,A,316,None,12345,2021-03-09 16:46:09.463088+00:00,None
+Dimpal322,Dimpal322,Dimpal,Female,08/03/2021,None,None,None,images/1615310009788972292718996727277_OYRQ47G.jpg,Bahhhh,None,142425,16,None,None,S004,English,6,A,321,None,12345,2021-03-09 17:16:06.752507+00:00,None
+Priya342,Priya342,Priya,Female,18/01/2012,None,None,None,images/IMG-20210311-WA0016_HhuDXV5.jpg,Rundhi,None,121105,616,None,None,s003,English,2,A,341,None,12345,2021-03-11 05:32:20.768596+00:00,None
+Dharm344,Dharm344,Dharm,Male,26/12/2013,None,None,None,images/JPEG_20210311_110924_7265935921692783646_60CeEEx.jpg,Ayodya,None,121111,356,None,None,sbsy27,English,3,A,343,None,12345,2021-03-11 05:40:49.031830+00:00,None
+yash346,yash346,yash,Male,15/09/2020,,,,images/yesh_new.jpg,sjsjsjsj,None,112222,22,None,None,demo1,English,5,A,345,None,12345,2021-03-11 09:30:17+00:00,None
+jai359,jai359,jai chand,Male,15/09/2020,,,,images/yesh_new_KwgxSLS.jpg,dkdkdkkd,None,ddjdjk,23333,None,None,demo1,English,5,A,358,None,12345,2021-03-11 11:55:20.302896+00:00,None
+ravi361,ravi361,ravi,Male,15/09/2020,,,,,djdjdjd,None,112223,122,None,None,demo1,English,5,A,360,None,12345,2021-03-11 12:04:24.852016+00:00,None
+sunil363,sunil363,sunil kumar,Male,15/09/2020,,,,images/kiran3.jpg,hshshs,None,118181,3737,None,None,demo1,English,7,A,362,None,12345,2021-03-11 12:44:25.769194+00:00,None
+sumit365,sumit365,sumit,Male,15/09/2020,None,None,None,,shshsh,None,155161,262626,None,None,demo1,English,5,A,364,None,12345,2021-03-11 13:14:08.831707+00:00,None
+Bhuvans378,Bhuvans378,Bhuvans,Male,24/03/2014,None,None,None,images/IMG_20210313_111151_dcdHE1W.jpg,Rundhi,None,121105,578,None,None,s003,English,1,A,377,None,12345,2021-03-13 06:02:49.718605+00:00,None
+Ram380,Ram380,Ram,Male,04/11/2012,None,None,None,images/IMG_20210313_111004_2qbDq8M.jpg,Rundhi,None,121105,563,None,None,s003,English,2,A,379,None,12345,2021-03-13 06:04:40.063932+00:00,None
+Nilesh382,Nilesh382,Nilesh chauhan,Male,02/09/2014,None,None,None,images/IMG_20210313_111142_1KRmXa6.jpg,Deeghot,None,121105,619,None,None,s003,English,1,A,381,None,12345,2021-03-13 06:16:28.958596+00:00,None
+Ansh384,Ansh384,Ansh,Male,05/01/2013,None,None,None,images/IMG_20210313_111131_2BeMtGA.jpg,Bata,None,121105,613,None,None,s003,English,1,A,202,None,12345,2021-03-13 06:27:22.515229+00:00,None
+Yovraj396,Yovraj396,Yovraj,Male,24/04/2017,,,,images/yuvraj_E6qcUU8.jpg,Mitrol,None,121105,1,None,None,sbsy33,English,Nursery,A,395,None,12345,2021-03-15 05:40:08.898062+00:00,None
+Daksh398,Daksh398,Daksh,Male,24/4/2017,,,,,Mitrol,None,121102,2,None,None,sbsy33,English,L.K.G,A,397,None,12345,2021-03-15 05:45:57.722064+00:00,None
+Lakshit400,Lakshit400,Lakshit,Male,26/05/2018,,,,images/lakhit_JMITPJ2_AChcyLp.jpg,Mitrol,None,121105,3,None,None,sbsy33,English,L.K.G,A,399,None,12345,2021-03-15 05:48:10.597615+00:00,None
+Kayra402,Kayra402,Kayra,Male,28/07/2016,,,,images/kayra_zgNafaZ_kVBFgf0_wsadloh.jpg,Mitrol,None,121105,4,None,None,sbsy33,English,L.K.G,A,401,None,12345,2021-03-15 05:50:40.982393+00:00,None
+Ankush404,Ankush404,Ankush roi,Male,08/08/2017,,,,images/ankush_roi_RcN3LOU.jpg,Orangabad,None,121105,5,None,None,sbsy33,English,L.K.G,A,403,None,12345,2021-03-15 05:53:05.309401+00:00,None
+Bhavishay406,Bhavishay406,Bhavishay,Male,12/06/2017,,,,images/bhavishya_tzBnv7s.jpg,Mitrol,None,121105,6,None,None,sbsy33,English,L.K.G,A,405,None,12345,2021-03-15 05:55:28.019634+00:00,None
+Rudra408,Rudra408,Rudra,Male,15/11/2017,,,,images/rudra_zsfKmfw.jpg,Mitrol,None,121105,7,None,None,sbsy33,English,L.K.G,A,407,None,12345,2021-03-15 05:57:51.426337+00:00,None
+Arjun410,Arjun410,Arjun,Male,../../....,,,,images/arjun_FckBOea.jpg,Mitrol,None,121105,8,None,None,sbsy33,English,L.K.G,A,409,None,12345,2021-03-15 06:00:11.663472+00:00,None
+Aaryan412,Aaryan412,Aaryan,Male,../../....,,,,images/aryan11_GCHN8j6.jpg,Mitrol,None,121105,9,None,None,sbsy33,English,L.K.G,A,411,None,12345,2021-03-15 06:02:05.922360+00:00,None
+Piysh414,Piysh414,Piysh,Male,../../....,,,,images/piyush_xrEWOdU_yOsHjX5.jpg,Mitrol,None,121105,10,None,None,sbsy33,English,L.K.G,A,413,None,12345,2021-03-15 06:04:38.841382+00:00,None
+Riya416,Riya416,Riya,Female,06/09/2016,,,,images/riya.jpg,Mitrol,None,121105,11,None,None,sbsy33,English,L.K.G,A,415,None,12345,2021-03-15 06:07:16.887466+00:00,None
+Dheeraj418,Dheeraj418,Dheeraj,Male,20/10/2015,,,,images/dhiraj11_9vuqC6W.jpg,Orangabad,None,121105,12,None,None,sbsy33,English,L.K.G,A,417,None,12345,2021-03-15 06:09:10.475609+00:00,None
+Kanak420,Kanak420,Kanak,Female,../../....,,,,images/kanak_9kEqonn_YvkSwyY.jpg,Mitrol,None,121105,13,None,None,sbsy33,English,L.K.G,A,419,None,12345,2021-03-15 06:13:27.107098+00:00,None
+Aaliya422,Aaliya422,Aaliya,Female,28/03/2016,,,,images/aliyaaa111_8kkE4np.jpg,Mitrol,None,121205,14,None,None,sbsy33,English,L.K.G,A,421,None,12345,2021-03-15 06:15:50.603375+00:00,None
+Khushi424,Khushi424,Khushi,Female,06/03/2016,,,,images/khushiii11_3Z6btFY.jpg,Mitrol,None,121105,15,None,None,sbsy33,English,1,A,423,None,12345,2021-03-15 06:17:32.422552+00:00,None
+Pragya425,Pragya425,Pragya,Female,../../....,,,,images/prigya.jpg,Mitrol,None,121105,16,None,None,sbsy33,English,L.K.G,A,407,None,12345,2021-03-15 06:18:33.817404+00:00,None
+Aarya427,Aarya427,Aarya,Male,17/06/2016,,,,images/arya11_D5RwOoP_bYF8IAq.jpg,Mitrol,None,121105,17,None,None,sbsy33,English,L.K.G,A,426,None,12345,2021-03-15 06:21:47.093470+00:00,None
+Siddharth428,Siddharth428,Siddharth,Male,28/11/2014,,,,images/sidharth111_XeSgrAD_TLZo5Yp_ij6W4Yk.jpg,Mitrol,None,121105,18,None,None,sbsy33,English,L.K.G,A,415,None,12345,2021-03-15 06:23:41.553384+00:00,None
+Raghav430,Raghav430,Raghav,Male,20/05/2016,,,,images/raghau111_Pu4NubH.jpg,Orangabad,None,121105,19,None,None,sbsy33,English,L.K.G,A,429,None,12345,2021-03-15 06:26:05.541021+00:00,None
+Shani431,Shani431,Shani,Male,01/02/2015,,,,images/sunny111_A2c1FOI.jpg,Mitrol,None,121105,20,None,None,sbsy33,English,L.K.G,A,401,None,12345,2021-03-15 06:27:20.425412+00:00,None
+Sandhya433,Sandhya433,Sandhya,Female,../../....,,,,images/sandhya.jpg,Mitrol,None,121105,21,None,None,sbsy33,English,L.K.G,A,432,None,12345,2021-03-15 06:28:55.735421+00:00,None
+Ankit435,Ankit435,Ankit,Male,23/12/2015,,,,images/ankit_JzKweZy_MrUstIT.jpg,Mitrol,None,121105,22,None,None,sbsy33,English,L.K.G,A,434,None,12345,2021-03-15 06:30:58.842461+00:00,None
+Himanshi437,Himanshi437,Himanshi,Female,02/11/2015,,,,images/himanshi_NF2jczM.jpg,Mitrol,None,121105,23,None,None,sbsy33,English,L.K.G,A,436,None,12345,2021-03-15 06:35:36.751442+00:00,None
+Saniya439,Saniya439,Saniya,Female,20/07/2013,,,,images/saniya11_kpUHjRN.jpg,Mitrol,None,121105,24,None,None,sbsy33,English,L.K.G,A,438,None,12345,2021-03-15 06:38:25.837424+00:00,None
+Shna440,Shna440,Shna,Female,20/07/2013,,,,images/shna11_sjUGQct.jpg,Mitrol,None,121105,25,None,None,sbsy33,English,L.K.G,A,438,None,12345,2021-03-15 06:40:33.909705+00:00,None
+Ayana442,Ayana442,Ayana,Female,08/09/2014,,,,images/aayana22_T678Sz6.jpg,Mitrol,None,121105,26,None,None,sbsy33,English,L.K.G,A,441,None,12345,2021-03-15 06:42:21.199516+00:00,None
+Rihan443,Rihan443,Rihan,Male,07/11/2012,,,,images/rihan.jpg,Mitrol,None,121105,27,None,None,sbsy33,English,L.K.G,A,441,None,12345,2021-03-15 06:43:34.825383+00:00,None
+Aavish445,Aavish445,Aavish,Male,25/12/2014,,,,images/avish.jpg,Mitrol,None,121105,26,None,None,sbsy33,English,L.K.G,A,444,None,12345,2021-03-15 06:45:09.633434+00:00,None
+Aanya448,Aanya448,Aanya,Others,30/01/2015,,,,images/aanya.jpg,Mitrol,None,121105,28,None,None,sbsy33,English,L.K.G,A,447,None,12345,2021-03-15 06:53:04.422381+00:00,None
+Garvit449,Garvit449,Garvit,Male,18/03/2015,,,,images/garvit_hGhiiYz_vQGtgtu.jpg,Mitrol,None,121105,29,None,None,sbsy33,English,L.K.G,A,399,None,12345,2021-03-15 06:54:22.130361+00:00,None
+Virat451,Virat451,Virat,Male,26/06/2014,,,,images/virat_HoSSGwW_sjq5U70.jpg,Mitrol,None,121105,30,None,None,sbsy33,English,L.K.G,A,450,None,12345,2021-03-15 06:57:09.825357+00:00,None
+Shivam453,Shivam453,Shivam,Male,19/02/2014,,,,images/sivam_w4RbpXL.jpg,Mitrol,None,121105,31,None,None,sbsy33,English,L.K.G,A,452,None,12345,2021-03-15 07:00:00.724121+00:00,None
+Siddharth454,Siddharth454,Siddharth,Male,12/07/2014,,,,images/sidharthsuresh_W5sMRDk.jpg,Mitrol,None,121205,32,None,None,sbsy33,English,L.K.G,A,421,None,12345,2021-03-15 07:01:07.974414+00:00,None
+Rakhi455,Rakhi455,Rakhi,Female,14/01/2015,,,,images/rakhi_dGv2njX.jpg,Orangabad,None,121105,33,None,None,sbsy33,English,L.K.G,A,429,None,12345,2021-03-15 07:02:35.676371+00:00,None
+Sahil456,Sahil456,Sahil,Male,19/02/2015,,,,images/sahil.jpg,Mitrol,None,121105,34,None,None,sbsy33,English,L.K.G,A,405,None,12345,2021-03-15 07:03:44.742554+00:00,None
+Karishma458,Karishma458,Karishma,Female,25/01/2015,,,,images/karishma11_LHb3Nhi.jpg,Mitrol,None,121105,35,None,None,sbsy33,English,L.K.G,A,457,None,12345,2021-03-15 07:05:51.448387+00:00,None
+Dipti459,Dipti459,Dipti,Female,27/12/2014,,,,images/dipti_K8BXDj0.jpg,Mitrol,None,121105,36,None,None,sbsy33,English,L.K.G,A,413,None,12345,2021-03-15 07:06:59.355167+00:00,None
+Vansh461,Vansh461,Vansh chauhan,Male,06/09/2015,,,,images/vansh_aIjBz8n.jpg,Orangabad,None,121105,37,None,None,sbsy33,English,L.K.G,A,460,None,12345,2021-03-15 07:09:02.061428+00:00,None
+Jitender463,Jitender463,Jitender,Male,27/11/2014,,,,images/jitender_gEnwlcD.jpg,Orangabad,None,121105,38,None,None,sbsy33,English,L.K.G,A,462,None,12345,2021-03-15 07:10:38.861432+00:00,None
+Gagan465,Gagan465,Gagan,Male,../../....,,,,images/gagan_HwMxyuX_vkk9WQL.jpg,Orangabad,None,121105,39,None,None,sbsy33,English,L.K.G,A,464,None,12345,2021-03-15 07:12:12.622488+00:00,None
+Dipika466,Dipika466,Dipika,Female,12/03/2013,,,,images/dipika22_tou0j7O.jpg,Mitrol,None,121105,40,None,None,sbsy33,English,L.K.G,A,436,None,12345,2021-03-15 07:13:37.975545+00:00,None
+Umang467,Umang467,Umang,Male,24/06/2014,,,,images/umang_VyL2OvP_0Ud5fqD.jpg,Mitrol,None,121105,41,None,None,sbsy33,English,L.K.G,A,436,None,12345,2021-03-15 07:15:43.548421+00:00,None
+Dhruv469,Dhruv469,Dhruv,Male,19/01/2015,,,,images/dhurav_J44Ae3J.jpg,Mitrol,None,121102,42,None,None,sbsy33,English,L.K.G,A,468,None,12345,2021-03-15 07:17:33.968401+00:00,None
+Priyam471,Priyam471,Priyam Kumari,Female,16/5/1998,priyamdubey053@gmail.com,9205843242,A+,images/IMG20210313175811.jpg,Jahangirpuri j block,None,110033,22,None,None,demo1,English,10,B,470,None,12345,2021-03-15 17:59:24.580153+00:00,None
+Nakul473,Nakul473,Nakul,Male,16/02/2015,None,None,None,,Hno 222,None,110044,233,None,None,S004,English,4,A,472,None,12345,2021-03-16 07:37:03.900731+00:00,None
+himanshu475,himanshu475,himanshu,Male,13/10/2009,,None,None,images/garvit_nyKLyFb.jpg,baderpur,None,189129,262,None,None,S004,English,1,A,474,None,12345,2021-03-16 08:46:20.006568+00:00,None
+ankit477,ankit477,ankit,Male,13/10/2020,,,,images/virat_yo4rwuA_PqDXdES.jpg,badauli,None,112293,3883,None,None,S004,English,1,A,476,None,12345,2021-03-16 09:02:05.172655+00:00,None
+Raju482,Raju482,Raju kumar,Male,14/04/2006,None,None,None,images/IMG-20210317-WA0031_dIiX0XN_tulADo7_mtYNYwP.jpg,Hathua,None,813579,Clas1d356,None,None,sbsy36,English,1,A,481,050052AFD820,12345,2021-03-17 06:45:43+00:00,None
+Shyam484,Shyam484,Shyam kumar,Male,13/02/2000,,None,None,images/IMG-20210317-WA0031_ECFu5Cc_rPdfYXx.jpg,Fathua,None,246896,Class2D345,None,None,sbsy36,English,2,A,483,None,12345,2021-03-17 06:47:50.648442+00:00,None
+Santosh486,Santosh486,Santosh singh,Male,15/01/2003,None,None,None,images/IMG-20210317-WA0031_zm1Ruwc_kJycP5k_DtuVfVQ.jpg,Patel nagar,None,678895,Class3c467,None,None,sbsy36,English,3,A,485,0500506B201E,12345,2021-03-17 06:50:35+00:00,None
+Muskan488,Muskan488,Muskan kumari,Female,12/08/2005,None,None,None,images/IMG-20210317-WA0031_WDDHwIC_mVk8FBL_hVgb0zr.jpg,Rajpur,None,678995,Class4f467,None,None,sbsy36,English,4,A,487,0500506ACFF0,12345,2021-03-17 06:52:29+00:00,None
+Proyanshu490,Proyanshu490,Proyanshu kumar,Male,001/02007,None,None,None,images/IMG-20210317-WA0031_tUxMbii_OVRgGks_KUpEty9.jpg,Gautambud Nagar,None,585976,Class5,None,None,sbsy36,English,5,A,489,050052AFD129,12345,2021-03-17 06:54:10+00:00,None
+Mayank492,Mayank492,Mayank kumar,Male,09/07/2008,None,None,None,images/IMG-20210317-WA0031_Bk8KbGp_peuFT55_NbWy3JC.jpg,Didhwalia,None,689468,Class668,None,None,sbsy36,English,6,A,491,050052AEA059,12345,2021-03-17 06:55:42+00:00,None
+Uttam494,Uttam494,Uttam kumar,Male,09/02/2009,,None,None,images/IMG-20210317-WA0031_VGfTc6h_WJoECyN.jpg,Saidpur,None,789679,Class7g467,None,None,sbsy36,English,7,A,493,None,12345,2021-03-17 06:57:16.717827+00:00,None
+Prerna496,Prerna496,Prerna kumari,Female,07/07/2007,None,None,None,images/IMG-20210317-WA0031_gOol4qG_V9VZvZH_xCwRMEx.jpg,Jagdishpur,None,786372,Class8/g,None,None,sbsy36,English,8,A,495,0500506B1628,12345,2021-03-17 06:59:13+00:00,None
+Kunal500,Kunal500,Kunal,Male,02/04/2017,,None,None,images/kunal_VJGmCKV.jpg,mitrol,None,121105,44,None,None,sbsy33,English,L.K.G,A,499,None,12345,2021-03-20 10:50:52.478306+00:00,None

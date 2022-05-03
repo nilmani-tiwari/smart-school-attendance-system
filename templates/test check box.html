@@ -1,0 +1,101 @@
+
+<head>
+<meta charset="utf-8">
+<title> CSS Radio Button Example </title>
+<style>
+.bodycls{
+background: #222222 !important;
+width: 400px;
+text-align: center;
+}
+.container{
+display: block;
+position: relative;
+margin: 20px auto;
+height: auto;
+width: 400px;
+padding: 10px;
+}
+h2{
+color: #ffffff;
+}
+ul li{
+color: #00FA9A;
+display: block;
+position: relative;
+border-bottom: 1px dotted #DAA520;
+}
+ul li input[type=radio]{
+position: absolute;
+visibility: hidden;
+}
+ul li label{
+display: block;
+position: relative;
+font-weight: 200;
+font-size: 1.15em;
+padding: 25px 25px 25px 80px;
+margin: 8px auto;
+height: 20px;
+z-index: 9;
+cursor: pointer;
+}
+ul li:hover label{
+color: #FAEBD7;
+}
+ul li .radio_demo{
+display: block;
+position: absolute;
+border: 3px solid #AAAAAA;
+border-radius: 100%;
+height: 30px;
+width: 30px;
+top: 25px;
+left: 30px;
+z-index: 5;
+}
+ul li .radio_demo::before {
+position: absolute;
+content: '';
+border-radius: 80%;
+height: 20px;
+width: 20px;
+top: 5px;
+left: 5px;
+margin: auto;
+transition: background 0.25s linear;
+}
+input[type=radio]:checked ~ .radio_demo {
+border: 3px solid #0DFF92;
+}
+input[type=radio]:checked ~ .radio_demo::before{
+background: #0DFF92;
+}
+</style>
+</head>
+<div class="bodycls">
+<div class="container">
+<h2> Indian Cricket Team Members: </h2>
+<ul>
+<li>
+<input type="radio" id="option_one" name="selector">
+<label for="option_one"> M S Dhoni</label>
+<div class="radio_demo"></div>
+</li>
+<li>
+<input type="radio" id="option_two" name="selector">
+<label for="option_two"> Virat Kohli</label>
+<div class="radio_demo">
+<div class="inside"></div>
+</div>
+</li>
+<li>
+<input type="radio" id="option_three" name="selector">
+<label for="option_three"> Rohit Sharma </label>
+<div class="radio_demo">
+<div class="inside"></div>
+</div>
+</li>
+</ul>
+</div>
+</body>

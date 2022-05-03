@@ -1,0 +1,7 @@
+massage_id,school_code,total_msg,sent_msg_to,message,date
+1,demo1,5,None,None,2020-09-21
+2,demo1,4,8377912918,I can’t express how important our friendship is for me. I don’t think I would be able to stay strong through all this time without your endless support and very special love. You are the best thing that has ever happened to me.,2020-09-21
+3,demo1,3,8377912918,"Dear Parents, your child Nobita Nobi is absent today. please provide reason .",2020-09-21
+4,demo1,2,8377912918,"Dear Parents, your child anvi is absent today. please provide reason .",2020-09-21
+5,demo1,1,8377912918,"Dear Parents, your child piyush is absent today. please provide reason .",2020-09-21
+6,demo1,0,9898989898,"Dear Parents, your child ABCD is absent today. please provide reason .",2020-09-21

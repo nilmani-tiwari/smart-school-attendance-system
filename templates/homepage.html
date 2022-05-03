@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+{%load static%}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SBSY</title>
+ <link rel="stylesheet" href="{%static 'homepage/index.css'%}">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" ></script>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<section id="nav bar">
+<nav class="navbar navbar-expand-lg navbar-light">
+<!--  <a class="navbar-brand" href="#"><img src="{% static 'homepage/logo1.jpg' %}"></a>-->
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+  <i class="fa fa-bars"></i>
+
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item ">
+        <a class="nav-link" href="#top">HOME</a>
+
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#services">SERVICES</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#about-us">ABOUT US</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#testimonials" >TESTIMONILS</a>
+      </li>
+         <li class="nav-item">
+        <a class="nav-link" href="#footer" >CONTACT</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+</section>
+<!--*******************************banner section**********************************-->
+
+<section id="banner">
+<div class="container">
+    <div class="row">
+     <div class="col-md-6">
+
+         <h class="promo-title">SBSY</h><br><br>
+
+         <h3> one step towards quality service</h3>
+<!--         <a href="#"><img src="{% static 'play.png' %}" class="play-btn"></a>watch videos-->
+     </div>
+<div class="col-md-6 text-center">
+<img src="{% static 'homepage/mii.png' %}" class="img-fluid">
+</div>
+    </div>
+</div>
+<img src="{% static 'homepage/abcd.png' %}" class="bottom-img">
+</section>
+<!--**************************service section***************-->
+
+<section id="services">
+<div class="container text-center">
+    <h1 class="title">WHAT WE DO ?</h1>
+    <div class="row text-center">
+     <div class="col-md-4 services">
+         <img src="{% static 'homepage/service4.jpg' %}" class="service1-img">
+         <h3>Website developer</h3>
+
+    </div>
+
+          <div class="col-md-4 services">
+         <img src="{% static 'homepage/service2.jpg' %}" class="service2-img">
+         <h3>Auto Attendence System</h3>
+
+    </div>
+
+
+
+
+     <div class="col-md-4 services">
+         <img src="{% static 'homepage/service1.jpeg' %}" class="service-img">
+         <h3>Rf-Reader UHF-Reader sell and services</h3>
+    </div>
+    </div>
+    <button type="button" class="btn btn-primary">All Services</button>
+        </div>
+</section>
+
+<!--*****************About us***************-->
+<section id="about-us">
+    <div class="container">
+       <h1 class="title text-center">WHY CHOOSE US ?</h1>
+<div class="row">
+    <div class="col-md-6 about-us">
+    <p class="about-title">why we're differnt ?</p>
+    <ul>
+        <li>Believe in doing business with honest</li>
+              <li>Believe in doing business with honest</li>
+              <li>Believe in doing business with honest</li>
+              <li>Believe in doing business with honest</li>
+              <li>Believe in doing business with honest</li>
+              <li>Believe in doing business with honest</li>
+    </ul>
+</div>
+    <div class="col-md-6">
+        <img src="{% static 'homepage/network.jpg' %}" class="img-fluid">
+    </div>
+</div>
+    </div>
+</section>
+
+<!--**************************Testimonials*******************-->
+<section id="testimonials">
+    <div class="container">
+         <h1 class="title text-center">WHAT CLIENTS SAY</h1>
+<div class="row offset1">
+    <div class="col-md-5 testimonials">
+        <p>“In my history of working with trade show vendors, I can honestly say that there is not one company that I've ever worked with that has better service than Exhibit Systems.”</p>
+        <img src="{% static 'homepage/misthi.jpg' %}">
+    <p class="user-details"><b>Misthi</b><br>co-founder M.B.S</p>
+
+    </div>
+ <div class="col-md-5 testimonials">
+        <p>“In my history of working with trade show vendors, I can honestly say that there is not one company that I've ever worked with that has better service than Exhibit Systems.”</p>
+        <img src="{% static 'homepage/alok1.jpg' %}">
+    <p class="user-details"><b>Alok</b><br>co-founder SBSY</p>
+    </div>
+
+</div>
+    </div>
+</section>
+
+<!--********************************social media section*****************************-->
+
+<section id="social-media">
+<div class="container text-center">
+    <p>FIND US ON SOCIAL MEDIA</p>
+<div class="social-icon">
+<a href="#"><img src="{% static 'homepage/facebook-512.webp' %}"></a>
+    <a href="#"><img src="{% static 'homepage/insta.jpg' %}"></a>
+    <a href="#"><img src="{% static 'homepage/twitter.webp' %}"></a>
+    <a href="#"><img src="{% static 'homepage/whtsap.webp' %}"></a>
+
+</div>
+</div>
+</section>
+
+<!--*****************************footer section*******************-->
+
+<section id="footer">
+    <img src="{% static 'homepage/patern.jpg' %}" class="bottom-img">
+<div class="container">
+    <div class="row">
+      <div class="col-md-4 footer-box">
+          <img src="{% static 'homepage/logo1.jpg' %}">
+        <p>“”</p>
+      </div>
+  <div class="col-md-4 footer-box">
+      <p><b>CONTACT US</b></p>
+     <P><i class="fa fa-map-marker"></i>B-57, Dharamveer market,Badarpur,New Delhi-44</P>
+<P><i class="fa fa-phone"></i>9729888990</P>
+<P><i class="fa fa-envelope-o"></i>sbsyindia@gmail.com</P>
+  </div>
+
+          <div class="col-md-4 footer-box">
+      <p><b>SUBSCRIBE NEWSLETTER</b></p>
+     <input type="email" class="form-control" placeholder="Your Email">
+              <button type="button" class="btn btn-primary">Subscribe</button>
+  </div>
+
+
+
+    </div>
+    <hr>
+    <p class="copyright"> Copyrights  © SBSY 2020. All rights reserved.</p>
+</div>
+
+</section>
+
+
+<script src="{% static 'homepage/smooth-scroll.js' %}"></script>
+<script>
+    var scroll= new SmoothScroll('a[href*="#"]');
+
+</script>
+</body>
+</html>

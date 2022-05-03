@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+    {%load static%}
+<html lang="en">
+<head>
+    <style>
+        .table {
+            border-spacing: 0px;
+            border: 1px solid gray;
+            margin-left: 20px;
+        }
+
+
+        thead {
+            background: rgba(0,0,0,.075);
+        }
+
+        .table thead th, .table td {
+            vertical-align: middle !important;
+            font-size: 12px;
+        }
+         .table tr:nth-child(even) {background-color: #f2f2f2;}
+
+        .table td {
+            height: 90px;
+            padding-left: 1rem !important;
+            vertical-align: top;
+            border-bottom: 1px solid gray;
+        }
+        .table tr:last-child{border:none;}
+
+
+
+
+        .verticalBar1, .verticalBar2 {
+            width: 10px;
+            height: 90px;
+            background-color: #fff;
+            position: absolute;
+        }
+
+        .verticalBar1 {
+            margin-top: -45px;
+            border: 1px solid #000;
+            border-bottom-color: transparent;
+            border-top-color: transparent;
+            height: 90px;
+        }
+
+        .verticalBar2 {
+            margin-top: -45px;
+            border: 1px solid #000;
+            border-bottom-color: transparent;
+            border-top-color: transparent;
+        }
+
+        .trainArrived {
+            background-color: #000;
+        }
+
+        .whiteIndicator {
+            position: absolute;
+            margin-top: 36px;
+            width: 8px;
+            height: 8px;
+            background-color: #fff;
+            border-radius: 20px;
+            margin-left: 1px;
+        }
+
+
+        .blinker-intermediate-station {
+            margin-top: 28px;
+            margin-left: -13px;
+            height: 35px;
+        }
+
+        .divBlinker {
+            z-index: 2;
+            position: absolute;
+            display: inline-block;
+        }
+
+        .st-distance {
+            font-size: 11px;
+            color: gray;
+        }
+    </style>
+
+</head>
+<body cz-shortcut-listen="true">
+    <div>
+        <table class="table text-center">
+            <thead>
+                <tr>
+                    <th style="width: 8%;"></th>
+                    <th style="width: 28%; height: 30px;">Station</th>
+                    <th style="width: 20%;">Scheduled Time</th>
+                    <th style="width: 22%;">Actual</th>
+                    <th style="width: 22%;">Delay</th>
+                </tr>
+            </thead>
+            <tbody>
+                
+                
+                
+                
+                <!--<tr>-->
+                <!--    <td>-->
+                <!--        <div class="verticalBar1  trainArrived">-->
+                <!--            <div class="whiteIndicator "></div>-->
+                <!--        </div>-->
+
+
+                <!--    <td>-->
+                <!--        <div>Kokrajhar (KOJ)</div>-->
+                <!--        <div class="st-distance">741 km (day 2)</div>-->
+                <!--    </td>-->
+                <!--    <td>-->
+                <!--        <div>-->
+                <!--            <div>Arr 09:50</div>-->
+                <!--            <div>Dep 09:52</div>-->
+                <!--        </div>-->
+                <!--    </td>-->
+                <!--    <td>-->
+                <!--        <div>-->
+                <!--            <div>-->
+                <!--                <time>09:52</time>-->
+                <!--            </div>-->
+                <!--            <div>-->
+                <!--                <time>09:54</time>-->
+                <!--            </div>-->
+                <!--        </div>-->
+                <!--    </td>-->
+                <!--    <td>-->
+                <!--        <div>-->
+                <!--            <div> 2 min </div>-->
+                <!--        </div>-->
+                <!--    </td>-->
+                <!--</tr>-->
+                
+                
+                
+                
+                <!--<tr>-->
+                <!--    <td style="">-->
+                <!--        <div class="verticalBar1  trainArrived">-->
+                <!--            <div class="whiteIndicator "></div>-->
+                <!--        </div>-->
+
+
+                <!--    <td>-->
+                <!--        <div>Kokrajhar (KOJ)</div>-->
+                <!--        <div class="st-distance">741 km (day 2)</div>-->
+                <!--    </td>-->
+                <!--    <td>-->
+                <!--        <div>-->
+                <!--            <div>Arr 09:50</div>-->
+                <!--            <div>Dep 09:52</div>-->
+                <!--        </div>-->
+                <!--    </td>-->
+                <!--    <td>-->
+                <!--        <div>-->
+                <!--            <div>-->
+                <!--                <time>09:52</time>-->
+                <!--            </div>-->
+                <!--            <div>-->
+                <!--                <time>09:54</time>-->
+                <!--            </div>-->
+                <!--        </div>-->
+                <!--    </td>-->
+                <!--    <td>-->
+                <!--        <div>-->
+                <!--            <div> 2 min </div>-->
+                <!--        </div>-->
+                <!--    </td>-->
+                <!--</tr>-->
+                
+                
+                
+                
+                
+                <!--<tr>-->
+                <!--    <td>-->
+                <!--        <div class="verticalBar2  trainArrived">-->
+                <!--            <div class="whiteIndicator "></div>-->
+                <!--        </div>-->
+                        
+
+                <!--    <td>-->
+                <!--        <div>Kokrajhar (KOJ)</div>-->
+                <!--        <div class="st-distance">741 km (day 2)</div>-->
+                <!--    </td>-->
+                <!--    <td>-->
+                <!--        <div>-->
+                <!--            <div>Arr 09:50</div>-->
+                <!--            <div>Dep 09:52</div>-->
+                <!--        </div>-->
+                <!--    </td>-->
+                <!--    <td>-->
+                <!--        <div>-->
+                <!--            <div>-->
+                <!--                <time>09:52</time>-->
+                <!--            </div>-->
+                <!--            <div>-->
+                <!--                <time>09:54</time>-->
+                <!--            </div>-->
+                <!--        </div>-->
+                <!--    </td>-->
+                <!--    <td>-->
+                <!--        <div>-->
+                <!--            <div> 2 min </div>-->
+                <!--        </div>-->
+                <!--    </td>-->
+                <!--</tr>-->
+                
+                
+                
+                
+                
+                
+                <!--<tr>-->
+                <!--    <td>-->
+                <!--        <div class="verticalBar2 trainArrived">-->
+                <!--              <div class="whiteIndicator "></div>-->
+                <!--        </div >-->
+                        
+                <!--        <div class="divBlinker">-->
+                <!--             <img  id="blinker" src="{% static 'ripple.svg' %}"  class="blinker-intermediate-station" />-->
+
+                <!--        </div>-->
+
+                <!--    <td>-->
+                <!--        <div>Kokrajhar (KOJ)</div>-->
+                <!--        <div class="st-distance">741 km (day 2)</div>-->
+                <!--    </td>-->
+                <!--    <td>-->
+                <!--        <div>-->
+                <!--            <div>Arr 09:50</div>-->
+                <!--            <div>Dep 09:52</div>-->
+                <!--        </div>-->
+                <!--    </td>-->
+                <!--    <td>-->
+                <!--        <div>-->
+                <!--            <div>-->
+                <!--                <time>09:52</time>-->
+                <!--            </div>-->
+                <!--            <div>-->
+                <!--                <time>09:54</time>-->
+                <!--            </div>-->
+                <!--        </div>-->
+                <!--    </td>-->
+                <!--    <td>-->
+                <!--        <div>-->
+                <!--            <div> 2 min </div>-->
+                <!--        </div>-->
+                <!--    </td>-->
+                <!--</tr>-->
+                
+                
+                
+                
+                
+                
+                <!--<tr>-->
+                <!--    <td>-->
+                <!--        <div class="verticalBar2 ">-->
+                       
+                <!--        </div>-->
+                        
+                       
+
+
+                <!--    <td>-->
+                <!--        <div>Kokrajhar (KOJ)</div>-->
+                <!--        <div class="st-distance">741 km (day 2)</div>-->
+                <!--    </td>-->
+                <!--    <td>-->
+                <!--        <div>-->
+                <!--            <div>Arr 09:50</div>-->
+                <!--            <div>Dep 09:52</div>-->
+                <!--        </div>-->
+                <!--    </td>-->
+                <!--    <td>-->
+                <!--        <div>-->
+                <!--            <div>-->
+                <!--                <time>09:52</time>-->
+                <!--            </div>-->
+                <!--            <div>-->
+                <!--                <time>09:54</time>-->
+                <!--            </div>-->
+                <!--        </div>-->
+                <!--    </td>-->
+                <!--    <td>-->
+                <!--        <div>-->
+                <!--            <div> 2 min </div>-->
+                <!--        </div>-->
+                <!--    </td>-->
+                <!--</tr>-->
+                
+                
+                
+            {% for i in mdata %}    
+                
+                <tr>
+                    <td>
+                        <div class="verticalBar2 {{i.arrived}}">
+                             <div class="{{i.whiteindicator}} "></div>
+                            
+                        </div>
+                      
+                        
+                        <div class="divBlinker">
+                             <img  id="blinker" src="{% static 'ripple.svg' %}" style="display: {{i.display}};" class="blinker-intermediate-station" />
+
+                        </div>
+                        
+
+                    <td>
+                        <div>{{i.rf_id}}</div>
+                        <div class="st-distance">741 km (day 2)</div>
+                    </td>
+                    <td>
+                        <div>
+                            <div>Arr 09:50</div>
+                            <div>Dep 09:52</div>
+                        </div>
+                    </td>
+                    <td>
+                        <div>
+                            <div>
+                                <time>09:52</time>
+                            </div>
+                            <div>
+                                <time>09:54</time>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div>
+                            <div> 2 min </div>
+                        </div>
+                    </td>
+                </tr>
+                
+                
+                
+            {% endfor %}    
+                
+                
+                
+                
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>

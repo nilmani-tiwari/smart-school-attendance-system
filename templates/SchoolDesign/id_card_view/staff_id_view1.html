@@ -1,0 +1,145 @@
+
+
+
+
+
+
+<!DOCTYPE html>
+{%load static%}
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Attendance Portal</title>
+
+    {% csrf_token %}
+
+
+
+<link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+<style>
+body {
+			background-color: #d7d6d3;
+			font-family:'verdana';
+			width:321px;
+			height:220px;
+		}
+		.id-card-holder {
+			width: 225px;
+		    padding: 4px;
+		    margin: 0 auto;
+		    background-color: #1f1f1f;
+		    border-radius: 5px;
+		    position: relative;
+		}
+
+
+		.id-card {
+
+			background-color: #fff;
+			padding: 10px;
+			border-radius: 10px;
+			box-shadow: 0 0 1.5px 0px #b9b9b9;
+		}
+		.id-card img {
+			margin: 0 auto;
+		}
+		.header img {
+			width: 100px;
+    		margin-top: 15px;
+		}
+		.photo img {
+			width: 100px;
+			height: 80px;
+    		margin-top: 10px;
+		}
+		h2 {
+			font-size: 15px;
+			margin: 5px 0;
+		}
+		h3 {
+			font-size: 12px;
+			margin: 2.5px 0;
+			font-weight: 300;
+		}
+		.qr-code img {
+			width: 50px;
+		}
+		p {
+			font-size: 10px;
+			margin: 1px;
+		}
+
+
+</style>
+
+</head>
+<body>
+    {% csrf_token %}
+
+<script>
+$(document).ready(function(){
+    $("#admindiv").click(function () {
+        $(".adminpopout").slideToggle("2000");
+    });
+    $(".toggleMenu").on('click', function (e) {
+        $('.sidenav').animate({ width: 'toggle' });
+    });
+});
+
+function createPDF() {
+        var sTable = document.getElementById('myid').innerHTML;
+
+        var style = "<style>";
+        style = style + "table {width: 100%;font: 17px Calibri;}";
+        style = style + "table, th, td {border: solid 1px #DDD; border-collapse: collapse;";
+        style = style + "padding: 2px 3px;text-align: center;}";
+        style = style + "</style>";
+
+        // CREATE A WINDOW OBJECT.
+        var win = window.open('', '', 'height=700,width=700');
+
+        win.document.write('<html><head>');
+        win.document.write('<title>Profile</title>');   // <title> FOR PDF HEADER.
+        win.document.write(style);          // ADD STYLE INSIDE THE HEAD TAG.
+        win.document.write('</head>');
+        win.document.write('<body>');
+        win.document.write(sTable);         // THE TABLE CONTENTS INSIDE THE BODY TAG.
+        win.document.write('</body></html>');
+
+        win.document.close(); 	// CLOSE THE CURRENT WINDOW.
+
+        win.print();    // PRINT THE CONTENTS.
+    }
+</script>
+
+<style>
+
+</style>
+    <body>
+    {% for i in data %}
+ <div class="id-card-tag"><br></div>
+    <div class="id-card-tag-strip"><br></div>
+    <div class="id-card-hook"><br></div>
+    <div class="id-card-holder">
+        <div class="id-card">
+            <div class="header">
+                <h2 style="text-align:center">{{ request.user.first_name }}</h2>
+                <p style="text-align:center">Ladiaka village, Palwal , Haryana-121105</p>
+                <h2 style="text-align:center" class="photo"><img  src="/media/{{i.staff_image}}"></h2>
+                <h2 style="text-align:center">{{i.staff_First_name}}</h2>
+                <h3 style="text-align:center">TEACHER</h3>
+                <hr>
+                <p style="text-align:center">{{i.staff_mobile}}</p>
+                <p style="text-align:center">{{i.staff_email}}</p>
+
+
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+    </body>
+</html>

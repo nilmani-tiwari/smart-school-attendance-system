@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+{%load static%}
+<html>
+<head>
+
+    <style>
+        .card_bg {
+            width: 204px;
+            height: 321.5px;
+            margin: 0 auto;
+            margin-bottom: 30px;
+            border: 2px solid #06a3da;
+            position: relative;
+            float: left;
+            margin-left: 100px;
+        }
+
+        .card_content {
+            position: absolute;
+            top: 0px;
+            width: 100%;
+            z-index: 10000000;
+        }
+
+        .school_name {
+            width: 100%;
+            background: #ffffff;
+            margin-top: 10px;
+        }
+
+        .school_heading {
+            padding: 5px;
+            font-family: verdana;
+            font-weight: bold;
+            color: #035079;
+            font-size: 13px;
+            text-align: center;
+            display: block;
+            padding-bottom: 0px;
+        }
+
+        .school_sub_heading {
+            padding: 5px;
+            font-family: verdana;
+            color: #035079;
+            font-size: 8px;
+            text-align: center;
+            display: block;
+            font-weight: bold;
+        }
+
+        .staff_img {
+            width: 89px;
+            height: 100px;
+            margin-top: 6px;
+            margin-left: 57px;
+            border-radius: 10px;
+            border: 1px solid #06a3da;
+        }
+
+        .staff_type {
+            width: 100%;
+            text-align: center;
+            margin-top: 8px;
+            font-family: verdana;
+            font-weight: bold;
+            font-size: 12px;
+            color: #ffffff;
+            -webkit-print-color-adjust: exact;
+        }
+
+        .staff_name {
+            width: 100%;
+            margin-top: 6px;
+            text-align: center;
+            font-size: 12px;
+            font-weight: bold;
+            font-family: verdana;
+            color: #3280a4;
+        }
+
+        .staff_detail {
+            width: 100%;
+            font-size: 9px;
+            line-height: 9px;
+            /* font-weight: bold; */
+            margin-top: 5px;
+            font-family: verdana;
+        }
+
+            .staff_detail tr td:first-child {
+                text-align: right;
+                padding-right: 3px;
+            }
+
+            .staff_detail tr td:last-child {
+                text-align: left;
+                padding-left: 3px;
+                color: #05577d;
+            }
+
+        .principal_text {
+            font-family: verdana;
+            font-size: 9px;
+            width: 97%;
+            text-align: right;
+            padding-right: 5px;
+            color: #071927;
+        }
+
+        .sign_img {
+            width: 30px;
+            margin-left: 65px;
+        }
+
+        .footer_1 {
+            width: 100%;
+        }
+
+        .session {
+              float: left;
+    width: 44%;
+    padding: 5px;
+    padding-top: 10px;
+    font-size: 21px;
+    color: #bdb9b9;
+        }
+
+        .sign_container {
+            float: left;
+            width: 50%;
+        }
+        .footer_2{
+                color: white;
+    font-size: 11px;
+    width: 100%;
+    text-align: center;
+    /* background: red; */
+    float: left;
+    font-family: verdana;
+     -webkit-print-color-adjust: exact;
+        }
+    </style>
+</head>
+ {% for i in data %}
+<body >
+      {% csrf_token %}
+    <div class="card_bg">
+         <img src="{% static 'staff_icard/Staff_Template.jpg' %}" />
+        <!--<img src="Staff_Template.jpg" />-->
+        <div class="card_content">
+            <div class="school_name">
+                <span class="school_heading">{{ request.user.first_name }}</span>
+                <span class="school_sub_heading">(Affilated to HBSE,School Code:212344)</span>
+            </div>
+            <div class="staff_type">TEACHER</div>
+            <img class="staff_img" src="/media/{{i.staff_image}}">
+            <!--<img class="staff_img" src="staff.jpg" />-->
+            <div class="staff_name">{{i.staff_First_name}}&nbsp;{{i.staff_Last_name}}</div>
+            <table class="staff_detail">
+                <tr>
+                    <td>D.O.B:</td>
+                    <td>{{i.staff_date_of_birth}}</td>
+                </tr>
+                <tr>
+                    <td>Blood:</td>
+                    <td>{{i.staff_blood_group}}</td>
+                </tr>
+                <tr>
+                    <td>M.No:</td>
+                    <td>{{i.staff_mobile}}</td>
+                </tr>
+                
+                
+                <tr>
+                    <td>Email:</td>
+                    <td>{{i.staff_email}}</td>
+                </tr>
+                
+            </table>
+            <div class="footer_1">
+                <div class="session">2021-22</div>
+                <div class="sign_container">
+                    <img class="sign_img" src="{% static 'staff_icard/p_sign.png' %}">
+                    <!--<img class="sign_img" src="p_sign.png" />-->
+                    <div class="principal_text">Principal</div>
+                </div>
+            </div>
+
+            <div class="footer_2">Baroli, Palwal - 121102</div>
+        </div>
+    </div>
+    <!--<div class="card_bg">-->
+    <!--     <img src="{% static 'staff_icard/Staff_Template.jpg' %}" />-->
+        <!--<img src="Staff_Template.jpg" />-->
+    <!--    <div class="card_content">-->
+    <!--        <div class="school_name">-->
+    <!--            <span class="school_heading">R.S. MEMORIAL SCHOOL</span>-->
+    <!--            <span class="school_sub_heading">(Affilated to HBSE,School Code:212344)</span>-->
+    <!--        </div>-->
+    <!--        <div class="staff_type">TEACHER</div>-->
+    <!--    <img class="staff_img" src="{% static 'staff_icard/staff.jpg' %}">-->
+
+            <!--<img class="staff_img" src="staff.jpg" />-->
+    <!--        <div class="staff_name">SAPNA</div>-->
+    <!--        <table class="staff_detail">-->
+    <!--            <tr>-->
+    <!--                <td>D.O.B:</td>-->
+    <!--                <td>03-Feb-1987</td>-->
+    <!--            </tr>-->
+    <!--            <tr>-->
+    <!--                <td>Blood:</td>-->
+    <!--                <td>A+</td>-->
+    <!--            </tr>-->
+    <!--            <tr>-->
+    <!--                <td>Qualification:</td>-->
+    <!--                <td>B.A.</td>-->
+    <!--            </tr>-->
+    <!--            <tr>-->
+    <!--                <td>Mobile:</td>-->
+    <!--                <td>9050725826</td>-->
+    <!--            </tr>-->
+    <!--        </table>-->
+    <!--        <div class="footer_1">-->
+    <!--            <div class="session">2021-22</div>-->
+    <!--            <div class="sign_container">-->
+    <!--                <img class="sign_img" src="{% static 'staff_icard/p_sign.png' %}">-->
+
+                    <!--<img class="sign_img" src="p_sign.png" />-->
+    <!--                <div class="principal_text">Principal</div>-->
+    <!--            </div>-->
+    <!--        </div>-->
+
+    <!--        <div class="footer_2">Baroli, Palwal - 121102</div>-->
+    <!--    </div>-->
+    <!--</div>-->
+</body>
+{% endfor %}
+</html>

@@ -1,0 +1,720 @@
+<!doctype html>
+{% load static %}
+<html class="no-js" lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>SBSY | Teacher Add Form</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Favicon -->
+    {% comment %} <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png">
+    <!-- Normalize CSS -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="css/main.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Fontawesome CSS -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- Flaticon CSS -->
+    <link rel="stylesheet" href="fonts/flaticon.css">
+    <!-- Animate CSS -->
+    <link rel="stylesheet" href="css/animate.min.css">
+    <!-- Select 2 CSS -->
+    <link rel="stylesheet" href="css/select2.min.css">
+    <!-- Date Picker CSS -->
+    <link rel="stylesheet" href="css/datepicker.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Modernize js -->
+    <script src="js/modernizr-3.6.0.min.js"></script> {% endcomment %}
+
+
+    <link rel="shortcut icon" type="image/x-icon" href="{% static 'SchoolDesign/img/favicon.png' %}">
+     <link rel="stylesheet" href="{% static 'SchoolDesign/css/normalize.css' %}">
+        <link rel="stylesheet" href="{% static 'SchoolDesign/css/main.css' %}">
+    <link rel="stylesheet" href="{% static 'SchoolDesign/css/bootstrap.min.css' %}">
+      <link rel="stylesheet" href="{% static 'SchoolDesign/css/all.min.css' %}">
+      <link rel="stylesheet" href="{% static 'SchoolDesign/fonts/flaticon.css' %}">
+      <link rel="stylesheet" href="{% static 'SchoolDesign/css/animate.min.css' %}">
+      <link rel="stylesheet" href="{% static 'SchoolDesign/css/datepicker.min.css' %}">
+            <link rel="stylesheet" href="{% static 'SchoolDesign/css/select2.min.css' %}">
+      <link rel="stylesheet" href="{% static 'SchoolDesign/style.css' %}">
+
+        <script src="{% static 'SchoolDesign/js/modernizr-3.6.0.min.js' %}"></script>
+
+
+
+
+
+
+</head>
+
+<body>
+       <!-- Preloader Start Here -->
+    <div id="preloader"></div>
+    <!-- Preloader End Here -->
+    <div id="wrapper" class="wrapper bg-ash">
+       <!-- Header Menu Area Start Here -->
+        <div class="navbar navbar-expand-md header-menu-one bg-light">
+            <div class="nav-bar-header-one">
+                <div class="header-logo">
+
+                        <a href="/" style="color:white;font-size: 25px;"><img src="{% static 'SchoolDesign/img/logo111.png' %}" alt="logo" style="">SBSY</a>
+<!--                                                <img src="{% static 'SchoolDesign/img/logo11.jpg' %}" alt="logo">-->
+
+
+                </div>
+                 <div class="toggle-button sidebar-toggle">
+                    <button type="button" class="item-link">
+                        <span class="btn-icon-wrap">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </span>
+                    </button>
+                </div>
+            </div>
+            <div class="d-md-none mobile-nav-bar">
+               <button class="navbar-toggler pulse-animation" type="button" data-toggle="collapse" data-target="#mobile-navbar" aria-expanded="false">
+                    <i class="far fa-arrow-alt-circle-down"></i>
+                </button>
+                <button type="button" class="navbar-toggler sidebar-toggle-mobile">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+            <div class="header-main-menu collapse navbar-collapse" id="mobile-navbar">
+                <ul class="navbar-nav">
+                    <li class="navbar-item header-search-bar">
+                        <div class="input-group stylish-input-group">
+                            <span class="input-group-addon">
+                                <button type="submit">
+                                    <span class="flaticon-search" aria-hidden="true"></span>
+                                </button>
+                            </span>
+                            <input type="text" class="form-control" placeholder="Find Something . . .">
+
+
+
+                        </div>
+                    </li>
+                </ul>
+                <ul class="navbar-nav">
+                    <li class="navbar-item dropdown header-admin">
+                        <a class="navbar-nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown"
+                            aria-expanded="false">
+                            <div class="admin-title">
+                                <h5 class="item-title">{{ request.user.first_name }}</h5>
+                                <span>{{request.user.groups.all.0.name}}</span>
+                            </div>
+                            <div class="admin-img">
+<!--                                <img src="img/figure/admin.jpg" alt="Admin">-->
+<!--                                                        <img src="{% static 'SchoolDesign/img/figure/admin.jpg' %}" alt="logo">-->
+                                <i class="flaticon-user"></i>
+
+                            </div>
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-right">
+                            <div class="item-header">
+                                <h6 class="item-title">{{ request.user.first_name }}</h6>
+                            </div>
+                            <div class="item-content">
+                                <ul class="settings-list">
+                                    <li><a href="/owner_details_update/"><i class="flaticon-user"></i>My Profile</a></li>
+                                    <!--<li><a href="#"><i class="flaticon-list"></i>Task</a></li>-->
+                                    <!--<li><a href="#"><i class="flaticon-chat-comment-oval-speech-bubble-with-text-lines"></i>Message</a></li>-->
+                                    <li><a href="/change_password"><i class="flaticon-gear-loading"></i>Change Password</a></li>
+
+
+                                    <li><a href="/logout"   onclick="return confirm('Are you sure want to logout?')"><i class="flaticon-turn-off"></i>Log Out</a></li>
+
+
+
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <!--<li class="navbar-item dropdown header-message">-->
+                    <!--    <a class="navbar-nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown"-->
+                    <!--        aria-expanded="false">-->
+                    <!--        <i class="far fa-envelope"></i>-->
+                    <!--        <div class="item-title d-md-none text-16 mg-l-10">Message</div>-->
+                    <!--        <span></span>-->
+                    <!--    </a>-->
+
+                    <!--</li>-->
+                    <!--<li class="navbar-item dropdown header-notification">-->
+                    <!--    <a class="navbar-nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown"-->
+                    <!--        aria-expanded="false">-->
+                    <!--        <i class="far fa-bell"></i>-->
+                    <!--        <div class="item-title d-md-none text-16 mg-l-10">Notification</div>-->
+                    <!--        <span></span>-->
+                    <!--    </a>-->
+
+                    <!--    <div class="dropdown-menu dropdown-menu-right">-->
+
+                    <!--    </div>-->
+                    <!--</li>-->
+<!--                     <li class="navbar-item dropdown header-language">-->
+<!--                        <a class="navbar-nav-link dropdown-toggle" href="#" role="button"-->
+<!--                        data-toggle="dropdown" aria-expanded="false"><i class="fas fa-globe-americas"></i>EN</a>-->
+<!--                        <div class="dropdown-menu dropdown-menu-right">-->
+<!--                            <a class="dropdown-item" href="#">English</a>-->
+<!--                            <a class="dropdown-item" href="#">Spanish</a>-->
+<!--                            <a class="dropdown-item" href="#">Franchis</a>-->
+<!--                            <a class="dropdown-item" href="#">Chiness</a>-->
+<!--                        </div>-->
+<!--                    </li>-->
+                </ul>
+            </div>
+        </div>
+        <!-- Header Menu Area End Here -->
+        <!-- Page Area Start Here -->
+        <div class="dashboard-page-one">
+            <!-- Sidebar Area Start Here -->
+            <div class="sidebar-main sidebar-menu-one sidebar-expand-md sidebar-color">
+               <div class="mobile-sidebar-header d-md-none">
+                    <div class="header-logo">
+                        <a href="/" style="color:white;font-size: 30px;"><img src="{% static 'SchoolDesign/img/logo111.png' %}" alt="logo">SBSY</a>
+
+                    </div>
+               </div>
+                <div class="sidebar-menu-content">
+                    <ul class="nav nav-sidebar-menu sidebar-toggle-view">
+{% if request.user.groups.all.0.name == 'admin' %}
+                         <li class="nav-item">
+                            <a href="/" class="nav-link"><i
+                                    class="flaticon-dashboard"></i><span>Dashboard</span></a>
+                        </li>
+
+                        <li class="nav-item sidebar-nav-item">
+                            <a href="#" class="nav-link"><i class="flaticon-classmates"></i><span>Students</span></a>
+                            <ul class="nav sub-group-menu">
+                                <li class="nav-item">
+                                    <a href="/allstudent" class="nav-link"><i class="fas fa-angle-right"></i>All
+                                        Students</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="/student_details" class="nav-link"><i
+                                            class="fas fa-angle-right"></i>Student Details</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="/admit_form" class="nav-link"><i
+                                            class="fas fa-angle-right"></i>Admission Form</a>
+                                </li>
+
+                            </ul>
+                        </li>
+                        <li class="nav-item sidebar-nav-item">
+                            <a href="#" class="nav-link"><i
+                                    class="flaticon-multiple-users-silhouette"></i><span>Staff</span></a>
+                            <ul class="nav sub-group-menu">
+                                <li class="nav-item">
+                                    <a href="/allstaff" class="nav-link"><i class="fas fa-angle-right"></i>All Staff
+                                        </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="/staff_details" class="nav-link"><i
+                                            class="fas fa-angle-right"></i>Staff Details</a>
+                                </li>
+                                <li class="nav-item">
+                                     <a href="/add_staff" class="nav-link"><i class="fas fa-angle-right"></i>Add
+                                        Teacher</a>
+                                </li>
+                                <li class="nav-item">
+                                     <a href="/add_other_staff" class="nav-link"><i class="fas fa-angle-right"></i>Add Staff
+                                        </a>
+                                </li>
+
+                            </ul>
+                        </li>
+                        <li class="nav-item sidebar-nav-item">
+                            <a href="#" class="nav-link"><i
+                                    class="flaticon-maths-class-materials-cross-of-a-pencil-and-a-ruler"></i><span>Class</span></a>
+                            <ul class="nav sub-group-menu">
+                                <li class="nav-item">
+                                    <a href="/allclass_form" class="nav-link"><i class="fas fa-angle-right"></i>All
+                                        Classes</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="/addclass_form" class="nav-link"><i class="fas fa-angle-right"></i>Add New
+                                        Class</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item sidebar-nav-item">
+                            <a href="#" class="nav-link"><i class="flaticon-checklist"></i><span>Attendance</span></a>
+                            <ul class="nav sub-group-menu">
+                                <li class="nav-item">
+                                    <a href="/attendence" class="nav-link"><i
+                                    class="fas fa-angle-right"></i><span>Student Attendence</span></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="/manual_attendence" class="nav-link"><i class="fas fa-angle-right"></i>Manual
+                                        Attendance</a>
+                                </li>
+                                 <li class="nav-item">
+                                    <a href="/staff_attendence" class="nav-link"><i class="fas fa-angle-right"></i>Staff
+                                        Attendance</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                            <li class="nav-item">
+                            <a href="/add_holiday" class="nav-link"><i
+                                    class="flaticon-calendar"></i><span>Holiday</span></a>
+                        </li>
+
+
+
+                          <li class="nav-item sidebar-nav-item">
+                            <a href="#" class="nav-link"><i class="flaticon-books"></i><span>Library</span></a>
+                            <ul class="nav sub-group-menu">
+                                <li class="nav-item">
+                                    <a href="/all_book" class="nav-link"><i class="fas fa-angle-right"></i>All
+                                        Book</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="/library" class="nav-link"><i class="fas fa-angle-right"></i>Add New
+                                        Book</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a href="/transport" class="nav-link"><i
+                                    class="flaticon-bus-side-view"></i><span>Transport</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="/notice_board" class="nav-link"><i
+                                    class="flaticon-script"></i><span>Notice</span></a>
+                        </li>
+
+                               <li class="nav-item sidebar-nav-item">
+                            <a href="#" class="nav-link"><i class="flaticon-chat"></i><span>Message</span></a>
+                            <ul class="nav sub-group-menu">
+                                <li class="nav-item">
+                                    <a href="/msg" class="nav-link"><i class="fas fa-angle-right"></i>Personal message</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="/absent_Student" class="nav-link"><i class="fas fa-angle-right"></i>Absent message</a>
+                                </li>
+
+                            </ul>
+                        </li>
+
+
+
+                        {% endif %}
+
+<!--                        parents-->
+
+                          {% if request.user.groups.all.0.name == 'parents' %}
+                        <li class="nav-item">
+                                    <a href="/parents" class="nav-link"><i class="flaticon-dashboard"></i><span>Dashboard</span></a>
+                                </li>
+                         <li class="nav-item">
+                            <a href="/notice_board" class="nav-link"><i
+                                    class="flaticon-script"></i><span>Notice</span></a>
+                        </li>
+
+                        <li class="nav-item">
+                                    <a href="/kids_attendence" class="nav-link"><i
+                                    class="flaticon-shopping-list"></i><span>Attendence</span></a>
+                                </li>
+                            <li class="nav-item">
+                            <a href="/view_holidays" class="nav-link"><i
+                                    class="flaticon-calendar"></i><span>Holiday</span></a>
+                        </li>
+                        <li class="nav-item">
+                                    <a href="/all_book" class="nav-link"><i class="flaticon-books"></i><span>Library
+                                        </span></a>
+                                </li>
+                        <li class="nav-item">
+                            <a href="/transport" class="nav-link"><i
+                                    class="flaticon-bus-side-view"></i><span>Transport</span></a>
+                        </li>
+
+                                   {% endif %}
+
+
+
+
+<!--                        student-->
+                                     {% if request.user.groups.all.0.name == 'student' %}
+                        <li class="nav-item">
+                                    <a href="/student" class="nav-link"><i class="flaticon-dashboard"></i><span>Dashboard</span></a>
+                                </li>
+                         <li class="nav-item">
+                            <a href="/notice_board" class="nav-link"><i
+                                    class="flaticon-script"></i><span>Notice</span></a>
+                        </li>
+                                 <li class="nav-item">
+                                    <a href="/my_attendence" class="nav-link"><i
+                                    class="flaticon-shopping-list"></i><span>Attendence</span></a>
+                                </li>
+
+                            <li class="nav-item">
+                            <a href="/view_holidays" class="nav-link"><i
+                                    class="flaticon-calendar"></i><span>Holiday</span></a>
+                        </li>
+                        <li class="nav-item">
+                                    <a href="/all_book" class="nav-link"><i class="flaticon-books"></i><span>Library
+                                        </span></a>
+                                </li>
+                        <li class="nav-item">
+                            <a href="/transport" class="nav-link"><i
+                                    class="flaticon-bus-side-view"></i><span>Transport</span></a>
+                        </li>
+
+                                   {% endif %}
+
+<!--                        staff-->
+                                     {% if request.user.groups.all.0.name == 'staff' %}
+                        <li class="nav-item">
+                                    <a href="/staff" class="nav-link"><i class="flaticon-dashboard"></i><span>Dashboard</span></a>
+                                </li>
+                         <li class="nav-item">
+                            <a href="/notice_board" class="nav-link"><i
+                                    class="flaticon-script"></i><span>Notice</span></a>
+                        </li>
+
+                            <li class="nav-item">
+                                    <a href="/attendence" class="nav-link"><i
+                                    class="flaticon-shopping-list"></i><span>Class Attendence</span></a>
+                                </li>
+
+                         <li class="nav-item">
+                                    <a href="/my_attendence" class="nav-link"><i
+                                    class="flaticon-shopping-list"></i><span>My Attendence</span></a>
+                                </li>
+
+
+
+
+                            <li class="nav-item">
+                            <a href="/view_holidays" class="nav-link"><i
+                                    class="flaticon-calendar"></i><span>Holiday</span></a>
+                        </li>
+                        <li class="nav-item">
+                                    <a href="/all_book" class="nav-link"><i class="flaticon-books"></i><span>Library
+                                        </span></a>
+                                </li>
+                        <li class="nav-item">
+                            <a href="/transport" class="nav-link"><i
+                                    class="flaticon-bus-side-view"></i><span>Transport</span></a>
+                        </li>
+
+                                   {% endif %}
+
+
+                    </ul>
+                </div>
+            </div>
+
+
+            <!-- Sidebar Area End Here -->
+            <div class="dashboard-content-one">
+                <!-- Breadcubs Area Start Here -->
+                <div class="breadcrumbs-area">
+                    <h3>Staff</h3>
+                    <ul>
+                        <li>
+                            <a href="/">Home</a>
+                        </li>
+                        <li> Add Staff Form</li>
+                    </ul>
+                </div>
+                <!-- Breadcubs Area End Here -->
+                <!-- Admit Form Area Start Here -->
+                <div class="card height-auto">
+                    <div class="card-body">
+                        <div class="heading-layout1">
+                            <div class="item-title">
+                                <h3>Add New Staff</h3>
+                                <div class="sign-up">    <a href="#" class="blinking">Required fields</a></div>
+
+                            </div>
+
+                        </div>
+
+                      <style>.success{
+                    list-style:None;
+                    background-color:#008000;
+                    color:white;
+                    box-shadow: 12px 12px 12px #e61c66;
+                    text-align: center;}
+                    </style>
+                    <style>.info{
+                    list-style:None;
+                    background-color:#FF0000;
+                    color:white;
+                    box-shadow: 12px 12px 12px #e61c66;
+                    text-align: center;}
+                    </style>
+
+                {% if messages %}
+                <ul class="messages">
+                    {% for message in messages %}
+
+
+                    <li {% if message.tags %} class="{{message.tags}}"  {% endif %}>{{message}}</li>
+                    {% endfor %}
+
+
+                </ul>
+
+                {% endif %}
+
+                                                <form class="new-added-form"  enctype="multipart/form-data" method="POST">
+
+                                                {% csrf_token %}
+
+
+                            <div class="row">
+                                <div class="col-xl-3 col-lg-6 col-12 form-group">
+                                    <label>Full Name *</label>
+                                    <input type="text" placeholder="" class="form-control" id="ddlFirstname" name="First_name"  value="{{First_name}}" required>
+                                 </div>
+                                 
+                                 
+                                  <div class="col-xl-3 col-lg-6 col-12 form-group">
+                                    <label>Mobile *</label>
+                                    <input type="number" placeholder="" class="form-control" id="ddlmobile" name="mobile" value="{{mobile}}" required
+                                    oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"
+                                       
+                                       maxlength = "10"  >
+                                </div>
+                                 
+                                <!--<div class="col-xl-3 col-lg-6 col-12 form-group">-->
+                                <!--    <label>Last Name *</label>-->
+                                <!--    <input type="text" placeholder="" class="form-control" id="ddlLasttname" name="Last_name" value="{{Last_name}}" required>-->
+                                <!--</div>-->
+
+
+                               <div class="col-xl-3 col-lg-6 col-12 form-group">
+                                    <label>E-Mail *</label>
+                                    <input type="email"  class="form-control" id="ddlemail" name="email" value="{{email}}" required>
+                                </div>
+
+
+                                <div class="col-xl-3 col-lg-6 col-12 form-group">
+                                    <label>Gender *</label>
+                                    <select class="select2" id="ddlgender" name="gender"  required>
+                                        <option value="">Please Select Gender *</option>
+                                        <option value="Male">Male</option>
+                                        <option value="Female">Female</option>
+                                        <option value="others">Others</option>
+                                    </select>
+                                </div>
+
+                                  
+                         <div class="heading-layout1" style="width:100%;">
+                                <div class="item-title">
+                                    <!--<h3> &nbsp;&nbsp;Parents Remaining Information :</h3>-->
+                                     <div class="sign-up">    <a href="#" class="blinking">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Optional fields</a></div>
+                                </div>
+                            </div> 
+                                   
+                                   
+                                <div class="col-xl-3 col-lg-6 col-12 form-group">
+                                    <label>Date Of Birth </label>
+                                    <input type="text" placeholder="dd/mm/yyyy" class="form-control air-datepicker"
+                                       id="ddldob" name="dob" value="" >
+                                    <i class="far fa-calendar-alt"></i>
+                                </div>
+
+
+                                
+                                 
+                                  
+
+                                <!--<div class="col-xl-3 col-lg-6 col-12 form-group">-->
+                                <!--    <label>Blood Group </label>-->
+                                <!--    <select class="select2" id="ddlbloodgroup" name="blood_group" value="{{blood_group}}">-->
+                                <!--        <option value="">Please Select Group </option>-->
+                                <!--        <option value="A+">A+</option>-->
+                                <!--        <option value="A-">A-</option>-->
+                                <!--        <option value="B+">B+</option>-->
+                                <!--        <option value="B+">B-</option>-->
+                                <!--        <option value="O+">O+</option>-->
+                                <!--        <option value="O-">O-</option>-->
+                                <!--        <option value="AB+">AB+</option>-->
+                                <!--        <option value="AB-">AB-</option>-->
+                                <!--    </select>-->
+                                <!--</div>-->
+                                <!--<div class="col-xl-3 col-lg-6 col-12 form-group">-->
+                                <!--    <label>Religion *</label>-->
+                                <!--    <select class="select2" id="ddlreligion" name="Religion" value="{{Religion}}" required>-->
+                                <!--        <option value="">Please Select Religion *</option>-->
+                                <!--        <option value="Hindu">Hindu</option>-->
+                                <!--        <option value="Christian">Christian</option>-->
+                                <!--        <option value="Islam">Islam</option>-->
+                                <!--        <option value="Sikhs">Sikhs</option>-->
+                                <!--        <option value="Others">Others</option>-->
+                                <!--    </select>-->
+                                <!--</div>-->
+
+                                <!-- <div class="col-xl-3 col-lg-6 col-12 form-group">-->
+                                <!--    <label>Qualification *</label>-->
+                                <!--    <input type="text" placeholder="" class="form-control" id="ddlqualification" name="qualification" value="{{qualification}}" required>-->
+                                <!--</div>-->
+
+
+
+<!--                                  <div class="col-xl-3 col-lg-6 col-12 form-group">-->
+<!--                                    <label>medium </label>-->
+<!--                                    <select class="select2" id="ddlmedium" name="medium" value="{{medium_name}}"  data-url="{% url 'ajax_load_class' %}" >-->
+<!--                                        <option value="">Please Select Medium </option>-->
+<!--                                           {% for i in mediums %}-->
+<!--                                     <option value="{{i.medium_name}}">{{i.medium_name}}</option>-->
+<!--                                       {% endfor %}-->
+<!--                                    </select>-->
+<!--                                </div>-->
+
+
+
+<!--                                <div class="col-xl-3 col-lg-6 col-12 form-group">-->
+<!--                                    <label>Class </label>-->
+<!--                                    <select class="select2" id="ddlclass" name="class" value="5" data-url1="{% url 'ajax_load_division' %}" >-->
+<!--                                        <option value="">Please Select Class *</option>-->
+<!--                                      {% for i in classes %}-->
+<!--                                     <option value="{{i.class_name}}">{{i.class_name}}</option>-->
+<!--                                       {% endfor %}-->
+<!--                                    </select>-->
+<!--                                </div>-->
+
+
+<!--                                <div class="col-xl-3 col-lg-6 col-12 form-group">-->
+<!--                                    <label>Section </label>-->
+<!--                                    <select class="select2" id="ddlsection" name="section" value="{{division_name}}"  >-->
+<!--                                        <option value="">Please Select Section *</option>-->
+<!--                                         {% for i in division %}-->
+<!--                                     <option value="{{i.division_name}}">{{i.division_name}}</option>-->
+<!--                                       {% endfor %}-->
+
+<!--                                    </select>-->
+<!--                                </div>-->
+
+
+
+<!--                                 <div class="col-xl-3 col-lg-6 col-12 form-group">-->
+<!--                                    <label>subject *</label>-->
+<!--                                    <input type="text" placeholder="" class="form-control" id="ddlsubject" name="subject" value="{{qualification}}" required>-->
+<!--                                </div>-->
+
+                                   <div class="col-xl-3 col-lg-6 col-12 form-group">
+                                    <label>Address </label>
+                                    <input type="text" placeholder="" class="form-control" id="ddlAddress" name="Address" value="{{Address}}" >
+                                </div>
+                                  <div class="col-xl-3 col-lg-6 col-12 form-group">
+                                    <label>city </label>
+                                    <input type="text" placeholder="" class="form-control" id="ddlcity" name="city" value="{{city}}" >
+                                </div>
+                                  <div class="col-xl-3 col-lg-6 col-12 form-group">
+                                    <label>pincode </label>
+                                    <input type="number" placeholder="" class="form-control" id="ddlpincode" name="pincode" maxlength="6" value="{{pincode}}"
+                                    oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);">
+                                </div>
+
+
+                                <div class=" col-xl-3 col-lg-6 col-12 form-group ">
+                                    <label class="text-dark-medium" >Upload Staff Photo </label>
+                                    <input type="file" class="form-control" id="ddlimage" name='image' accept="image/*"  width="48" height="48" >
+    {% comment %} <input class="form-control" data-val="true"  data-val-required="The pincode field is required." id="image"  name="image" onkeypress="return allowNumberOnly(event,this);" type="file" accept="image/*" value="" /> {% endcomment %}
+                                </div>
+                                <div class="col-12 form-group mg-t-8">
+                                    <button type="submit" class="btn-fill-lg btn-gradient-yellow btn-hover-bluedark">Save and Next</button>
+                             <button type="button" class="btn-fill-lg btn-gradient-yellow btn-hover-bluedark" onclick="javascript:history.back()">Back</button>
+
+                                    
+                                </div>
+
+
+
+                            </div>
+                        </form>
+
+                    </div>
+                </div>
+                <!-- Admit Form Area End Here -->
+
+<footer class="footer-wrap-layout1">
+    <div class="copyright">
+       Copyrights  ©  <a href="http://www.sbsy.in/">sbsy.in</a> 2020. All rights reserved.
+    </div>
+</footer>
+            </div>
+        </div>
+        <!-- Page Area End Here -->
+    </div>
+    {% comment %} <!-- jquery-->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <!-- Plugins js -->
+    <script src="js/plugins.js"></script>
+    <!-- Popper js -->
+    <script src="js/popper.min.js"></script>
+    <!-- Bootstrap js -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Select 2 Js -->
+    <script src="js/select2.min.js"></script>
+    <!-- Date Picker Js -->
+    <script src="js/datepicker.min.js"></script>
+    <!-- Scroll Up Js -->
+    <script src="js/jquery.scrollUp.min.js"></script>
+    <!-- Custom Js -->
+    <script src="js/main.js"></script> {% endcomment %}
+
+ <script src="{% static 'SchoolDesign/js/jquery-3.3.1.min.js' %}"></script>
+        <script src="{% static 'SchoolDesign/js/plugins.js' %}"></script>
+        <script src="{% static 'SchoolDesign/js/popper.min.js' %}"></script>
+        <script src="{% static 'SchoolDesign/js/bootstrap.min.js' %}"></script>
+        <script src="{% static 'SchoolDesign/js/select2.min.js' %}"></script>
+        <script src="{% static 'SchoolDesign/js/datepicker.min.js' %}"></script>
+        <script src="{% static 'SchoolDesign/js/jquery.scrollUp.min.js' %}"></script>
+        <script src = "{% static 'SchoolDesign/js/jquery.smoothscroll.min.js' %}"></script >
+        <script src="{% static 'SchoolDesign/js/main.js' %}"></script>
+
+
+
+  <script>
+    $("#ddlmedium").change(function () {
+      var url = $("#ddlmedium").attr("data-url");  // get the url of the `load_courses` view
+      var X = $(this).val();  // get the selected programming ID from the HTML input
+
+      $.ajax({                       // initialize an AJAX request
+        url: url,                    // set the url of the request (= localhost:8000/load-courses/)
+        data: {
+          'medium_name': X      // add the programming id to the GET parameters
+        },
+        success: function (data) {   // `data` is the return of the `load_courses` view function
+          $("#ddlclass").html(data);  // replace the contents of the course input with the data that came from the server
+        }
+      });
+
+    });
+  </script>
+
+  <script>
+    $("#ddlclass").change(function () {
+      var url = $("#ddlclass").attr("data-url1");  // get the url of the `load_courses` view
+      var X = $(this).val();  // get the selected programming ID from the HTML input
+
+      $.ajax({                       // initialize an AJAX request
+        url: url,                    // set the url of the request (= localhost:8000/load-courses/)
+        data: {
+          'class_name': X      // add the programming id to the GET parameters
+        },
+        success: function (data) {   // `data` is the return of the `load_courses` view function
+          $("#ddlsection").html(data);  // replace the contents of the course input with the data that came from the server
+        }
+      });
+
+    });
+  </script>
+
+</body>
+
+</html>

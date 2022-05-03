@@ -1,0 +1,9 @@
+django
+djangorestframework
+mysqlclient
+pyserial
+python-dateutil
+python-dateutil --upgrade
+requests
+django-cleanup
+django_resized
