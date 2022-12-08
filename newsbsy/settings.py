@@ -10,7 +10,12 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/3.0/ref/settings/
 """
 
+from dotenv import load_dotenv
 import os
+
+load_dotenv()
+DJANGO_SECRET_KEY = os.getenv("DJANGO_SECRET_KEY")
+print(DJANGO_SECRET_KEY)
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -22,7 +27,7 @@ STATIC_DIR=os.path.join(BASE_DIR,'static')
 # See https://docs.djangoproject.com/en/3.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'qj8may(ldb_&zu$ne6t4%(!(u4xia*a+%ud4%+s@*&+ywl+)6c'
+SECRET_KEY = os.getenv("SECRET_KEY")
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -85,7 +90,7 @@ WSGI_APPLICATION = 'newsbsy.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'NAME': os.path.join(BASE_DIR, os.getenv("DB_PATH")),
     }
 }
 
@@ -174,8 +179,8 @@ USE_TZ = True
 # DATE_INPUT_FORMATS += ("%d-%m-%Y",)
 # DATETIME_INPUT_FORMATS += ("%d-%m-%Y %H:%M:%S",)
 
-STATIC_URL = '/static/'
-STATICFILES_DIRS=[STATIC_DIR,]
+# STATIC_URL = '/static/'
+# STATICFILES_DIRS=[STATIC_DIR,]
 #STATICFILES_DIRS = (os.path.join(BASE_DIR, "static"),)
 MEDIA_URL='/media/'
 MEDIA_ROOT=os.path.join(BASE_DIR,'media')
@@ -184,3 +189,10 @@ MEDIA_ROOT=os.path.join(BASE_DIR,'media')
 
 import _locale
 _locale._getdefaultlocale = (lambda *args: ['en_US', 'utf8'])
+
+
+STATIC_URL = '/static/'
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+STATICFILES_DIRS = [os.path.join(BASE_DIR, 'staticfiles'), ]
+
+DEFAULT_AUTO_FIELD='django.db.models.AutoField'
